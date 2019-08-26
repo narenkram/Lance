@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
+
+
+@font-face {
+    font-family: digital-7;
+    src: url(./fonts/digital-7.ttf);
+  }
+
+$primary-font: "Titillium Web", sans-serif;
+
+$theme-colors: (
+  "primary": #3878ff,
+  "primary-dark": #201f89,
+  "primary-light": #afc6f5,
+  "secondary": #f76d58,
+  "secondary-dark": #80392e,
+  "light": #f7f5ef
+);
+
+$spacer: 1rem;
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: false;
+$enable-transitions: true;
+$enable-prefers-reduced-motion-media-query: true;
+$enable-responsive-font-sizes: true;
+$enable-validation-icons: true;
+$enable-deprecation-messages: true;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// ******** Global ********
+* {
+  font-family: $primary-font;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Classes */
+.Section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Project__image {
+  position: relative;
+}
+
+.Project__links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.Designation {
+  font-family: digital-7;
+  font-size: 2rem;
+}
