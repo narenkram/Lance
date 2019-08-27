@@ -24,7 +24,7 @@
         </div>
         <div class="row">
           <div class="col-12 col-sm-6 col-md-4 col-lg-4 p-2">
-            <div class="Project card">
+            <div class="Project card" data-aos="zoom-in">
               <div class="Project__image">
                 <img src="https://img.blaz.app/300x300" class="card-img" alt />
                 <div class="Project__links">
@@ -41,7 +41,7 @@
             </div>
           </div>
           <div class="col-12 col-sm-6 col-md-4 col-lg-4 p-2">
-            <div class="Project card">
+            <div class="Project card" data-aos="zoom-in">
               <div class="Project__image">
                 <img src="https://img.blaz.app/300x300" class="card-img" alt />
                 <div class="Project__links">
@@ -58,7 +58,7 @@
             </div>
           </div>
           <div class="col-12 col-sm-6 col-md-4 col-lg-4 p-2">
-            <div class="Project card">
+            <div class="Project card" data-aos="zoom-in">
               <div class="Project__image">
                 <img src="https://img.blaz.app/300x300" class="card-img" alt />
                 <div class="Project__links">
@@ -83,8 +83,16 @@
         <div class="row">
           <div class="col-12 text-center">
             <h2 class="text-white">Like my work?</h2>
-            <a class="btn btn-light m-1" href="https://paypal.me/narenram/5">Buy me a waffle &#129479;</a>
-            <a class="btn btn-light m-1" href="https://paypal.me/narenram/10">Buy me a pizza &#127829;</a>
+            <a
+              data-aos="flip-up"
+              class="btn btn-lg btn-light m-1"
+              href="https://paypal.me/narenram/5"
+            >Buy me a waffle &#129479;</a>
+            <a
+              data-aos="flip-up"
+              class="btn btn-lg btn-light m-1"
+              href="https://paypal.me/narenram/10"
+            >Buy me a pizza &#127829;</a>
           </div>
         </div>
       </div>
@@ -97,66 +105,72 @@
         </div>
         <div class="row">
           <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
-            <a
-              class="twitter-timeline"
-              data-lang="en"
-              data-height="243"
-              data-link-color="#1876d2"
-              href="https://twitter.com/nkr_96?ref_src=twsrc%5Etfw"
-            >Tweets by nkr_96</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
-            <script
-              type="text/javascript"
-              src="https://platform.linkedin.com/badges/js/profile.js"
-              async
-              defer
-            ></script>
-            <div
-              class="LI-profile-badge"
-              data-version="v1"
-              data-size="large"
-              data-locale="en_US"
-              data-type="horizontal"
-              data-theme="light"
-              data-vanity="nkr96"
-            >
+            <div class="Social" data-aos="zoom-out-up">
               <a
-                target="_blank"
-                class="LI-simple-link"
-                href="https://in.linkedin.com/in/nkr96?trk=profile-badge"
-              >Narendra Ram</a>
+                class="twitter-timeline"
+                data-lang="en"
+                data-height="243"
+                data-link-color="#1876d2"
+                href="https://twitter.com/nkr_96?ref_src=twsrc%5Etfw"
+              >Tweets by nkr_96</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
-            <div>
-              <a href="https://steamcommunity.com/id/nkr96/" target="_blank">
-                <img
-                  class="img-fluid"
-                  src="https://steamsignature.com/status/english//76561198327018390.png"
-                  alt
-                />
-              </a>
-              <a href="steam://friends/add/76561198327018390">
-                <img
-                  class="img-fluid p-1"
-                  src="http://steamsignature.com/AddFriend.png"
-                  alt="Add Friend"
-                />
-              </a>
-            </div>
-            <div class="py-3 mt-4">
-              <h4 class="text-dark">
-                Narendra Ram on
+            <div class="Social" data-aos="zoom-out-up">
+              <script
+                type="text/javascript"
+                src="https://platform.linkedin.com/badges/js/profile.js"
+                async
+                defer
+              ></script>
+              <div
+                class="LI-profile-badge"
+                data-version="v1"
+                data-size="large"
+                data-locale="en_US"
+                data-type="horizontal"
+                data-theme="light"
+                data-vanity="nkr96"
+              >
                 <a
-                  class="text-primary"
-                  href="https://medium.com/@nkr96"
                   target="_blank"
-                >
-                  <i class="fab fa-medium mx-2"></i>Medium
+                  class="LI-simple-link"
+                  href="https://in.linkedin.com/in/nkr96?trk=profile-badge"
+                >Narendra Ram</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+            <div class="Social" data-aos="zoom-out-up">
+              <div>
+                <a href="https://steamcommunity.com/id/nkr96/" target="_blank">
+                  <img
+                    class="img-fluid"
+                    src="https://steamsignature.com/status/english//76561198327018390.png"
+                    alt
+                  />
                 </a>
-              </h4>
+                <a href="steam://friends/add/76561198327018390">
+                  <img
+                    class="img-fluid p-1"
+                    src="http://steamsignature.com/AddFriend.png"
+                    alt="Add Friend"
+                  />
+                </a>
+              </div>
+              <div class="py-3 mt-4">
+                <h4 class="text-dark">
+                  Narendra Ram on
+                  <a
+                    class="text-primary"
+                    href="https://medium.com/@nkr96"
+                    target="_blank"
+                  >
+                    <i class="fab fa-medium mx-2"></i>Medium
+                  </a>
+                </h4>
+              </div>
             </div>
           </div>
         </div>
