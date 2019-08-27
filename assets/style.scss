@@ -1,21 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
 
-
 @font-face {
-    font-family: digital-7;
-    src: url(./fonts/digital-7.ttf);
-  }
+  font-family: digital-7;
+  src: url(./fonts/digital-7.ttf);
+}
 
-$primary-font: "Titillium Web", sans-serif;
+$primary-font: "Roboto", sans-serif;
 
 $theme-colors: (
-  "primary": #3878ff,
-  "primary-dark": #201f89,
-  "primary-light": #afc6f5,
-  "secondary": #f76d58,
-  "secondary-dark": #80392e,
-  "light": #f7f5ef
+  "primary": #1876d2,
+  "orange": #ff6200,
+  "black": #050404
 );
 
 $spacer: 1rem;
@@ -47,6 +43,11 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.Section--half {
+  min-height: 50vh;
 }
 
 .Project__image {
@@ -64,7 +65,47 @@ html {
   padding: 1rem;
 }
 
+.Intro {
+  // border: 4px solid map-get($theme-colors, "primary");
+  // border-radius: 0.5rem;
+}
+
+.Name {
+  font-weight: 700;
+}
+
 .Designation {
-  font-family: digital-7;
+  display: inline-block;
+}
+
+.Designation__text {
   font-size: 2rem;
+  font-family: digital-7;
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+  animation: typing 5s steps(30, end), blink 0.75s step-end infinite;
+  white-space: nowrap;
+  color: map-get($theme-colors, "orange");
+  border-right: 2px solid map-get($theme-colors, "orange");
+  box-sizing: border-box;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: map-get($theme-colors, "orange");
+  }
 }
