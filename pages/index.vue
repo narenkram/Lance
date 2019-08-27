@@ -9,7 +9,8 @@
         <p class="lead">
           <a
             class="btn btn-primary btn-lg border-0 rounded-pill"
-            href="https://twitter.com/nkr_96"
+            target="_blank"
+            href="https://t.me/nkr_96"
             role="button"
           >Say &#128075; Hello!</a>
         </p>
@@ -22,7 +23,7 @@
           <h2>Portfolio</h2>
         </div>
         <div class="row">
-          <div class="col-lg-4 p-2">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 p-2">
             <div class="Project card">
               <div class="Project__image">
                 <img src="https://img.blaz.app/300x300" class="card-img" alt />
@@ -39,7 +40,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 p-2">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 p-2">
             <div class="Project card">
               <div class="Project__image">
                 <img src="https://img.blaz.app/300x300" class="card-img" alt />
@@ -56,7 +57,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 p-2">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 p-2">
             <div class="Project card">
               <div class="Project__image">
                 <img src="https://img.blaz.app/300x300" class="card-img" alt />
@@ -82,8 +83,8 @@
         <div class="row">
           <div class="col-12 text-center">
             <h2 class="text-white">Like my work?</h2>
-            <a class="btn btn-light" href="https://paypal.me/narenram/5">Buy me a waffle &#129479;</a>
-            <a class="btn btn-light" href="https://paypal.me/narenram/10">Buy me a pizza &#127829;</a>
+            <a class="btn btn-light m-1" href="https://paypal.me/narenram/5">Buy me a waffle &#129479;</a>
+            <a class="btn btn-light m-1" href="https://paypal.me/narenram/10">Buy me a pizza &#127829;</a>
           </div>
         </div>
       </div>
@@ -95,7 +96,7 @@
           <h2>More about me</h2>
         </div>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
             <a
               class="twitter-timeline"
               data-lang="en"
@@ -105,7 +106,7 @@
             >Tweets by nkr_96</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
-          <div class="col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
             <script
               type="text/javascript"
               src="https://platform.linkedin.com/badges/js/profile.js"
@@ -128,7 +129,7 @@
               >Narendra Ram</a>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
             <div>
               <a href="https://steamcommunity.com/id/nkr96/" target="_blank">
                 <img
@@ -139,7 +140,7 @@
               </a>
               <a href="steam://friends/add/76561198327018390">
                 <img
-                  class="img-fluid"
+                  class="img-fluid p-1"
                   src="http://steamsignature.com/AddFriend.png"
                   alt="Add Friend"
                 />
@@ -148,7 +149,11 @@
             <div class="py-3 mt-4">
               <h4 class="text-dark">
                 Narendra Ram on
-                <a class="text-primary" href="https://medium.com/@nkr96" target="_blank">
+                <a
+                  class="text-primary"
+                  href="https://medium.com/@nkr96"
+                  target="_blank"
+                >
                   <i class="fab fa-medium mx-2"></i>Medium
                 </a>
               </h4>
