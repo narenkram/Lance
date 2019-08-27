@@ -23,54 +23,110 @@
           <h2>Portfolio</h2>
         </div>
         <div class="row">
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 p-2">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
             <div class="Project card" data-aos="zoom-in">
               <div class="Project__image">
                 <img src="https://img.blaz.app/300x300" class="card-img" alt />
                 <div class="Project__links">
-                  <a href="https://github.com/">
-                    <i class="fab fa-github fa-2x"></i>
+                  <a target="_blank" href="https://gtrendz.online/">
+                    <i class="fas fa-globe fa-2x"></i>
                   </a>
-                  <a href="https://github.com/">View Demo</a>
+                  <a target="_blank" href="https://gtrendz.online/">View</a>
                 </div>
               </div>
               <div class="card-body">
-                <div class="card-title">E-Commerce</div>
-                <div class="card-subtitle">A complete e-commerce website.</div>
+                <div class="card-title">GTrendz Online Web</div>
+                <div class="card-subtitle small">A multi-vendor e-commerce platform.</div>
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 p-2">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
             <div class="Project card" data-aos="zoom-in">
               <div class="Project__image">
                 <img src="https://img.blaz.app/300x300" class="card-img" alt />
                 <div class="Project__links">
-                  <a href="https://github.com/">
-                    <i class="fab fa-github fa-2x"></i>
+                  <a
+                    target="_blank"
+                    href="https://play.google.com/store/apps/details?id=com.gtrendzfw.app.gtrendz"
+                  >
+                    <i class="fab fa-react fa-2x"></i>
                   </a>
-                  <a href="https://github.com/">View Demo</a>
+                  <a
+                    target="_blank"
+                    href="https://play.google.com/store/apps/details?id=com.gtrendzfw.app.gtrendz"
+                  >View</a>
                 </div>
               </div>
               <div class="card-body">
-                <div class="card-title">E-Commerce</div>
-                <div class="card-subtitle">A complete e-commerce website.</div>
+                <div class="card-title">GTrendz Online App</div>
+                <div class="card-subtitle small">ReactNative mobile application.</div>
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-4 p-2">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
             <div class="Project card" data-aos="zoom-in">
               <div class="Project__image">
                 <img src="https://img.blaz.app/300x300" class="card-img" alt />
                 <div class="Project__links">
-                  <a href="https://github.com/">
-                    <i class="fab fa-github fa-2x"></i>
+                  <a target="_blank" href="http://synergicmetalvalley.com/">
+                    <i class="fas fa-globe fa-2x"></i>
                   </a>
-                  <a href="https://github.com/">View Demo</a>
+                  <a target="_blank" href="http://synergicmetalvalley.com/">View</a>
                 </div>
               </div>
               <div class="card-body">
-                <div class="card-title">E-Commerce</div>
-                <div class="card-subtitle">A complete e-commerce website.</div>
+                <div class="card-title">Single Page Website</div>
+                <div class="card-subtitle small">A static HTML website.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
+            <div class="Project card" data-aos="zoom-in">
+              <div class="Project__image">
+                <img src="https://img.blaz.app/300x300" class="card-img" alt />
+                <div class="Project__links">
+                  <a target="_blank" href="https://github.com/Aroliant/DevTools">
+                    <i class="fab fa-github fa-2x"></i>
+                  </a>
+                  <a target="_blank" href="https://tools.aroliant.com/">View</a>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-title">DevTools Web</div>
+                <div class="card-subtitle small">A set of developer tools web app.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
+            <div class="Project card" data-aos="zoom-in">
+              <div class="Project__image">
+                <img src="https://img.blaz.app/300x300" class="card-img" alt />
+                <div class="Project__links">
+                  <a target="_blank" href="https://github.com/nkr96/htmlwebsite">
+                    <i class="fab fa-github fa-2x"></i>
+                  </a>
+                  <a target="_blank" href="https://nkr96.github.io/htmlwebsite">View</a>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-title">HTML Website</div>
+                <div class="card-subtitle small">Multipage static html website.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
+            <div class="Project card" data-aos="zoom-in">
+              <div class="Project__image">
+                <img src="https://img.blaz.app/300x300" class="card-img" alt />
+              </div>
+              <div class="card-body">
+                <div class="card-title">&nbsp;</div>
+                <div class="card-subtitle small">&nbsp;</div>
+              </div>
+              <div
+                class="card-img-overlay bg-white d-flex align-items-center justify-content-center"
+              >
+                <b>Update pending</b>
               </div>
             </div>
           </div>
