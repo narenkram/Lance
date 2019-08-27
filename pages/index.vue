@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="Section bg-light">
-      <div class="bg-white text-center p-3 p-sm-4 p-md-5 p-lg-5 Intro shadow-sm">
+    <div class="Section bg-light Intro">
+      <div class="bg-white text-center p-3 p-sm-4 p-md-5 p-lg-5 shadow-sm Intro__content">
         <h1 class="display-3 text-dark Name" data-aos="zoom-in">Narendra Ram</h1>
         <div class="Designation">
           <div class="Designation__text">Front-end Developer</div>
@@ -15,6 +15,7 @@
           >Say &#128075; Hello!</a>
         </p>
       </div>
+      <div class="Intro__overlay"></div>
     </div>
 
     <div class="Section">

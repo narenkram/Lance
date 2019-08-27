@@ -66,8 +66,22 @@ html {
 }
 
 .Intro {
-  // border: 4px solid map-get($theme-colors, "primary");
-  // border-radius: 0.5rem;
+  background-image: url("./bg.png");
+  background-size: cover;
+}
+.Intro__content {
+  z-index: 10;
+}
+.Intro__overlay {
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f8ff61;
 }
 
 .Name {
