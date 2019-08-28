@@ -119,6 +119,40 @@
             <div class="Project card" data-aos="zoom-in">
               <div class="Project__image">
                 <img src="https://img.blaz.app/300x300" class="card-img" alt />
+                <div class="Project__links">
+                  <a target="_blank" href="https://aroliant.com/">
+                    <i class="fab fa-vuejs fa-2x"></i>
+                  </a>
+                  <a target="_blank" href="https://aroliant.com/">View</a>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-title">Company Website</div>
+                <div class="card-subtitle small">A company website in Nuxt.js</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
+            <div class="Project card" data-aos="zoom-in">
+              <div class="Project__image">
+                <img src="https://img.blaz.app/300x300" class="card-img" alt />
+                <div class="Project__links">
+                  <a target="_blank" href="https://seller.gtrendz.online">
+                    <i class="fab fa-angular fa-2x"></i>
+                  </a>
+                  <a target="_blank" href="https://seller.gtrendz.online">View</a>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-title">Seller Dashboard</div>
+                <div class="card-subtitle small">E-Commerce vendor dashboard.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
+            <div class="Project card" data-aos="zoom-in">
+              <div class="Project__image">
+                <img src="https://img.blaz.app/300x300" class="card-img" alt />
               </div>
               <div class="card-body">
                 <div class="card-title">&nbsp;</div>
