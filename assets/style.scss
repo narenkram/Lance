@@ -50,8 +50,17 @@ html {
   min-height: 50vh;
 }
 
+.Project {
+  border: 0 !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
 .Project__image {
   position: relative;
+}
+
+.Project__img {
+  // min-height: 300px;
 }
 
 .Project__links {
@@ -60,9 +69,25 @@ html {
   left: 0;
   right: 0;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   padding: 1rem;
+  background-color: #00000066;
+  width: 100%;
+  height: 100%;
+}
+
+.Project__links a {
+  color: #ffffff;
+  font-weight: 500;
+}
+.Project__title {
+  font-weight: 500;
+}
+.Project__description {
+  height: 37px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .Intro {
