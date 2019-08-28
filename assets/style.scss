@@ -93,7 +93,6 @@ html {
 }
 
 .Designation__text {
-  font-size: 2rem;
   font-family: digital-7;
   display: inline-block;
   overflow: hidden;
@@ -121,5 +120,18 @@ html {
   }
   50% {
     border-color: map-get($theme-colors, "orange");
+  }
+}
+
+// Media Queries
+@include media-breakpoint-up(xs) {
+  .Designation__text {
+    font-size: 1.75rem;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .Designation__text {
+    font-size: 2rem;
   }
 }
