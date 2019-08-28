@@ -1,9 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
 
 @font-face {
   font-family: digital-7;
   src: url(./fonts/digital-7.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(./fonts/roboto/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(./fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(./fonts/roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./fonts/roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(./fonts/roboto/Roboto-Black.ttf);
 }
 
 $primary-font: "Roboto", sans-serif;
@@ -79,10 +99,10 @@ html {
 
 .Project__links a {
   color: #ffffff;
-  font-weight: 500;
+  font-family: Roboto-Medium;
 }
 .Project__title {
-  font-weight: 500;
+  font-family: Roboto-Medium;
 }
 .Project__description {
   height: 37px;

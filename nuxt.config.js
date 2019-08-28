@@ -18,9 +18,9 @@ export default {
       { src: "https://kit.fontawesome.com/6265b6c9f2.js" },
     ],
   },
-  // router: {
-  //   base: '/nkr96.github.io/'
-  // }, 
+  router: {
+    base: '/nkr96.github.io/'
+  }, 
   // Enable this for production build
   /*
   ** Customize the progress-bar color
