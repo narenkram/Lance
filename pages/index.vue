@@ -196,7 +196,7 @@
       </div>
     </div>
 
-    <div class="Section bg-light" style="overflow-x:hidden;">
+    <div class="Section bg-light" style="overflow:hidden;">
       <div class="container">
         <div class="w-100 text-center">
           <h2>More about me</h2>
