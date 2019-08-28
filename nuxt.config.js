@@ -20,7 +20,8 @@ export default {
   },
   // router: {
   //   base: '/nkr96.github.io/'
-  // }, Enable this for production build
+  // }, 
+  // Enable this for production build
   /*
   ** Customize the progress-bar color
   */
