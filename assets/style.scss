@@ -54,6 +54,40 @@ html {
   scroll-behavior: smooth;
 }
 
+h1,
+h2,
+h3 {
+  font-family: NotoSansJP-Black;
+  letter-spacing: -0.8px;
+  line-height: 1.4;
+}
+
+h4,
+h5,
+h6 {
+  font-family: NotoSansJP-Bold;
+  letter-spacing: -0.8px;
+  line-height: 1.4;
+}
+
+a,
+p,
+div {
+  font-family: NotoSansJP-Regular;
+  letter-spacing: -0.8px;
+  line-height: 1.7;
+  font-size: 1.15rem;
+}
+
+b,
+strong {
+  font-family: NotoSansJP-Bold;
+}
+
+.container {
+  z-index: 2;
+}
+
 /* Custom Classes */
 .Section {
   min-height: 100vh;
@@ -70,8 +104,19 @@ html {
 }
 
 .Project {
-  border: 0 !important;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0 6px 0 rgba(30, 45, 62, 0.09);
+  transition: box-shadow 0.2s;
+  border: 0;
+  color: map-get($theme-colors, "dark");
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.Project:hover {
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 10px 15px 0 rgba(30, 45, 62, 0.04), 0 0 50px 0 rgba(31, 44, 60, 0.05);
+  color: map-get($theme-colors, "dark");
 }
 
 .Project__image {
@@ -91,17 +136,14 @@ html {
   align-items: flex-end;
   justify-content: space-between;
   padding: 1rem;
-  background-color: #00000066;
   width: 100%;
   height: 100%;
 }
 
 .Project__links a {
   color: #ffffff;
-  font-family: Roboto-Medium;
 }
 .Project__title {
-  font-family: Roboto-Medium;
 }
 .Project__description {
   height: 37px;
@@ -113,8 +155,6 @@ html {
 }
 
 .Header__link {
-  font-size: 16px;
-  font-family: NotoSansJP-Bold;
   text-decoration: none;
   color: map-get($theme-colors, "dark");
 }
@@ -129,15 +169,12 @@ html {
 }
 
 .Name {
-  font-family: NotoSansJP-Black;
   letter-spacing: -0.8px;
-  font-size: 56px;
   line-height: 1.4;
 }
 
 .Introduction__text {
   font-size: 24px;
-  font-family: NotoSansJP-Regular;
   line-height: 1.7;
   letter-spacing: -0.2px;
 }
@@ -177,4 +214,43 @@ html {
   .Designation__text {
     font-size: 2rem;
   }
+}
+
+// Animations
+.dots {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+  animation-name: random-move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: linear;
+}
+.dots:nth-of-type(odd) {
+  background-color: antiquewhite;
+}
+.dots:nth-of-type(even) {
+  background-color: aquamarine;
+}
+
+.dots:nth-of-type(1) {
+  left: 20%;
+}
+.dots:nth-of-type(2) {
+  left: 40%;
+}
+.dots:nth-of-type(3) {
+  left: 60%;
+}
+.dots:nth-of-type(4) {
+  left: 80%;
+}
+.dots:nth-of-type(5) {
+  left: 100%;
+}
+.dots:nth-of-type(6) {
+  left: 10%;
 }

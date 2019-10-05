@@ -1,16 +1,21 @@
 <template>
   <div>
     <div class="bg-white position-absolute w-100 mt-5">
-      <div class="container">
-        <nav class="navbar navbar-expand navbar-light">
+      <div class="container p-0">
+        <nav class="navbar navbar-expand navbar-light px-3">
           <img src="~/assets/initial.png" class="img-fluid Initial" />
           <div class="nav navbar-nav ml-auto">
-            <a class="Header__link mr-3" href="#">Blog</a>
-            <a class="Header__link" href="#">Mentor</a>
+            <a class="Header__link mr-3" href="#">
+              <b>Blog</b>
+            </a>
+            <a class="Header__link" href="#">
+              <b>Mentor</b>
+            </a>
           </div>
         </nav>
       </div>
     </div>
+    
     <div class="Section bg-white Intro">
       <div class="container">
         <div class="row">
@@ -31,159 +36,135 @@
             <img class="img-fluid Myphoto" src="~/assets/images/naren.png" alt="narendra-ram-image" />
           </div>
           <div class="col-lg-6 text-center align-self-center">
-            <h5
+            <p
               class="mb-0 Introduction__text w-75 mx-auto"
-            >I'm a Frontend developer based in India. I'm passionate about web, food and environment. Also, i write stuff such as blog articles, creative writing, terms, etc.</h5>
+            >I'm a Frontend developer based in India. I'm passionate about web, food and environment. Also, i write stuff such as blog articles, creative writing, terms, etc.</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="Section">
+    <div class="Section bg-light">
       <div class="container">
         <div class="w-100 text-center">
           <h2>Some of my work</h2>
         </div>
         <div class="row">
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
-            <div class="Project card" data-aos="zoom-in">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+            <a
+              class="Project card"
+              data-aos="zoom-in"
+              target="_blank"
+              href="https://gtrendz.online/"
+            >
               <div class="Project__image">
                 <img src="~/assets/images/gtrendz-online-web.png" class="card-img Project__img" alt />
-                <div class="Project__links">
-                  <a target="_blank" href="https://gtrendz.online/">
-                    <i class="fas fa-globe fa-2x"></i>
-                  </a>
-                  <a target="_blank" href="https://gtrendz.online/">View</a>
-                </div>
               </div>
               <div class="card-body">
-                <div class="card-title Project__title">GTrendz Online Web</div>
-                <div
-                  class="card-subtitle small Project__description"
-                >A multi-vendor e-commerce platform.</div>
+                <h4>GTrendz Online Web</h4>
+                <div class="Project__description">A multi-vendor e-commerce platform.</div>
               </div>
-            </div>
+            </a>
           </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
-            <div class="Project card" data-aos="zoom-in">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+            <a
+              class="Project card"
+              data-aos="zoom-in"
+              target="_blank"
+              href="https://play.google.com/store/apps/details?id=com.gtrendzfw.app.gtrendz"
+            >
               <div class="Project__image">
                 <img src="~/assets/images/gtrendz-app.png" class="card-img Project__img" alt />
-                <div class="Project__links">
-                  <a
-                    target="_blank"
-                    href="https://play.google.com/store/apps/details?id=com.gtrendzfw.app.gtrendz"
-                  >
-                    <i class="fab fa-react fa-2x"></i>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://play.google.com/store/apps/details?id=com.gtrendzfw.app.gtrendz"
-                  >View</a>
-                </div>
               </div>
               <div class="card-body">
-                <div class="card-title Project__title">GTrendz Online App</div>
-                <div
-                  class="card-subtitle small Project__description"
-                >ReactNative mobile application.</div>
+                <h4>GTrendz Online App</h4>
+                <div class="Project__description">ReactNative mobile application.</div>
               </div>
-            </div>
+            </a>
           </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
-            <div class="Project card" data-aos="zoom-in">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+            <a
+              class="Project card"
+              data-aos="zoom-in"
+              target="_blank"
+              href="http://synergicmetalvalley.com/"
+            >
               <div class="Project__image">
                 <img src="~/assets/images/html-singlepage.png" class="card-img Project__img" alt />
-                <div class="Project__links">
-                  <a target="_blank" href="http://synergicmetalvalley.com/">
-                    <i class="fas fa-globe fa-2x"></i>
-                  </a>
-                  <a target="_blank" href="http://synergicmetalvalley.com/">View</a>
-                </div>
               </div>
               <div class="card-body">
-                <div class="card-title Project__title">Single Page Website</div>
-                <div class="card-subtitle small Project__description">A static HTML website.</div>
+                <h4>Single Page Website</h4>
+                <div class="Project__description">A static HTML website.</div>
               </div>
-            </div>
+            </a>
           </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
-            <div class="Project card" data-aos="zoom-in">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+            <a
+              class="Project card"
+              data-aos="zoom-in"
+              target="_blank"
+              href="https://tools.aroliant.com/"
+            >
               <div class="Project__image">
                 <img src="~/assets/images/devtools-web.png" class="card-img Project__img" alt />
-                <div class="Project__links">
-                  <a target="_blank" href="https://github.com/Aroliant/DevTools">
-                    <i class="fab fa-github fa-2x"></i>
-                  </a>
-                  <a target="_blank" href="https://tools.aroliant.com/">View</a>
-                </div>
               </div>
               <div class="card-body">
-                <div class="card-title Project__title">DevTools Web</div>
-                <div
-                  class="card-subtitle small Project__description"
-                >A set of developer tools web app.</div>
+                <h4>DevTools Web</h4>
+                <div class="Project__description">A set of developer tools web app.</div>
               </div>
-            </div>
+            </a>
           </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
-            <div class="Project card" data-aos="zoom-in">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+            <a
+              class="Project card"
+              data-aos="zoom-in"
+              target="_blank"
+              href="https://nkr96.github.io/htmlwebsite"
+            >
               <div class="Project__image">
                 <img src="~/assets/images/html-multipage.png" class="card-img Project__img" alt />
-                <div class="Project__links">
-                  <a target="_blank" href="https://github.com/nkr96/htmlwebsite">
-                    <i class="fab fa-github fa-2x"></i>
-                  </a>
-                  <a target="_blank" href="https://nkr96.github.io/htmlwebsite">View</a>
-                </div>
               </div>
               <div class="card-body">
-                <div class="card-title Project__title">HTML Website</div>
-                <div class="card-subtitle small Project__description">Multipage static html website.</div>
+                <h4>HTML Website</h4>
+                <div class="Project__description">Multipage static html website.</div>
               </div>
-            </div>
+            </a>
           </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
-            <div class="Project card" data-aos="zoom-in">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+            <a class="Project card" data-aos="zoom-in" target="_blank" href="https://aroliant.com/">
               <div class="Project__image">
                 <img src="~/assets/images/company-web.png" class="card-img Project__img" alt />
-                <div class="Project__links">
-                  <a target="_blank" href="https://aroliant.com/">
-                    <i class="fab fa-vuejs fa-2x"></i>
-                  </a>
-                  <a target="_blank" href="https://aroliant.com/">View</a>
-                </div>
               </div>
               <div class="card-body">
-                <div class="card-title Project__title">Company Website</div>
-                <div class="card-subtitle small Project__description">A company website in Nuxt.js</div>
+                <h4>Company Website</h4>
+                <div class="Project__description">A company website in Nuxt.js</div>
               </div>
-            </div>
+            </a>
           </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
-            <div class="Project card" data-aos="zoom-in">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+            <a
+              class="Project card"
+              data-aos="zoom-in"
+              target="_blank"
+              href="https://seller.gtrendz.online"
+            >
               <div class="Project__image">
                 <img src="~/assets/images/gtrendz-seller.png" class="card-img Project__img" alt />
-                <div class="Project__links">
-                  <a target="_blank" href="https://seller.gtrendz.online">
-                    <i class="fab fa-angular fa-2x"></i>
-                  </a>
-                  <a target="_blank" href="https://seller.gtrendz.online">View</a>
-                </div>
               </div>
               <div class="card-body">
-                <div class="card-title Project__title">Seller Dashboard</div>
-                <div class="card-subtitle small Project__description">E-Commerce vendor dashboard.</div>
+                <h4>Seller Dashboard</h4>
+                <div class="Project__description">E-Commerce vendor dashboard.</div>
               </div>
-            </div>
+            </a>
           </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
             <div class="Project card" data-aos="zoom-in">
               <div class="Project__image">
                 <img src="https://img.blaz.app/300x300" class="card-img Project__img" alt />
               </div>
               <div class="card-body">
                 <div class="card-title Project__title">&nbsp;</div>
-                <div class="card-subtitle small Project__description">&nbsp;</div>
+                <div class="Project__description">&nbsp;</div>
               </div>
               <div
                 class="card-img-overlay bg-white d-flex flex-column align-items-center justify-content-center"
@@ -319,7 +300,7 @@
       </div>
     </div>
 
-    <div class="Section bg-primary">
+    <div class="Section bg-gradient-primary">
       <div class="container">
         <div class="row">
           <div class="w-100 text-center">
