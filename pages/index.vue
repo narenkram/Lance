@@ -1,27 +1,48 @@
 <template>
   <div>
-    <div class="Section bg-light Intro">
-      <div class="bg-white text-center p-3 p-sm-4 p-md-5 p-lg-5 shadow-sm Intro__content">
-        <h1 class="display-3 text-dark Name" data-aos="zoom-in">Narendra Ram</h1>
-        <div class="Designation">
-          <div class="Designation__text">Front-end Developer</div>
-        </div>
-        <p class="lead">
-          <a
-            class="btn btn-primary btn-lg border-0 rounded-pill"
-            target="_blank"
-            href="https://t.me/nkr_96"
-            role="button"
-          >Say &#128075; Hello!</a>
-        </p>
+    <div class="bg-white position-absolute w-100 mt-5">
+      <div class="container">
+        <nav class="navbar navbar-expand navbar-light">
+          <img src="~/assets/initial.png" class="img-fluid Initial" />
+          <div class="nav navbar-nav ml-auto">
+            <a class="Header__link mr-3" href="#">Blog</a>
+            <a class="Header__link" href="#">Mentor</a>
+          </div>
+        </nav>
       </div>
-      <div class="Intro__overlay"></div>
+    </div>
+    <div class="Section bg-white Intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-left">
+            <h1 class="text-dark Name">
+              Hi! I’m Narendra.
+              <br />I design stuff.
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Section bg-white Introduction">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <img class="img-fluid Myphoto" src="~/assets/images/naren.png" alt="narendra-ram-image" />
+          </div>
+          <div class="col-lg-6 text-center align-self-center">
+            <h5
+              class="mb-0 Introduction__text w-75 mx-auto"
+            >I'm a Frontend developer based in India. I'm passionate about web, food and environment. Also, i write stuff such as blog articles, creative writing, terms, etc.</h5>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="Section">
       <div class="container">
         <div class="w-100 text-center">
-          <h2>Portfolio</h2>
+          <h2>Some of my work</h2>
         </div>
         <div class="row">
           <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
@@ -184,6 +205,17 @@
             <a
               data-aos="flip-up"
               class="btn btn-lg btn-light m-1"
+              href="https://www.buymeacoffee.com/nkr96"
+            >
+              Buy me a coffee
+              <img
+                src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg"
+                alt="Buy me a coffee"
+              />
+            </a>
+            <a
+              data-aos="flip-up"
+              class="btn btn-lg btn-light m-1"
               href="https://paypal.me/narenram/5"
             >Buy me a waffle &#129479;</a>
             <a
@@ -257,19 +289,54 @@
                   />
                 </a>
               </div>
-              <div class="py-3 mt-4">
+              <div class="py-2 mt-4">
                 <h4 class="text-dark">
-                  Narendra Ram on
-                  <a
-                    class="text-primary"
-                    href="https://medium.com/@nkr96"
-                    target="_blank"
-                  >
+                  I'm on
+                  <a class="text-primary" href="https://medium.com/@nkr96" target="_blank">
                     <i class="fab fa-medium mx-2"></i>Medium
                   </a>
                 </h4>
               </div>
+              <div class="py-2 mt-3">
+                <h4 class="text-dark">
+                  I'm on
+                  <a class="text-primary" href="https://dev.to/nkr96" target="_blank">
+                    <i class="fab fa-dev mx-2" title="Narendra Ram's DEV Profile"></i>Dev Community
+                  </a>
+                </h4>
+              </div>
+              <div class="py-2 mt-3">
+                <h4 class="text-dark">
+                  I'm on
+                  <a class="text-primary" href="https://codepen.io/nkr96" target="_blank">
+                    <i class="fab fa-dev mx-2" title="Narendra Ram's Codepen.io"></i>Codepen
+                  </a>
+                </h4>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Section bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="w-100 text-center">
+            <h1 class="text-white mb-0 Name">Let's Connect</h1>
+          </div>
+          <div class="col-12 text-center">
+            <p
+              class="lead text-white mt-2"
+            >I'm interested in chatting about design, feel free to connect with me on any of the social platforms below.</p>
+            <p class="lead">
+              <a
+                class="btn btn-light btn-lg border-0 rounded-pill"
+                target="_blank"
+                href="https://t.me/nkr_96"
+                role="button"
+              >Say &#128075; Hello!</a>
+            </p>
           </div>
         </div>
       </div>
