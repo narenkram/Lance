@@ -89,6 +89,123 @@ strong {
   z-index: 2;
 }
 
+// Responsive fonts
+@include media-breakpoint-up(xs) {
+  h1 {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-size: 1rem;
+  }
+
+  a,
+  p,
+  div {
+    font-size: 1.15rem;
+  }
+}
+@include media-breakpoint-up(sm) {
+  h1 {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-size: 1rem;
+  }
+
+  a,
+  p,
+  div {
+    font-size: 1.15rem;
+  }
+}
+@include media-breakpoint-up(md) {
+  h1 {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-size: 1rem;
+  }
+
+  a,
+  p,
+  div {
+    font-size: 1.15rem;
+  }
+}
+@include media-breakpoint-up(lg) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-size: 1.6rem;
+  }
+
+  a,
+  p,
+  div {
+    font-size: 1.15rem;
+  }
+}
+@include media-breakpoint-up(xl) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-size: 1.6rem;
+  }
+
+  a,
+  p,
+  div {
+    font-size: 1.15rem;
+  }
+}
+
 /* Custom Classes */
 .Section {
   min-height: 100vh;
