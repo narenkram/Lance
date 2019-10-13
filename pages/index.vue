@@ -74,22 +74,22 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-2">
             <i class="fas fa-2x fa-laptop-code"></i>
             <h3>Frontend Developer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>I like coding my designs. I implement my designs using modern HTML, CSS, and basic javascript.</p>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-2">
             <i class="fas fa-2x fa-magic"></i>
             <h3>UI/UX Designer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>I have been working on my own company as a UI/UX designer for the past 2 years.</p>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-2">
             <i class="fas fa-2x fa-pencil-alt"></i>
             <h3>Writer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>I write stuff for blog articles, terms, creative writing, official documents, and web content.</p>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-2">
             <i class="fas fa-2x fa-chalkboard-teacher"></i>
             <h3>Mentor</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>I teach frontend development in my native language for students in Tamilnadu.</p>
           </div>
         </div>
       </div>
