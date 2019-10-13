@@ -51,7 +51,7 @@
           </div>
           <div class="col-lg-6 text-center align-self-center">
             <p
-              class="mb-0 Introduction__text w-75 mx-auto"
+              class="mb-0 Introduction__text mx-auto"
             >I'm a Frontend developer based in India. I'm passionate about web, food and environment. Also, i write stuff such as blog articles, creative writing, terms, etc.</p>
           </div>
         </div>
@@ -74,7 +74,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-2">
             <i class="fas fa-2x fa-laptop-code"></i>
             <h3>Frontend Developer</h3>
-            <p>I like coding my designs. I implement my designs using modern HTML, CSS, and basic javascript.</p>
+            <p>I like coding my designs. I implement my designs using latest HTML, CSS, and basic javascript.</p>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-2">
             <i class="fas fa-2x fa-magic"></i>
@@ -111,7 +111,7 @@
           <h2>Some of my work</h2>
         </div>
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-2">
             <a
               class="Project card"
               data-aos="zoom-in"
@@ -127,7 +127,7 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-2">
             <a
               class="Project card"
               data-aos="zoom-in"
@@ -143,7 +143,7 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-2">
             <a
               class="Project card"
               data-aos="zoom-in"
@@ -159,7 +159,7 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-2">
             <a
               class="Project card"
               data-aos="zoom-in"
@@ -175,7 +175,7 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-2">
             <a class="Project card" data-aos="zoom-in" target="_blank" href="https://aroliant.com/">
               <div class="Project__image">
                 <img src="~/assets/images/company-web.png" class="card-img Project__img" alt />
@@ -249,8 +249,7 @@
         <div class="row">
           <div class="w-100 text-center">
             <h1 class="mb-0 Name">
-              Let's
-              <i class="fab fa-telegram"></i> Connect
+              Let's C<i class="fab fa-telegram"></i>nnect
             </h1>
           </div>
           <div class="col-12 text-center">

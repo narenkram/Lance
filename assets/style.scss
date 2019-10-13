@@ -90,73 +90,53 @@ strong {
 }
 
 // Responsive fonts
-@include media-breakpoint-up(xs) {
-  h1 {
-    font-size: 1rem;
-  }
-  h2 {
-    font-size: 1rem;
-  }
-  h3 {
-    font-size: 1rem;
-  }
-
-  h4,
-  h5,
-  h6 {
-    font-size: 1rem;
-  }
-
-  a,
-  p,
-  div {
-    font-size: 1.15rem;
-  }
-}
 @include media-breakpoint-up(sm) {
   h1 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   h2 {
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
   h3 {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   h4,
   h5,
   h6 {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   a,
   p,
   div {
     font-size: 1.15rem;
+  }
+  .Introduction__text {
+    width: 100%;
   }
 }
 @include media-breakpoint-up(md) {
   h1 {
-    font-size: 1rem;
+    font-size: 3.8rem;
   }
   h2 {
-    font-size: 1rem;
+    font-size: 2.8rem;
   }
   h3 {
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 
   h4,
   h5,
   h6 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   a,
   p,
   div {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
   }
 }
 @include media-breakpoint-up(lg) {
@@ -179,30 +159,10 @@ strong {
   a,
   p,
   div {
-    font-size: 1.15rem;
+    font-size: 1.4rem;
   }
-}
-@include media-breakpoint-up(xl) {
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 3rem;
-  }
-  h3 {
-    font-size: 2rem;
-  }
-
-  h4,
-  h5,
-  h6 {
-    font-size: 1.6rem;
-  }
-
-  a,
-  p,
-  div {
-    font-size: 1.15rem;
+  .Introduction__text {
+    width: 75%;
   }
 }
 
@@ -303,7 +263,6 @@ strong {
 }
 
 .Introduction__text {
-  font-size: 24px;
   line-height: 1.7;
   letter-spacing: -0.2px;
 }
