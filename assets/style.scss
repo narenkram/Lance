@@ -61,6 +61,7 @@ h3 {
   font-family: NotoSansJP-Black;
   letter-spacing: -0.8px;
   line-height: 1.4;
+  color: #343a40;
 }
 
 h4,
@@ -69,6 +70,7 @@ h6 {
   font-family: NotoSansJP-Bold;
   letter-spacing: -0.8px;
   line-height: 1.4;
+  color: #343a40;
 }
 
 a,
@@ -78,11 +80,13 @@ div {
   letter-spacing: -0.8px;
   line-height: 1.7;
   font-size: 1.15rem;
+  color: #343a40;
 }
 
 b,
 strong {
   font-family: NotoSansJP-Bold;
+  color: #343a40;
 }
 
 .container {
@@ -184,12 +188,13 @@ strong {
 
 .Button {
   border: 0;
+  box-shadow: 4px 4px 3px 0px #e0e5e8;
   background: rgb(36, 163, 222);
   background: linear-gradient(90deg, rgba(36, 163, 222, 1) 0%, rgba(3, 118, 191, 1) 100%);
 }
 .Button:hover {
   background: rgba(3, 118, 191, 1);
-  box-shadow: 4px 4px 3px 0px #e0e5e8;
+  box-shadow: 4px 4px 3px 3px #e0e5e8;
 }
 
 .Project {
@@ -400,4 +405,18 @@ strong {
 .dots:nth-of-type(10) {
   top: 13%;
   left: 23%;
+}
+
+// fontawesome
+.fa-laptop-code {
+  color: #3b8bd9;
+}
+.fa-magic {
+  color: #ff6347;
+}
+.fa-pencil-alt {
+  color: #a27f4f;
+}
+.fa-chalkboard-teacher {
+  color: #45b545;
 }

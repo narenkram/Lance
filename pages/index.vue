@@ -71,22 +71,22 @@
     <div class="Section bg-white">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-lg-2">
             <i class="fas fa-2x fa-laptop-code"></i>
             <h3>Frontend Developer</h3>
             <p>I like coding my designs. I implement my designs using latest HTML, CSS, and basic javascript.</p>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-lg-2">
             <i class="fas fa-2x fa-magic"></i>
             <h3>UI/UX Designer</h3>
             <p>I have been working on my own company as a UI/UX designer for the past 2 years.</p>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-lg-2">
             <i class="fas fa-2x fa-pencil-alt"></i>
             <h3>Writer</h3>
             <p>I write stuff for blog articles, terms, creative writing, official documents, and web content.</p>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-lg-2">
             <i class="fas fa-2x fa-chalkboard-teacher"></i>
             <h3>Mentor</h3>
             <p>I teach frontend development in my native language for students in Tamilnadu.</p>
@@ -111,7 +111,7 @@
           <h2>Some of my work</h2>
         </div>
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-3">
             <a
               class="Project card"
               data-aos="zoom-in"
@@ -127,7 +127,7 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-3">
             <a
               class="Project card"
               data-aos="zoom-in"
@@ -143,7 +143,7 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-3">
             <a
               class="Project card"
               data-aos="zoom-in"
@@ -159,7 +159,7 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-3">
             <a
               class="Project card"
               data-aos="zoom-in"
@@ -175,7 +175,7 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-3 p-lg-3">
             <a class="Project card" data-aos="zoom-in" target="_blank" href="https://aroliant.com/">
               <div class="Project__image">
                 <img src="~/assets/images/company-web.png" class="card-img Project__img" alt />
@@ -186,7 +186,7 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 p-2 p-lg-3">
             <a
               class="Project card"
               data-aos="zoom-in"
@@ -217,26 +217,26 @@
           <div class="col-12 text-center">
             <h2 class="text-white">Me on the Internet</h2>
             <div class="SocialLinks">
-              <a class="SocialLink" target="_blank" href>
-                <i class="fab fa-4x fa-twitter"></i>
+              <a class="SocialLink" target="_blank" href="https://twitter.com/nkr_96">
+                <i class="fab fa-3x fa-twitter"></i>
               </a>
-              <a class="SocialLink" target="_blank" href>
-                <i class="fab fa-4x fa-medium"></i>
+              <a class="SocialLink" target="_blank" href="https://medium.com/@nkr96">
+                <i class="fab fa-3x fa-medium"></i>
               </a>
-              <a class="SocialLink" target="_blank" href>
-                <i class="fab fa-4x fa-dev"></i>
+              <a class="SocialLink" target="_blank" href="https://dev.to/nkr96">
+                <i class="fab fa-3x fa-dev"></i>
               </a>
-              <a class="SocialLink" target="_blank" href>
-                <i class="fab fa-4x fa-linkedin"></i>
+              <a class="SocialLink" target="_blank" href="https://www.linkedin.com/in/nkr96/">
+                <i class="fab fa-3x fa-linkedin"></i>
               </a>
               <a class="SocialLink" target="_blank" href="https://www.behance.net/nkr96">
-                <i class="fab fa-4x fa-behance"></i>
+                <i class="fab fa-3x fa-behance"></i>
               </a>
               <a class="SocialLink" target="_blank" href="https://dribbble.com/nkr96">
-                <i class="fab fa-4x fa-dribbble"></i>
+                <i class="fab fa-3x fa-dribbble"></i>
               </a>
               <a class="SocialLink" target="_blank" href="https://www.deviantart.com/nkr96">
-                <i class="fab fa-4x fa-deviantart"></i>
+                <i class="fab fa-3x fa-deviantart"></i>
               </a>
             </div>
           </div>
@@ -248,9 +248,7 @@
       <div class="container">
         <div class="row">
           <div class="w-100 text-center">
-            <h1 class="mb-0 Name">
-              Let's C<i class="fab fa-telegram"></i>nnect
-            </h1>
+            <h1 class="mb-0 Name">Let's C<i class="fab fa-telegram"></i>nnect</h1>
           </div>
           <div class="col-12 text-center">
             <p class="lead mt-2">Feel free to chat about design, food and Netflix.</p>
