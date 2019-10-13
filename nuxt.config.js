@@ -12,7 +12,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Official website of Narendra Ram' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/initial.png' }
+      { rel: 'icon', type: 'image/ico', href: '/initial.ico' }
     ],
     script: [
       { src: "https://kit.fontawesome.com/6265b6c9f2.js" },

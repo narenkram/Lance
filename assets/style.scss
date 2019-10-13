@@ -30,7 +30,8 @@ $primary-font: "NotoSansJP-Regular", sans-serif;
 $theme-colors: (
   "primary": #1876d2,
   "orange": #ff6200,
-  "black": #050404
+  "black": #050404,
+  "primary-dark": #104f8d
 );
 
 $spacer: 1rem;
@@ -98,9 +99,20 @@ strong {
   justify-content: center;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  position: relative;
 }
 .Section--half {
   min-height: 50vh;
+}
+
+.Button {
+  border: 0;
+  background: rgb(36, 163, 222);
+  background: linear-gradient(90deg, rgba(36, 163, 222, 1) 0%, rgba(3, 118, 191, 1) 100%);
+}
+.Button:hover {
+  background: rgba(3, 118, 191, 1);
+  box-shadow: 4px 4px 3px 0px #e0e5e8;
 }
 
 .Project {
@@ -184,23 +196,19 @@ strong {
   border-radius: 280px;
 }
 
-@keyframes typing {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
+.SocialLinks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-
-@keyframes blink {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: map-get($theme-colors, "orange");
-  }
+.SocialLink {
+  color: map-get($theme-colors, "primary-dark");
+  padding: 2rem;
+}
+.SocialLink:hover {
+  color: map-get($theme-colors, "light");
 }
 
 // Media Queries
@@ -216,11 +224,52 @@ strong {
   }
 }
 
+@keyframes random-move {
+  0% {
+    opacity: 0;
+    transform: translateX(0%) translateY(0%);
+  }
+  10% {
+  }
+  20% {
+    transform: translateX(50%) translateY(100%);
+  }
+  30% {
+    width: 10px;
+    height: 10px;
+  }
+  40% {
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(100%) translateY(0%);
+    width: 5px;
+    height: 5px;
+  }
+  60% {
+  }
+  70% {
+  }
+  80% {
+    transform: translateX(-60%) translateY(-59%);
+    width: 8px;
+    height: 8px;
+  }
+  90% {
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(18%) translateY(10%);
+    width: 5px;
+    height: 5px;
+  }
+}
+
 // Animations
 .dots {
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
   position: absolute;
   z-index: 1;
   animation-name: random-move;
@@ -230,27 +279,49 @@ strong {
   animation-timing-function: linear;
 }
 .dots:nth-of-type(odd) {
-  background-color: antiquewhite;
+  background-color: #ffd8bf;
 }
 .dots:nth-of-type(even) {
-  background-color: aquamarine;
+  background-color: #bfe6ff;
 }
 
 .dots:nth-of-type(1) {
+  top: 10%;
   left: 20%;
 }
 .dots:nth-of-type(2) {
+  top: 20%;
   left: 40%;
 }
 .dots:nth-of-type(3) {
+  top: 70%;
   left: 60%;
 }
 .dots:nth-of-type(4) {
-  left: 80%;
+  top: 69%;
+  left: 29%;
 }
 .dots:nth-of-type(5) {
-  left: 100%;
+  top: 83%;
+  left: 20%;
 }
 .dots:nth-of-type(6) {
+  top: 39%;
   left: 10%;
+}
+.dots:nth-of-type(7) {
+  top: 91%;
+  left: 90%;
+}
+.dots:nth-of-type(8) {
+  top: 53%;
+  left: 80%;
+}
+.dots:nth-of-type(9) {
+  top: 23%;
+  left: 60%;
+}
+.dots:nth-of-type(10) {
+  top: 13%;
+  left: 23%;
 }
