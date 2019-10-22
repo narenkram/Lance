@@ -5,16 +5,12 @@
         <nav class="navbar navbar-expand navbar-light px-3">
           <img src="~/assets/initial.png" class="img-fluid Initial" />
           <div class="nav navbar-nav ml-auto">
-            <a class="Header__link mr-3" target="_blank" href="https://twitter.com/nkr_96">
-              <b>Blog</b>
-            </a>
+            <a class="Header__link mr-3" target="_blank" href="https://twitter.com/nkr_96">Blog</a>
             <a
               class="Header__link"
               target="_blank"
               href="https://www.upwork.com/freelancers/~01d7fc59aedbaa665c"
-            >
-              <b>Hire Me</b>
-            </a>
+            >Hire Me</a>
           </div>
         </nav>
       </div>
@@ -248,7 +244,10 @@
       <div class="container">
         <div class="row">
           <div class="w-100 text-center">
-            <h1 class="mb-0 Name">Let's C<i class="fab fa-telegram"></i>nnect</h1>
+            <h1 class="mb-0 Name">
+              Let's C
+              <i class="fab fa-telegram"></i>nnect
+            </h1>
           </div>
           <div class="col-12 text-center">
             <p class="lead mt-2">Feel free to chat about design, food and Netflix.</p>

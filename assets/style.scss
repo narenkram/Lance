@@ -140,7 +140,7 @@ strong {
   a,
   p,
   div {
-    font-size: 1.25rem;
+    font-size: 1.18rem;
   }
 }
 @include media-breakpoint-up(lg) {
@@ -163,7 +163,7 @@ strong {
   a,
   p,
   div {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .Introduction__text {
     width: 75%;
@@ -251,6 +251,7 @@ strong {
 .Header__link {
   text-decoration: none;
   color: map-get($theme-colors, "dark");
+  font-family: NotoSansJP-Bold;
 }
 
 .Header__link:hover {

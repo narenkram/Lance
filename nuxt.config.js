@@ -9,7 +9,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Official website of Narendra Ram' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Official website of Narendra Ram | UX Designer | Frontend Developer | Freelancer' }
     ],
     link: [
       { rel: 'icon', type: 'image/ico', href: '/initial.ico' }
@@ -20,7 +20,7 @@ export default {
   },
   router: {
     base: '/nkr96.github.io/'
-  }, 
+  },
   // Enable this for production build
   /*
   ** Customize the progress-bar color
