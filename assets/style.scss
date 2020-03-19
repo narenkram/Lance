@@ -1,31 +1,29 @@
 @font-face {
-  font-family: NotoSansJP-Thin;
-  src: url("./fonts/noto-sans-jp/NotoSansJP-Thin.otf") format("opentype");
+  font-family: Roboto-Thin;
+  src: url("./fonts/roboto/Roboto-Thin.ttf");
 }
 
 @font-face {
-  font-family: NotoSansJP-Light;
-  src: url("./fonts/noto-sans-jp/NotoSansJP-Light.otf") format("opentype");
+  font-family: Roboto-Light;
+  src: url("./fonts/roboto/Roboto-Light.ttf");
 }
 
 @font-face {
-  font-family: NotoSansJP-Regular;
-  src: url("./fonts/noto-sans-jp/NotoSansJP-Regular.otf") format("opentype");
+  font-family: Roboto-Regular;
+  src: url("./fonts/roboto/Roboto-Regular.ttf");
 }
 @font-face {
-  font-family: NotoSansJP-Medium;
-  src: url("./fonts/noto-sans-jp/NotoSansJP-Medium.otf") format("opentype");
+  font-family: Roboto-Medium;
+  src: url("./fonts/roboto/Roboto-Medium.ttf");
 }
 @font-face {
-  font-family: NotoSansJP-Bold;
-  src: url("./fonts/noto-sans-jp/NotoSansJP-Bold.otf") format("opentype");
+  font-family: Roboto-Bold;
+  src: url("./fonts/roboto/Roboto-Bold.ttf");
 }
 @font-face {
-  font-family: NotoSansJP-Black;
-  src: url("./fonts/noto-sans-jp/NotoSansJP-Black.otf") format("opentype");
+  font-family: Segoe-Script;
+  src: url("./fonts/segoe-script/segoesc.ttf");
 }
-
-$primary-font: "NotoSansJP-Regular", sans-serif;
 
 $theme-colors: (
   "primary": #1876d2,
@@ -46,378 +44,76 @@ $enable-deprecation-messages: true;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// ******** Global ********
-* {
-  font-family: $primary-font;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
+// Global
 h1,
 h2,
-h3 {
-  font-family: NotoSansJP-Black;
-  letter-spacing: -0.8px;
-  line-height: 1.4;
-  color: #343a40;
-}
-
+h3,
 h4,
 h5,
 h6 {
-  font-family: NotoSansJP-Bold;
-  letter-spacing: -0.8px;
-  line-height: 1.4;
-  color: #343a40;
+  font-family: Roboto-Bold;
 }
 
-a,
+.FontLight {
+  font-family: Roboto-Light;
+}
+
+.FontRegular {
+  font-family: Roboto-Regular;
+}
+
+.FontMedium {
+  font-family: Roboto-Medium;
+}
+
 p,
+a,
+label,
+sub,
 div {
-  font-family: NotoSansJP-Regular;
-  letter-spacing: -0.8px;
-  line-height: 1.7;
-  font-size: 1.15rem;
-  color: #343a40;
+  font-family: Roboto-Regular;
 }
-
-b,
-strong {
-  font-family: NotoSansJP-Bold;
-  color: #343a40;
-}
-
-.container {
-  z-index: 2;
-}
-
-// Responsive fonts
-@include media-breakpoint-up(sm) {
-  h1 {
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 1.8rem;
-  }
-  h3 {
-    font-size: 1.4rem;
-  }
-
-  h4,
-  h5,
-  h6 {
-    font-size: 1.3rem;
-  }
-
-  a,
-  p,
-  div {
-    font-size: 1.15rem;
-  }
-  .Introduction__text {
-    width: 100%;
-  }
-}
-@include media-breakpoint-up(md) {
-  h1 {
-    font-size: 3.8rem;
-  }
-  h2 {
-    font-size: 2.8rem;
-  }
-  h3 {
-    font-size: 1.8rem;
-  }
-
-  h4,
-  h5,
-  h6 {
-    font-size: 1.5rem;
-  }
-
-  a,
-  p,
-  div {
-    font-size: 1.18rem;
-  }
-}
-@include media-breakpoint-up(lg) {
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 3rem;
-  }
-  h3 {
-    font-size: 2rem;
-  }
-
-  h4,
-  h5,
-  h6 {
-    font-size: 1.6rem;
-  }
-
-  a,
-  p,
-  div {
-    font-size: 1.2rem;
-  }
-  .Introduction__text {
-    width: 75%;
-  }
-}
-
-/* Custom Classes */
-.Section {
+section {
   min-height: 100vh;
-  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
   position: relative;
 }
-.Section--half {
-  min-height: 50vh;
+hr {
+  border-color: #000;
+  margin: 0;
 }
+// Global
 
-.Button {
-  border: 0;
-  box-shadow: 4px 4px 3px 0px #e0e5e8;
-  background: rgb(36, 163, 222);
-  background: linear-gradient(90deg, rgba(36, 163, 222, 1) 0%, rgba(3, 118, 191, 1) 100%);
-}
-.Button:hover {
-  background: rgba(3, 118, 191, 1);
-  box-shadow: 4px 4px 3px 3px #e0e5e8;
-}
-
-.Project {
-  box-shadow: 0 0 6px 0 rgba(30, 45, 62, 0.09);
-  transition: box-shadow 0.2s;
-  border: 0;
-  color: map-get($theme-colors, "dark");
-  border-radius: 3px;
-  overflow: hidden;
-}
-
-.Project:hover {
-  cursor: pointer;
-  text-decoration: none;
-  box-shadow: 0 10px 15px 0 rgba(30, 45, 62, 0.04), 0 0 50px 0 rgba(31, 44, 60, 0.05);
-  color: map-get($theme-colors, "dark");
-}
-
-.Project__image {
-  position: relative;
-}
-
-.Project__img {
-  // min-height: 300px;
-}
-
-.Project__links {
+// Header
+.Header {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  padding: 1rem;
   width: 100%;
-  height: 100%;
 }
+.navbar {
+}
+.navbar-brand {
+  font-family: "Segoe-Script", cursive;
+}
+// Header
 
-.Project__links a {
-  color: #ffffff;
-}
-.Project__title {
-}
-.Project__description {
-  height: 37px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-
-.Intro {
-}
-
-.Header__link {
-  text-decoration: none;
-  color: map-get($theme-colors, "dark");
-  font-family: NotoSansJP-Bold;
-}
-
-.Header__link:hover {
-  text-decoration: none;
-  color: map-get($theme-colors, "primary");
-}
-
-.Initial {
-  height: 40px;
-}
-
-.Name {
-  letter-spacing: -0.8px;
-  line-height: 1.4;
-}
-
-.Introduction__text {
-  line-height: 1.7;
-  letter-spacing: -0.2px;
-}
-
-.Myphoto {
-  height: 280px;
-  border-radius: 280px;
-}
-
+// Home
 .SocialLinks {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 .SocialLink {
-  color: map-get($theme-colors, "primary-dark");
-  padding: 2rem;
+  border-radius: 4px;
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
-.SocialLink:hover {
-  color: map-get($theme-colors, "light");
+.PortfolioItem {
 }
-
-// Media Queries
-@include media-breakpoint-up(xs) {
-  .Designation__text {
-    font-size: 1.75rem;
-  }
+.ProjectLink {
+  text-transform: uppercase;
+  font-size: 80%;
 }
-
-@include media-breakpoint-up(sm) {
-  .Designation__text {
-    font-size: 2rem;
-  }
-}
-
-@keyframes random-move {
-  0% {
-    opacity: 0;
-    transform: translateX(0%) translateY(0%);
-  }
-  10% {
-  }
-  20% {
-    transform: translateX(50%) translateY(100%);
-  }
-  30% {
-    width: 10px;
-    height: 10px;
-  }
-  40% {
-  }
-  50% {
-    opacity: 1;
-    transform: translateX(100%) translateY(0%);
-    width: 5px;
-    height: 5px;
-  }
-  60% {
-  }
-  70% {
-  }
-  80% {
-    transform: translateX(-60%) translateY(-59%);
-    width: 8px;
-    height: 8px;
-  }
-  90% {
-  }
-  100% {
-    opacity: 0;
-    transform: translateX(18%) translateY(10%);
-    width: 5px;
-    height: 5px;
-  }
-}
-
-// Animations
-.dots {
-  width: 5px;
-  height: 5px;
-  border-radius: 10px;
-  position: absolute;
-  z-index: 1;
-  animation-name: random-move;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-  animation-timing-function: linear;
-}
-.dots:nth-of-type(odd) {
-  background-color: #ffd8bf;
-}
-.dots:nth-of-type(even) {
-  background-color: #bfe6ff;
-}
-
-.dots:nth-of-type(1) {
-  top: 10%;
-  left: 20%;
-}
-.dots:nth-of-type(2) {
-  top: 20%;
-  left: 40%;
-}
-.dots:nth-of-type(3) {
-  top: 70%;
-  left: 60%;
-}
-.dots:nth-of-type(4) {
-  top: 69%;
-  left: 29%;
-}
-.dots:nth-of-type(5) {
-  top: 83%;
-  left: 20%;
-}
-.dots:nth-of-type(6) {
-  top: 39%;
-  left: 10%;
-}
-.dots:nth-of-type(7) {
-  top: 91%;
-  left: 90%;
-}
-.dots:nth-of-type(8) {
-  top: 53%;
-  left: 80%;
-}
-.dots:nth-of-type(9) {
-  top: 23%;
-  left: 60%;
-}
-.dots:nth-of-type(10) {
-  top: 13%;
-  left: 23%;
-}
-
-// fontawesome
-.fa-laptop-code {
-  color: #3b8bd9;
-}
-.fa-magic {
-  color: #ff6347;
-}
-.fa-pencil-alt {
-  color: #a27f4f;
-}
-.fa-chalkboard-teacher {
-  color: #45b545;
-}
+// Home
