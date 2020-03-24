@@ -49,7 +49,9 @@
         </div>
       </div>
     </section>
-    <hr class="container" />
+    <div class="container">
+      <hr />
+    </div>
     <section>
       <div class="container">
         <h3>Portfolio</h3>
@@ -139,14 +141,18 @@
         </div>
       </div>
     </section>
-    <hr class="container" />
+    <div class="container">
+      <hr />
+    </div>
     <section>
       <div class="container">
         <h3>Case Study</h3>
         <h4 class="FontRegular">Explore the case studies of my projects</h4>
       </div>
     </section>
-    <hr class="container" />
+    <div class="container">
+      <hr />
+    </div>
   </div>
 </template>
 
