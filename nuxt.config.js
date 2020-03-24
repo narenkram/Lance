@@ -15,7 +15,9 @@ export default {
       { rel: 'icon', type: 'image/ico', href: '/initial.ico' }
     ],
     script: [
-      { src: "https://kit.fontawesome.com/6265b6c9f2.js" },
+      // { src: "~/node_modules/jquery/dist/jquery.min.js" },
+      // { src: "~/node_modules/bootstrap/dist/js/bootstrap.min.js" },
+      // { src: "bootstrap/dist/js/bootstrap.min.js" },
     ],
   },
   router: {
@@ -37,7 +39,10 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    { src: "~/plugins/aos", ssr: false }
+    { src: "~/plugins/aos", ssr: false },
+    { src: "~/node_modules/jquery/dist/jquery.min.js", ssr: false },
+    // { src: "~/node_modules/popper/dist/popper.min.js", ssr: false },
+    { src: "~/node_modules/bootstrap/dist/js/bootstrap.min.js", ssr: false },
   ],
   /*
    ** Nuxt.js modules
