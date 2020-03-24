@@ -15,9 +15,6 @@ export default {
       { rel: 'icon', type: 'image/ico', href: '/initial.ico' }
     ],
     script: [
-      // { src: "~/node_modules/jquery/dist/jquery.min.js" },
-      // { src: "~/node_modules/bootstrap/dist/js/bootstrap.min.js" },
-      // { src: "bootstrap/dist/js/bootstrap.min.js" },
     ],
   },
   router: {
@@ -41,8 +38,8 @@ export default {
   plugins: [
     { src: "~/plugins/aos", ssr: false },
     { src: "~/node_modules/jquery/dist/jquery.min.js", ssr: false },
-    // { src: "~/node_modules/popper/dist/popper.min.js", ssr: false },
     { src: "~/node_modules/bootstrap/dist/js/bootstrap.min.js", ssr: false },
+    { src: "~/node_modules/holderjs/holder.min.js", ssr: false },
   ],
   /*
    ** Nuxt.js modules
