@@ -29,7 +29,7 @@ $theme-colors: (
   "primary": #1876d2,
   "orange": #ff6200,
   "black": #050404,
-  "primary-dark": #104f8d
+  "primary-dark": #104f8d,
 );
 
 $spacer: 1rem;
@@ -81,7 +81,6 @@ section {
 }
 hr {
   border-color: #000;
-  margin: 0;
 }
 // Global
 
@@ -111,6 +110,11 @@ hr {
   margin-right: 10px;
 }
 .PortfolioItem {
+}
+.PortfolioItem_description {
+  margin: 0;
+  height: 100px;
+  overflow: hidden;
 }
 .ProjectLink {
   text-transform: uppercase;
