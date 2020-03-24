@@ -45,6 +45,11 @@ $enable-deprecation-messages: true;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Global
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -78,6 +83,8 @@ section {
   display: flex;
   align-items: center;
   position: relative;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 hr {
   border-color: #000;

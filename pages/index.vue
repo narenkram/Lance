@@ -17,7 +17,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Blog</a>
@@ -52,7 +52,7 @@
     <div class="container">
       <hr />
     </div>
-    <section>
+    <section id="portfolio">
       <div class="container">
         <h3>Portfolio</h3>
         <h4 class="FontRegular">Here are some of my works</h4>
@@ -192,6 +192,12 @@
     <div class="container">
       <hr />
     </div>
+    <section>
+      <div class="container">
+        <h3>My Story &amp; Experience</h3>
+        <h4 class="FontRegular">About Me</h4>
+      </div>
+    </section>
   </div>
 </template>
 
