@@ -18,7 +18,7 @@ export default {
     ],
   },
   router: {
-    base: '/narendra-ram/'
+    base: '/'
   },
   // Enable this for production build
   /*
