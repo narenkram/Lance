@@ -22,7 +22,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: NR_SITE_SECRET
+  github_token: $NR_SITE_SECRET
   keep_history: true
   on:
     branch: master
