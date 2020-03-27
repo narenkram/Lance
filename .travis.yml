@@ -21,7 +21,8 @@ script:
 
 deploy:
   provider: pages
-  local_dir: out
+  skip_cleanup: true
   deploy_key: nr-site
-  edge:
+  keep_history: true
+  on:
     branch: master
