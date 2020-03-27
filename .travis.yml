@@ -20,6 +20,7 @@ script:
 
 deploy:
   provider: pages
+  local_dir: dist
   skip_cleanup: true
   github_token: 7c0474c16001f33d37aea08e7e27a9f0690a6c38
   keep_history: true
