@@ -15,3 +15,11 @@ install:
 script:
   - npm run build
   - npm run generate
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $publish-to-prod # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
