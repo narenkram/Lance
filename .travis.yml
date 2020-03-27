@@ -22,7 +22,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  deploy_key: nr-site
+  github_token: nr-site
   keep_history: true
   on:
     branch: master
