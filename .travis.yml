@@ -20,9 +20,10 @@ script:
   - npm run generate
 
 deploy:
-  provider: pages
+  provider: pages:git
   skip_cleanup: true
-  github_token: e3cb1f7aafd437f3df1425f82d39605e2264017a
+  deploy_key: nr-site
+  edge: true # opt in to dpl v2
   keep_history: true
   on:
     branch: master
