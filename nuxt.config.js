@@ -18,7 +18,7 @@ export default {
     ],
   },
   router: {
-    base: '/nkr96.github.io/'
+    base: '/'
   },
   // Enable this for production build
   /*
