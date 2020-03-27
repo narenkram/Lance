@@ -18,7 +18,7 @@ export default {
     ],
   },
   router: {
-    base: '/narendra-ram.github.io/'
+    base: '/narendra-ram/'
   },
   // Enable this for production build
   /*
