@@ -9,7 +9,8 @@ branches:
   only:
     - master
 
-before_install: openssl aes-256-cbc -K $encrypted_ac8c84629a34_key -iv $encrypted_ac8c84629a34_iv -in srgyBIm8jYWywfKffrWN0Q -out nr-website -d
+before_install: 
+  - openssl aes-256-cbc -K $encrypted_326cdccd9729_key -iv $encrypted_326cdccd9729_iv -in nr-site.enc -out nr-site -d
 
 install:
   - npm install
@@ -20,8 +21,7 @@ script:
 
 deploy:
   provider: pages
-  skip_cleanup: true
-  github_token: 7c0474c16001f33d37aea08e7e27a9f0690a6c38
-  keep_history: true
-  on:
+  local_dir: out
+  deploy_key: nr-site
+  edge:
     branch: master
