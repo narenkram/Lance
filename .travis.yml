@@ -9,7 +9,7 @@ branches:
   only:
     - master
 
-before_install: 
+before_install:
   - openssl aes-256-cbc -K $encrypted_326cdccd9729_key -iv $encrypted_326cdccd9729_iv -in nr-site.enc -out nr-site -d
 
 install:
@@ -22,7 +22,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: nr-site
+  github_token: NR_SITE_SECRET
   keep_history: true
   on:
     branch: master
