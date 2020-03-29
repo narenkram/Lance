@@ -198,9 +198,31 @@
         <h4 class="FontRegular">About Me</h4>
       </div>
     </section>
+
+    <div class="Overlay">
+      <h1>It's not ready yet!</h1>
+      <h4>Please check back later.</h4>
+    </div>
   </div>
 </template>
 
 <script>
 export default {};
 </script>
+
+<style>
+.Overlay{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(0, 0%, 0%, 0.87);
+  color: hsla(0, 0%, 75%, 1);
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+</style>
