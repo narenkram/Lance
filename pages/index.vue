@@ -277,10 +277,10 @@
       </div>
     </section>
 
-    <!-- <div class="Overlay">
+    <div class="Overlay">
       <h1>It's not ready yet!</h1>
       <h4>Please check back later.</h4>
-    </div>-->
+    </div>
   </div>
 </template>
 
