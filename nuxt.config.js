@@ -1,3 +1,4 @@
+const webpack = require("webpack");
 
 export default {
   mode: 'universal',
@@ -50,9 +51,14 @@ export default {
    */
   build: {
     /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) { },
-    vendor: ['aos']
-  }
+    ** You can extend webpack config here
+    */
+    extend(config, ctx) {
+    },
+    vendor: ['aos', 'jquery'],
+    plugins: [
+      new webpack.ProvidePlugin({
+        $: "jquery"
+      })]
+  },
 }
