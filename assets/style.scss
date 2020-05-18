@@ -119,14 +119,13 @@ hr {
   margin-right: 10px;
 }
 .PortfolioItem {
-}
-.PortfolioItem_title {
   display: flex;
   flex-direction: row;
 }
-.PortfolioItem_img {
-  width: 72px;
-  height: 72px;
+.PortfolioItem_body {
+}
+.PortfolioItem_img{
+  width: 100px;
   margin-right: 8px;
 }
 .PortfolioItem_description {

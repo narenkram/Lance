@@ -59,17 +59,17 @@
         <div class="row mt-3">
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
-              <div class="PortfolioItem_title">
-                <img src="~/assets/images/gtrendz.png" class="img-fluid PortfolioItem_img" alt />
-                <div>
-                  <h3 class="FontLight">GTrendz Online</h3>
-                  <h5>A Multivendor E-Commerce</h5>
-                </div>
+              <div class="PortfolioItem_img">
+                <img src="~/assets/images/gtrendz.png" alt />
               </div>
-              <p
-                class="PortfolioItem_description"
-              >I worked on the frontend requirements for the website, react-native application, and the angular dashboards. Some of my tasks are such as creating pages, multiple layouts, responsiveness, etc.</p>
-              <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">website</a>
+              <div class="PortfolioItem_body">
+                <h3 class="FontLight">GTrendz Online</h3>
+                <h5>A Multivendor E-Commerce</h5>
+                <p
+                  class="PortfolioItem_description"
+                >I worked on the frontend requirements for the website, react-native application, and the angular dashboards. Some of my tasks are such as creating pages, multiple layouts, responsiveness, etc.</p>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">website</a>
+              </div>
             </div>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
@@ -277,10 +277,10 @@
       </div>
     </section>
 
-    <div class="Overlay">
+    <!-- <div class="Overlay">
       <h1>It's not ready yet!</h1>
       <h4>Please check back later.</h4>
-    </div>
+    </div>-->
   </div>
 </template>
 
