@@ -1,24 +1,26 @@
 @font-face {
-  font-family: Roboto-Thin;
-  src: url("./fonts/roboto/Roboto-Thin.ttf");
-}
-
-@font-face {
-  font-family: Roboto-Light;
-  src: url("./fonts/roboto/Roboto-Light.ttf");
-}
-
-@font-face {
-  font-family: Roboto-Regular;
-  src: url("./fonts/roboto/Roboto-Regular.ttf");
+  font-family: Biryani-ExtraLight;
+  src: url("./fonts/Biryani/Biryani-ExtraLight.ttf");
 }
 @font-face {
-  font-family: Roboto-Medium;
-  src: url("./fonts/roboto/Roboto-Medium.ttf");
+  font-family: Biryani-Light;
+  src: url("./fonts/Biryani/Biryani-Light.ttf");
 }
 @font-face {
-  font-family: Roboto-Bold;
-  src: url("./fonts/roboto/Roboto-Bold.ttf");
+  font-family: Biryani-Regular;
+  src: url("./fonts/Biryani/Biryani-Regular.ttf");
+}
+@font-face {
+  font-family: Biryani-SemiBold;
+  src: url("./fonts/Biryani/Biryani-SemiBold.ttf");
+}
+@font-face {
+  font-family: Biryani-Bold;
+  src: url("./fonts/Biryani/Biryani-Bold.ttf");
+}
+@font-face {
+  font-family: Biryani-ExtraBold;
+  src: url("./fonts/Biryani/Biryani-ExtraBold.ttf");
 }
 @font-face {
   font-family: Segoe-Script;
@@ -56,19 +58,19 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto-Bold;
+  font-family: Biryani-Bold;
 }
 
 .FontLight {
-  font-family: Roboto-Light;
+  font-family: Biryani-Light;
 }
 
 .FontRegular {
-  font-family: Roboto-Regular;
+  font-family: Biryani-Regular;
 }
 
 .FontMedium {
-  font-family: Roboto-Medium;
+  font-family: Biryani-SemiBold;
 }
 
 p,
@@ -76,7 +78,7 @@ a,
 label,
 sub,
 div {
-  font-family: Roboto-Regular;
+  font-family: Biryani-Regular;
 }
 section {
   min-height: 100vh;
@@ -124,7 +126,7 @@ hr {
 }
 .PortfolioItem_body {
 }
-.PortfolioItem_img{
+.PortfolioItem_img {
   width: 100px;
   margin-right: 8px;
 }
