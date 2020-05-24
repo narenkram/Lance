@@ -55,7 +55,7 @@
     <section id="portfolio">
       <div class="container">
         <h3>Portfolio</h3>
-        <h4 class="FontRegular">Here are some of my works</h4>
+        <h4>Here are some of my works</h4>
         <div class="row mt-3">
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
@@ -63,17 +63,178 @@
                 <img src="~/assets/images/gtrendz.png" alt />
               </div>
               <div class="PortfolioItem_body">
-                <h3 class="FontLight">GTrendz Online</h3>
+                <h3>GTrendz Online</h3>
                 <h5>A Multivendor E-Commerce</h5>
                 <p
                   class="PortfolioItem_description"
                 >I worked on the frontend requirements for website, react-native application and the angular dashboards.</p>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">website</a>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  website
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  App
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+            <div class="PortfolioItem">
+              <div class="PortfolioItem_img">
+                <img src="~/assets/images/gtrendz.png" alt />
+              </div>
+              <div class="PortfolioItem_body">
+                <h3>Blaz App</h3>
+                <h5>Deployments & Scaling</h5>
+                <p
+                  class="PortfolioItem_description"
+                >I have been working on building the frontend part for the blaz app and the landing pages for the website. It’s a work in progress.</p>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  website
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  App
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+            <div class="PortfolioItem">
+              <div class="PortfolioItem_img">
+                <img src="~/assets/images/gtrendz.png" alt />
+              </div>
+              <div class="PortfolioItem_body">
+                <h3>Instant Delivery App</h3>
+                <h5>Delivery Platform</h5>
+                <p
+                  class="PortfolioItem_description"
+                >Designed from scratch using UX Research techniques such as interviews, surveys, from paper sketches to a digital prototype.</p>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  website
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  App
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+            <div class="PortfolioItem">
+              <div class="PortfolioItem_img">
+                <img src="~/assets/images/gtrendz.png" alt />
+              </div>
+              <div class="PortfolioItem_body">
+                <h3>Nuxt.js Websites</h3>
+                <h5>Small Businesses & Companies</h5>
+                <p
+                  class="PortfolioItem_description"
+                >It’s has been my choice for building websites for small scales businesses and corporate websites.</p>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  website
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  App
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+            <div class="PortfolioItem">
+              <div class="PortfolioItem_img">
+                <img src="~/assets/images/gtrendz.png" alt />
+              </div>
+              <div class="PortfolioItem_body">
+                <h3>VS App</h3>
+                <h5>Live Streaming Platform</h5>
+                <p
+                  class="PortfolioItem_description"
+                >Designed from scratch using UX Research techniques such as interviews, surveys, from paper sketches to a digital prototype.</p>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  website
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  App
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+            <div class="PortfolioItem">
+              <div class="PortfolioItem_img">
+                <img src="~/assets/images/gtrendz.png" alt />
+              </div>
+              <div class="PortfolioItem_body">
+                <h3>Coaching Cards</h3>
+                <h5>Mobile App</h5>
+                <p
+                  class="PortfolioItem_description"
+                >It’s has been my choice for building websites for small scales businesses and corporate websites.</p>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  website
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  App
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+            <div class="PortfolioItem">
+              <div class="PortfolioItem_img">
+                <img src="~/assets/images/gtrendz.png" alt />
+              </div>
+              <div class="PortfolioItem_body">
+                <h3>POS</h3>
+                <h5>Billing Software</h5>
+                <p
+                  class="PortfolioItem_description"
+                >Designed from scratch using UX Research techniques such as interviews, surveys, from paper sketches to a digital prototype.</p>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  website
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  App
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+            <div class="PortfolioItem">
+              <div class="PortfolioItem_img">
+                <img src="~/assets/images/gtrendz.png" alt />
+              </div>
+              <div class="PortfolioItem_body">
+                <h3>HostnMeet</h3>
+                <h5>A Meetup Website</h5>
+                <p
+                  class="PortfolioItem_description"
+                >A service used to organize online groups that host in-person events for people with similar interests.</p>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  website
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                  App
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <h4 class="FontRegular mt-5">Open Source Contributions</h4>
+        <h4 class="mt-5">Open Source Contributions</h4>
         <div class="row mt-1">
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="OpenSource_item">
@@ -102,46 +263,8 @@
     <section>
       <div class="container">
         <h3>Case Study</h3>
-        <h4 class="FontRegular">Explore the case studies of my projects</h4>
-
-        <div id="CaseStudy" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#CaseStudy" data-slide-to="0" class="active"></li>
-            <li data-target="#CaseStudy" data-slide-to="1"></li>
-            <li data-target="#CaseStudy" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <img data-src="holder.js/900x500/auto/#777:#555/text:First slide" alt="First slide" />
-              <div class="carousel-caption d-none d-md-block">
-                <h3>Title</h3>
-                <p>Description</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img data-src="holder.js/900x500/auto/#666:#444/text:Second slide" alt="Second slide" />
-              <div class="carousel-caption d-none d-md-block">
-                <h3>Title</h3>
-                <p>Description</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img data-src="holder.js/900x500/auto/#666:#444/text:Third slide" alt="Third slide" />
-              <div class="carousel-caption d-none d-md-block">
-                <h3>Title</h3>
-                <p>Description</p>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#CaseStudy" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#CaseStudy" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+        <h4>Explore the case studies of my projects</h4>
+      
       </div>
     </section>
     <div class="container">
@@ -153,7 +276,7 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <h4 class="FontRegular">Timeline</h4>
+            <h4>Timeline</h4>
             <div class="Timeline">
               <div class="Timeline_Item">
                 <div class="Timeline_ItemYear">2020</div>
@@ -193,7 +316,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <h4 class="FontRegular">About Me</h4>
+            <h4>About Me</h4>
             <p>I’m from Tamil Nadu, India. I love simple things that make a significant impact on people’s lives. I believe simple designs can be more powerful. I am determined to create a positive impact by creating the most simplistic design solutions for users.</p>
             <p>I dropped out of college and started a company called Aroliant with an old high school friend. I learned a lot from working with my team as a frontend developer. Working as a frontend developer, i got so inspired by the designers. That pointed me to my next profound interest in UX-design. I enrolled in the UX Design program with Udacity and have taken many steps towards my goal of making a positive impact. I have fallen in love with this new role as a UX Designer.</p>
             <p>Aside from all this, I enjoy Netflix, I’m into pop music, gaming, I consume podcasts, I love cycling, I’m passionate about solar projects, and I genuinely care about the environment.</p>

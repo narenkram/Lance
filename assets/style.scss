@@ -52,27 +52,6 @@ body {
   scroll-behavior: smooth;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Biryani-Bold;
-}
-
-.FontLight {
-  font-family: Biryani-Light;
-}
-
-.FontRegular {
-  font-family: Biryani-Regular;
-}
-
-.FontMedium {
-  font-family: Biryani-SemiBold;
-}
-
 p,
 a,
 label,
@@ -139,12 +118,21 @@ hr {
 }
 .PortfolioItem_description {
   margin: 0;
-  height: 100px;
+  height: 75px;
   overflow: hidden;
 }
 .ProjectLink {
   text-transform: uppercase;
   font-size: 80%;
+  margin-right: 18px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ProjectLink_img {
+  margin-left: 5px;
+  width: 8px;
+  height: 8px;
 }
 
 .Timeline_Item {
