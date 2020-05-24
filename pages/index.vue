@@ -67,84 +67,9 @@
                 <h5>A Multivendor E-Commerce</h5>
                 <p
                   class="PortfolioItem_description"
-                >I worked on the frontend requirements for the website, react-native application, and the angular dashboards. Some of my tasks are such as creating pages, multiple layouts, responsiveness, etc.</p>
+                >I worked on the frontend requirements for website, react-native application and the angular dashboards.</p>
                 <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">website</a>
               </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
-            <div class="PortfolioItem">
-              <div class="PortfolioItem_title">
-                <img src="~/assets/images/blaz.png" class="img-fluid PortfolioItem_img" alt />
-                <div>
-                  <h3 class="FontLight">Blaz App</h3>
-                  <h5>Deployments & Scaling</h5>
-                </div>
-              </div>
-              <p
-                class="PortfolioItem_description"
-              >I have been working on building the frontend part for the blaz app and the landing pages for the website. It’s a work in progress.</p>
-              <a href="https://blaz.app/" rel="no-follow" class="ProjectLink">website</a>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
-            <div class="PortfolioItem">
-              <div class="PortfolioItem_title">
-                <img src="~/assets/images/placeholder.png" class="img-fluid PortfolioItem_img" alt />
-                <div>
-                  <h3 class="FontLight">Instant Delivery App</h3>
-                  <h5>Delivery Platform</h5>
-                </div>
-              </div>
-              <p
-                class="PortfolioItem_description"
-              >This app designed from scratch using UX Research techniques such as interviews, surveys, from paper sketches to a digital prototype.</p>
-              <a href="#" rel="no-follow" class="ProjectLink">website</a>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
-            <div class="PortfolioItem">
-              <div class="PortfolioItem_title">
-                <img src="~/assets/images/placeholder.png" class="img-fluid PortfolioItem_img" alt />
-                <div>
-                  <h3 class="FontLight">Nuxt.js Websites</h3>
-                  <h5>Small Businesses & Companies</h5>
-                </div>
-              </div>
-              <p
-                class="PortfolioItem_description"
-              >It’s has been my choice for building websites for small scales businesses and corporate websites. Here are some of the nuxt.JS projects that i recently built.</p>
-              <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">website</a>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
-            <div class="PortfolioItem">
-              <div class="PortfolioItem_title">
-                <img src="~/assets/images/placeholder.png" class="img-fluid PortfolioItem_img" alt />
-                <div>
-                  <h3 class="FontLight">VS App</h3>
-                  <h5>Live Streaming Platform</h5>
-                </div>
-              </div>
-              <p
-                class="PortfolioItem_description"
-              >It’s has been my choice for building websites for small scales businesses and corporate websites. Here are some of the nuxt.JS projects that i recently built.</p>
-              <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">website</a>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
-            <div class="PortfolioItem">
-              <div class="PortfolioItem_title">
-                <img src="~/assets/images/placeholder.png" class="img-fluid PortfolioItem_img" alt />
-                <div>
-                  <h3 class="FontLight">Coaching Cards</h3>
-                  <h5>Mobile App</h5>
-                </div>
-              </div>
-              <p
-                class="PortfolioItem_description"
-              >It’s has been my choice for building websites for small scales businesses and corporate websites. Here are some of the nuxt.JS projects that i recently built.</p>
-              <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">website</a>
             </div>
           </div>
         </div>
@@ -225,10 +150,10 @@
     <section>
       <div class="container">
         <h3>My Story &amp; Experience</h3>
-        <h4 class="FontRegular">About Me</h4>
 
         <div class="row">
           <div class="col-lg-6">
+            <h4 class="FontRegular">Timeline</h4>
             <div class="Timeline">
               <div class="Timeline_Item">
                 <div class="Timeline_ItemYear">2020</div>
@@ -268,6 +193,7 @@
             </div>
           </div>
           <div class="col-lg-6">
+            <h4 class="FontRegular">About Me</h4>
             <p>I’m from Tamil Nadu, India. I love simple things that make a significant impact on people’s lives. I believe simple designs can be more powerful. I am determined to create a positive impact by creating the most simplistic design solutions for users.</p>
             <p>I dropped out of college and started a company called Aroliant with an old high school friend. I learned a lot from working with my team as a frontend developer. Working as a frontend developer, i got so inspired by the designers. That pointed me to my next profound interest in UX-design. I enrolled in the UX Design program with Udacity and have taken many steps towards my goal of making a positive impact. I have fallen in love with this new role as a UX Designer.</p>
             <p>Aside from all this, I enjoy Netflix, I’m into pop music, gaming, I consume podcasts, I love cycling, I’m passionate about solar projects, and I genuinely care about the environment.</p>
