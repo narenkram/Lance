@@ -53,7 +53,7 @@ body {
 }
 
 h1 {
-  font-family: Biryani-ExtraBold;
+  font-family: Biryani-Bold;
   font-size: 40px;
 }
 h2 {
@@ -129,6 +129,10 @@ hr {
 .PortfolioItem {
   display: flex;
   flex-direction: row;
+  background: #ffffff;
+  box-shadow: 10px 10px 19px #f3f8f2;
+  border-radius: 4px;
+  overflow: hidden;
 }
 .PortfolioItem_body {
 }
@@ -200,4 +204,25 @@ hr {
 }
 .LightElement.DisplayMode {
   background-color: blue;
+}
+
+// CaseStudy
+.CaseStudy {
+  display: flex;
+  flex-direction: row;
+}
+.CaseStudy_item {
+  width: 50vw;
+  min-height: 250px;
+  background-color: #f3f8f2;
+  margin-left: 26px;
+  margin-right: 26px;
+  border-radius: 4px;
+}
+.CaseStudy_itemLeft,
+.CaseStudy_itemRight {
+  width: 20vw;
+  min-height: 250px;
+  background-color: #dee2d6;
+  border-radius: 4px;
 }

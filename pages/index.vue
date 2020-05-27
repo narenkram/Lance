@@ -60,7 +60,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/gtrendz.png" alt />
+                <img src="~/assets/images/project.svg" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>GTrendz Online</h4>
@@ -82,7 +82,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/gtrendz.png" alt />
+                <img src="~/assets/images/project.svg" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>Blaz App</h4>
@@ -104,7 +104,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/gtrendz.png" alt />
+                <img src="~/assets/images/project.svg" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>Instant Delivery App</h4>
@@ -126,7 +126,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/gtrendz.png" alt />
+                <img src="~/assets/images/project.svg" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>Nuxt.js Websites</h4>
@@ -148,7 +148,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/gtrendz.png" alt />
+                <img src="~/assets/images/project.svg" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>VS App</h4>
@@ -170,7 +170,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/gtrendz.png" alt />
+                <img src="~/assets/images/project.svg" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>Coaching Cards</h4>
@@ -192,7 +192,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/gtrendz.png" alt />
+                <img src="~/assets/images/project.svg" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>POS</h4>
@@ -214,7 +214,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/gtrendz.png" alt />
+                <img src="~/assets/images/project.svg" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>HostnMeet</h4>
@@ -265,8 +265,15 @@
         <h2>Case Study</h2>
         <h3>Explore the case studies of my projects</h3>
 
-        <h4>GTrendz Online</h4>
-        <h5>Design</h5>
+        <div class="CaseStudy">
+          <div class="CaseStudy_itemLeft"></div>
+          <div class="CaseStudy_item"></div>
+          <div class="CaseStudy_itemRight"></div>
+        </div>
+        <div class="w-100 text-center pt-4">
+          <h4>GTrendz Online</h4>
+          <h5>Design</h5>
+        </div>
       </div>
     </section>
     <div class="container">
