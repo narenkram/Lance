@@ -52,6 +52,27 @@ body {
   scroll-behavior: smooth;
 }
 
+h1 {
+  font-family: Biryani-ExtraBold;
+  font-size: 40px;
+}
+h2 {
+  font-family: Biryani-SemiBold;
+  font-size: 30px;
+}
+h3 {
+  font-family: Biryani-Regular;
+  font-size: 20px;
+}
+h4 {
+  font-family: Biryani-Light;
+  font-size: 25px;
+}
+h5 {
+  font-family: Biryani-SemiBold;
+  font-size: 18px;
+}
+
 p,
 a,
 label,
@@ -85,6 +106,12 @@ hr {
   font-family: "Segoe-Script", cursive;
 }
 // Header
+
+// Footer
+.footer-brand {
+  font-family: "Segoe-Script", cursive;
+}
+// Footer
 
 // Home
 .SocialLinks {

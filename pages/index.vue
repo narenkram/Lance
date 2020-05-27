@@ -38,7 +38,7 @@
         <div class="row">
           <div class="col-lg-6">
             <h1>Hi, I'm Narendra Ram</h1>
-            <h3>Full Stack Designer</h3>
+            <h2>Full Stack Designer</h2>
             <div class="SocialLinks">
               <div class="SocialLink"></div>
               <div class="SocialLink"></div>
@@ -54,8 +54,8 @@
     </div>
     <section id="portfolio">
       <div class="container">
-        <h3>Portfolio</h3>
-        <h4>Here are some of my works</h4>
+        <h2>Portfolio</h2>
+        <h3>Here are some of my works</h3>
         <div class="row mt-3">
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
@@ -63,7 +63,7 @@
                 <img src="~/assets/images/gtrendz.png" alt />
               </div>
               <div class="PortfolioItem_body">
-                <h3>GTrendz Online</h3>
+                <h4>GTrendz Online</h4>
                 <h5>A Multivendor E-Commerce</h5>
                 <p
                   class="PortfolioItem_description"
@@ -85,7 +85,7 @@
                 <img src="~/assets/images/gtrendz.png" alt />
               </div>
               <div class="PortfolioItem_body">
-                <h3>Blaz App</h3>
+                <h4>Blaz App</h4>
                 <h5>Deployments & Scaling</h5>
                 <p
                   class="PortfolioItem_description"
@@ -107,7 +107,7 @@
                 <img src="~/assets/images/gtrendz.png" alt />
               </div>
               <div class="PortfolioItem_body">
-                <h3>Instant Delivery App</h3>
+                <h4>Instant Delivery App</h4>
                 <h5>Delivery Platform</h5>
                 <p
                   class="PortfolioItem_description"
@@ -129,7 +129,7 @@
                 <img src="~/assets/images/gtrendz.png" alt />
               </div>
               <div class="PortfolioItem_body">
-                <h3>Nuxt.js Websites</h3>
+                <h4>Nuxt.js Websites</h4>
                 <h5>Small Businesses & Companies</h5>
                 <p
                   class="PortfolioItem_description"
@@ -151,7 +151,7 @@
                 <img src="~/assets/images/gtrendz.png" alt />
               </div>
               <div class="PortfolioItem_body">
-                <h3>VS App</h3>
+                <h4>VS App</h4>
                 <h5>Live Streaming Platform</h5>
                 <p
                   class="PortfolioItem_description"
@@ -173,7 +173,7 @@
                 <img src="~/assets/images/gtrendz.png" alt />
               </div>
               <div class="PortfolioItem_body">
-                <h3>Coaching Cards</h3>
+                <h4>Coaching Cards</h4>
                 <h5>Mobile App</h5>
                 <p
                   class="PortfolioItem_description"
@@ -195,7 +195,7 @@
                 <img src="~/assets/images/gtrendz.png" alt />
               </div>
               <div class="PortfolioItem_body">
-                <h3>POS</h3>
+                <h4>POS</h4>
                 <h5>Billing Software</h5>
                 <p
                   class="PortfolioItem_description"
@@ -217,7 +217,7 @@
                 <img src="~/assets/images/gtrendz.png" alt />
               </div>
               <div class="PortfolioItem_body">
-                <h3>HostnMeet</h3>
+                <h4>HostnMeet</h4>
                 <h5>A Meetup Website</h5>
                 <p
                   class="PortfolioItem_description"
@@ -234,11 +234,11 @@
             </div>
           </div>
         </div>
-        <h4 class="mt-5">Open Source Contributions</h4>
+        <h3 class="mt-5">Open Source Contributions</h3>
         <div class="row mt-1">
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="OpenSource_item">
-              <h4>DevTools</h4>
+              <h5>DevTools</h5>
               <p
                 class="PortfolioItem_description"
               >It’s a small project, a website for developer tools. I contributed to redesigning the site with the latest bootstrap framework a while ago.</p>
@@ -247,7 +247,7 @@
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="OpenSource_item">
-              <h4>Felix App</h4>
+              <h5>Felix App</h5>
               <p
                 class="PortfolioItem_description"
               >I have been contributing to design and frontend development (UX/UI) for this dockerized file manager on GitHub</p>
@@ -262,9 +262,11 @@
     </div>
     <section>
       <div class="container">
-        <h3>Case Study</h3>
-        <h4>Explore the case studies of my projects</h4>
-      
+        <h2>Case Study</h2>
+        <h3>Explore the case studies of my projects</h3>
+
+        <h4>GTrendz Online</h4>
+        <h5>Design</h5>
       </div>
     </section>
     <div class="container">
@@ -272,11 +274,11 @@
     </div>
     <section>
       <div class="container">
-        <h3>My Story &amp; Experience</h3>
+        <h2>My Story &amp; Experience</h2>
 
         <div class="row">
           <div class="col-lg-6">
-            <h4>Timeline</h4>
+            <h3>Timeline</h3>
             <div class="Timeline">
               <div class="Timeline_Item">
                 <div class="Timeline_ItemYear">2020</div>
@@ -316,7 +318,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <h4>About Me</h4>
+            <h3>About Me</h3>
             <p>I’m from Tamil Nadu, India. I love simple things that make a significant impact on people’s lives. I believe simple designs can be more powerful. I am determined to create a positive impact by creating the most simplistic design solutions for users.</p>
             <p>I dropped out of college and started a company called Aroliant with an old high school friend. I learned a lot from working with my team as a frontend developer. Working as a frontend developer, i got so inspired by the designers. That pointed me to my next profound interest in UX-design. I enrolled in the UX Design program with Udacity and have taken many steps towards my goal of making a positive impact. I have fallen in love with this new role as a UX Designer.</p>
             <p>Aside from all this, I enjoy Netflix, I’m into pop music, gaming, I consume podcasts, I love cycling, I’m passionate about solar projects, and I genuinely care about the environment.</p>
@@ -325,6 +327,47 @@
         </div>
       </div>
     </section>
+
+    <div class="container">
+      <hr />
+    </div>
+
+    <section>
+      <div class="container">
+        <h2>What else?</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>Research</h3>
+            <p>For now, only research i do is UX Research for projects, but trying to make time for my other interests.</p>
+          </div>
+          <div class="col-lg-6">
+            <h3>What do i know?(Skills)</h3>
+            <p>UX/UI Design, HTML, CSS, Angular, Bootstrap, SCSS, CSS Animations, Adobe Photoshop, Adobe Illustrator, Figma, Adobe XD, Adobe Premiere Pro, Adobe Animate, Python, and Javascript.</p>
+          </div>
+          <div class="col-lg-6">
+            <h3>What am i doing in my free time</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cupiditate laudantium animi totam quibusdam.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>Here is something personal</h3>
+          </div>
+          <div class="col-lg-6">
+            <h3>Wanna talk to me?</h3>
+            <p>Say Hello</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pt-5 pb-4">
+      <div class="container text-center">
+        <h3 class="mb-1">Thank you for stopping by</h3>
+        <p class="mb-0">designed &amp; developed by yours truly</p>
+        <a class="footer-brand" href="#">Narendra Ram</a>
+      </div>
+    </footer>
 
     <!-- <div class="Overlay">
       <h1>It's not ready yet!</h1>
