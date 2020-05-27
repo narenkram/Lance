@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="Header">
-      <nav class="container navbar navbar-expand-md navbar-light bg-light">
+      <nav class="container navbar navbar-expand-md navbar-light bg-transparent">
         <a class="navbar-brand" href="#">Narendra Ram</a>
         <button
           class="navbar-toggler d-lg-none"

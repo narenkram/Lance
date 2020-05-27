@@ -28,8 +28,8 @@
 }
 
 $theme-colors: (
-  "primary": #1876d2,
-  "orange": #ff6200,
+  "primary": #3581b8,
+  "orange": #fcb07e,
   "black": #050404,
   "primary-dark": #104f8d,
 );
@@ -123,16 +123,17 @@ hr {
 }
 .ProjectLink {
   text-transform: uppercase;
-  font-size: 80%;
   margin-right: 18px;
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
+  font-family: Biryani-Regular;
+  font-size: 12px;
+  line-height: 21px;
+  color: map-get($theme-colors, "primary");
 }
 .ProjectLink_img {
   margin-left: 5px;
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
+  vertical-align: text-bottom;
 }
 
 .Timeline_Item {
