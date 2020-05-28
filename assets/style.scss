@@ -30,8 +30,6 @@
 $theme-colors: (
   "primary": #3581b8,
   "orange": #fcb07e,
-  "black": #050404,
-  "primary-dark": #104f8d,
 );
 
 $spacer: 1rem;
@@ -234,5 +232,11 @@ hr {
   width: 20vw;
   min-height: 250px;
   background-color: #dee2d6;
+  border-radius: 4px;
+}
+
+// Memoji
+.Memoji {
+  max-height: 250px;
   border-radius: 4px;
 }

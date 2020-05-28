@@ -26,7 +26,11 @@
               <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Hire Me</a>
+              <a
+                class="nav-link"
+                target="_blank"
+                href="https://www.upwork.com/freelancers/~01d7fc59aedbaa665c"
+              >Hire Me</a>
             </li>
           </ul>
         </div>
@@ -45,6 +49,9 @@
               <img src="~/assets/icons/dr.svg" class="SocialLink" />
               <img src="~/assets/icons/dev.svg" class="SocialLink" />
             </div>
+          </div>
+          <div class="col-lg-6 text-right">
+            <img src="~/assets/images/nkr.png" class="Memoji" />
           </div>
         </div>
       </div>
@@ -391,13 +398,13 @@ export default {
       {
         hid: "description",
         itemprop: "description",
-        content: "I'm Narendra Ram, Full Stack Designer from Earth."
+        content: "I’m Narendra Ram, a freelance Full Stack Designer."
       },
       {
         hid: "keywords",
         name: "keywords",
         content:
-          "narendra ram, narendra, ram, full stack designer, designer narendra, naren, naren ram"
+          "narendra ram, narendra, ram, full stack designer, designer narendra, naren, naren ram, freelance designer"
       }
     ]
   }
