@@ -37,13 +37,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h1>Hi, I'm Narendra Ram</h1>
+            <h1>Hi, I'm Narendra</h1>
             <h2>Full Stack Designer</h2>
             <div class="SocialLinks">
-              <div class="SocialLink"></div>
-              <div class="SocialLink"></div>
-              <div class="SocialLink"></div>
-              <div class="SocialLink"></div>
+              <img src="~/assets/icons/tw.svg" class="SocialLink" />
+              <img src="~/assets/icons/be.svg" class="SocialLink" />
+              <img src="~/assets/icons/dr.svg" class="SocialLink" />
+              <img src="~/assets/icons/dev.svg" class="SocialLink" />
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/project.svg" alt />
+                <img src="~/assets/images/gtrendz.png" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>GTrendz Online</h4>
