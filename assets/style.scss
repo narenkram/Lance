@@ -1,8 +1,4 @@
 @font-face {
-  font-family: Biryani-ExtraLight;
-  src: url("./fonts/Biryani/Biryani-ExtraLight.ttf");
-}
-@font-face {
   font-family: Biryani-Light;
   src: url("./fonts/Biryani/Biryani-Light.ttf");
 }
@@ -19,12 +15,12 @@
   src: url("./fonts/Biryani/Biryani-Bold.ttf");
 }
 @font-face {
-  font-family: Biryani-ExtraBold;
-  src: url("./fonts/Biryani/Biryani-ExtraBold.ttf");
-}
-@font-face {
   font-family: Segoe-Script;
   src: url("./fonts/segoe-script/segoesc.ttf");
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("./fonts/Roboto-Regular.ttf");
 }
 
 $theme-colors: (
@@ -309,4 +305,11 @@ hr {
 }
 .Memoji_vanakam {
   max-height: 100px;
+}
+
+.badge {
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  padding: 7px 12px;
 }

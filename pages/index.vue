@@ -299,10 +299,14 @@
           <div class="CaseStudy_itemLeft"></div>
           <div class="CaseStudy_item"></div>
           <div class="CaseStudy_itemRight"></div>
+          <div class="CaseStudy_actions">
+            <div class="CaseStudy_leftBtn"></div>
+            <div class="CaseStudy_leftBtn"></div>
+          </div>
         </div>
         <div class="w-100 text-center pt-4">
-          <h4>GTrendz Online</h4>
-          <h5>Design</h5>
+          <h4>Footwear App</h4>
+          <h5>UX Research</h5>
         </div>
       </div>
     </section>
@@ -388,7 +392,13 @@
         </div>
         <div class="row">
           <div class="col-lg-6">
-            <h3>Here is something personal</h3>
+            <h3>Here's something more</h3>
+            <div class="badge badge-light">Indian Parents 🤦🏻‍♂️</div>
+            <div class="badge badge-light">Netflix Chilling</div>
+            <div class="badge badge-light">I’m தமிழ்</div>
+            <div class="badge badge-light">Gaming</div>
+            <div class="badge badge-light">iPhones &amp; Androids</div>
+            <div class="badge badge-light">Pizza 🍕</div>
           </div>
           <div class="col-lg-6">
             <h3>Wanna talk to me?</h3>
@@ -397,7 +407,7 @@
         </div>
         <div class="row">
           <div class="col-12 text-center">
-            <img src="~/assets/images/vanakam.png" class="img-fluid Memoji_vanakam" />
+            <img src="~/assets/images/vanakam.png" class="img-fluid Memoji_vanakam mb-2" />
             <h3 class="mb-1">Thank you for stopping by</h3>
             <p class="mb-0">designed &amp; developed by yours truly</p>
             <a class="footer-brand">Narendra Ram</a>
