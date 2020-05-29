@@ -39,19 +39,23 @@
 
     <section>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
+        <div class="row justify-content-center">
+          <div class="col-auto text-right pr-0">
+            <img src="~/assets/images/nr_memoji.png" class="img-fluid Memoji" />
+          </div>
+          <div class="col-lg-5 text-left align-self-center pl-0">
             <h1>Hi, I'm Narendra</h1>
             <h2>Full Stack Designer</h2>
+            <p class="m-0">Realized my passion in user experience design, Then studied & graduated as UX designer from Udacity.com</p>
+          </div>
+
+          <div class="col-12 text-center">
             <div class="SocialLinks">
               <img src="~/assets/icons/tw.svg" class="SocialLink" />
               <img src="~/assets/icons/be.svg" class="SocialLink" />
               <img src="~/assets/icons/dr.svg" class="SocialLink" />
               <img src="~/assets/icons/dev.svg" class="SocialLink" />
             </div>
-          </div>
-          <div class="col-lg-6 text-right">
-            <img src="~/assets/images/nkr.png" class="Memoji" />
           </div>
         </div>
       </div>
