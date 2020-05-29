@@ -117,8 +117,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img deliveryapp">
-                <!-- <img src="~/assets/images/project.svg" alt /> -->
-                <div class="PorfolioItem_emoji">🚚</div>
+                <img src="~/assets/images/instantapp.png" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>Instant Delivery App</h4>
@@ -206,8 +205,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img pos">
-                <div class="PorfolioItem_emoji">🧾</div>
-                <!-- <img src="~/assets/images/project.svg" alt /> -->
+                <img src="~/assets/images/billapp.png" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>POS</h4>
@@ -254,10 +252,10 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="OpenSourceItem">
               <div class="OpenSourceItem_img hash2dev">
-                <img src="~/assets/images/project.svg" alt />
+                <img src="~/assets/images/hash2.png" alt />
               </div>
               <div class="OpenSourceItem_body">
-                <h5>DevTools</h5>
+                <h5>Hash2.dev</h5>
                 <p
                   class="OpenSourceItem_description"
                 >It’s a small project, a website for developer tools. I contributed to redesigning the site with the latest bootstrap framework a while ago.</p>
