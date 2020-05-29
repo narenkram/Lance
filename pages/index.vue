@@ -46,7 +46,9 @@
           <div class="col-lg-5 text-left align-self-center pl-0">
             <h1>Hi, I'm Narendra</h1>
             <h2>Full Stack Designer</h2>
-            <p class="m-0">Realized my passion in user experience design, Then studied & graduated as UX designer from Udacity.com</p>
+            <p
+              class="m-0"
+            >Realized my passion in user experience design, Then studied & graduated as UX designer from Udacity.com</p>
           </div>
 
           <div class="col-12 text-center">
@@ -93,7 +95,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/project.svg" alt />
+                <img src="~/assets/images/blaz.png" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>Blaz App</h4>
@@ -115,7 +117,8 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/project.svg" alt />
+                <!-- <img src="~/assets/images/project.svg" alt /> -->
+                <div class="PorfolioItem_emoji">🚚</div>
               </div>
               <div class="PortfolioItem_body">
                 <h4>Instant Delivery App</h4>
@@ -137,7 +140,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/project.svg" alt />
+                <img src="~/assets/images/nuxt.png" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>Nuxt.js Websites</h4>
@@ -159,7 +162,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/project.svg" alt />
+                <img src="~/assets/images/vs.png" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>VS App</h4>
@@ -181,7 +184,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/project.svg" alt />
+                <img src="~/assets/images/cardsapp.png" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>Coaching Cards</h4>
@@ -203,7 +206,8 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/project.svg" alt />
+                <div class="PorfolioItem_emoji">🧾</div>
+                <!-- <img src="~/assets/images/project.svg" alt /> -->
               </div>
               <div class="PortfolioItem_body">
                 <h4>POS</h4>
@@ -225,7 +229,7 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img">
-                <img src="~/assets/images/project.svg" alt />
+                <img src="~/assets/images/hostnmeet.png" alt />
               </div>
               <div class="PortfolioItem_body">
                 <h4>HostnMeet</h4>

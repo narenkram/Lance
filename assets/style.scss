@@ -132,12 +132,12 @@ hr {
   display: flex;
   flex-direction: row;
   background: #ffffff;
-  box-shadow: 10px 10px 19px #f3f8f2;
   border-radius: 4px;
   overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(235, 233, 233, 0.31);
 }
 .PortfolioItem_body {
-  padding-top: 8px;
+  padding-top: 10px;
   padding-bottom: 4px;
 }
 .PortfolioItem_title {
@@ -147,15 +147,18 @@ hr {
 }
 .PortfolioItem_img {
   background-color: #f3f8f2;
-  margin-right: 8px;
+  margin-right: 10px;
   display: grid;
   grid-template-columns: 100px auto;
   align-items: center;
 }
 .PortfolioItem_img img {
   width: 60px;
-  height: 60px;
   margin: auto;
+}
+.PorfolioItem_emoji {
+  font-size: 3rem;
+  text-align: center;
 }
 .PortfolioItem_description {
   margin: 0;
