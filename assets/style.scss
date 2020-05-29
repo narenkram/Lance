@@ -139,11 +139,7 @@ hr {
 .PortfolioItem_body {
   padding-top: 10px;
   padding-bottom: 4px;
-}
-.PortfolioItem_title {
-  font-family: Biryani-Light;
-  font-style: normal;
-  font-size: 25px;
+  padding-right: 4px;
 }
 .PortfolioItem_img {
   background-color: #f3f8f2;
@@ -172,10 +168,14 @@ hr {
   font-size: 12px;
   color: map-get($theme-colors, "primary");
 }
+.ProjectLink:hover {
+  text-decoration: none;
+}
 .ProjectLink_img {
   margin-left: 5px;
   width: 10px;
   height: 10px;
+  vertical-align: baseline !important;
 }
 
 .PortfolioItem .gtrendz {
@@ -203,6 +203,45 @@ hr {
   background-color: #f2f2f2;
 }
 
+.OpenSourceItem {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(235, 233, 233, 0.31);
+}
+.OpenSourceItem_body {
+  padding-top: 10px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+}
+.OpenSourceItem_img {
+  background-color: #f3f8f2;
+  margin-right: 10px;
+  display: grid;
+  grid-template-columns: 100px auto;
+  align-items: center;
+}
+.OpenSourceItem_img img {
+  width: 60px;
+  margin: auto;
+}
+.OpenSourceItem_description {
+  margin: 0;
+  height: 75px;
+  overflow: hidden;
+}
+.OpenSourceItem_emoji {
+  font-size: 3rem;
+  text-align: center;
+}
+.OpenSourceItem .filesapp {
+  background-color: #f2f3f3;
+}
+.OpenSourceItem .hash2dev {
+  background-color: #fff3e5;
+}
 .Timeline_Item {
   display: flex;
   flex-direction: row;
@@ -267,5 +306,7 @@ hr {
 // Memoji
 .Memoji {
   max-height: 200px;
-  border-radius: 4px;
+}
+.Memoji_vanakam {
+  max-height: 100px;
 }

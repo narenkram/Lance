@@ -252,21 +252,38 @@
         <h3 class="mt-5">Open Source Contributions</h3>
         <div class="row mt-1">
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
-            <div class="OpenSource_item">
-              <h5>DevTools</h5>
-              <p
-                class="PortfolioItem_description"
-              >It’s a small project, a website for developer tools. I contributed to redesigning the site with the latest bootstrap framework a while ago.</p>
-              <a href="#" rel="no-follow" class="ProjectLink">website</a>
+            <div class="OpenSourceItem">
+              <div class="OpenSourceItem_img hash2dev">
+                <img src="~/assets/images/project.svg" alt />
+              </div>
+              <div class="OpenSourceItem_body">
+                <h5>DevTools</h5>
+                <p
+                  class="OpenSourceItem_description"
+                >It’s a small project, a website for developer tools. I contributed to redesigning the site with the latest bootstrap framework a while ago.</p>
+                <a href="#" rel="no-follow" class="ProjectLink">
+                  App
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+              </div>
             </div>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
-            <div class="OpenSource_item">
-              <h5>Felix App</h5>
-              <p
-                class="PortfolioItem_description"
-              >I have been contributing to design and frontend development (UX/UI) for this dockerized file manager on GitHub</p>
-              <a href="#" rel="no-follow" class="ProjectLink">website</a>
+            <div class="OpenSourceItem">
+              <div class="OpenSourceItem_img filesapp">
+                <!-- <img src="~/assets/images/project.svg" alt /> -->
+                <div class="OpenSourceItem_emoji">🗄</div>
+              </div>
+              <div class="OpenSourceItem_body">
+                <h5>Felix App</h5>
+                <p
+                  class="OpenSourceItem_description"
+                >I have been contributing to design and frontend development (UX/UI) for this dockerized file manager on GitHub.</p>
+                <a href="#" rel="no-follow" class="ProjectLink">
+                  App
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -380,16 +397,16 @@
             <p>Say Hello</p>
           </div>
         </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <img src="~/assets/images/vanakam.png" class="img-fluid Memoji_vanakam" />
+            <h3 class="mb-1">Thank you for stopping by</h3>
+            <p class="mb-0">designed &amp; developed by yours truly</p>
+            <a class="footer-brand">Narendra Ram</a>
+          </div>
+        </div>
       </div>
     </section>
-
-    <footer class="pt-5 pb-4">
-      <div class="container text-center">
-        <h3 class="mb-1">Thank you for stopping by</h3>
-        <p class="mb-0">designed &amp; developed by yours truly</p>
-        <a class="footer-brand" href="#">Narendra Ram</a>
-      </div>
-    </footer>
 
     <!-- <div class="Overlay">
       <h1>It's not ready yet!</h1>
