@@ -72,7 +72,7 @@
         <div class="row mt-3">
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
-              <div class="PortfolioItem_img">
+              <div class="PortfolioItem_img gtrendz">
                 <img src="~/assets/images/gtrendz.png" alt />
               </div>
               <div class="PortfolioItem_body">
@@ -94,7 +94,7 @@
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
-              <div class="PortfolioItem_img">
+              <div class="PortfolioItem_img blaz">
                 <img src="~/assets/images/blaz.png" alt />
               </div>
               <div class="PortfolioItem_body">
@@ -116,7 +116,7 @@
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
-              <div class="PortfolioItem_img">
+              <div class="PortfolioItem_img deliveryapp">
                 <!-- <img src="~/assets/images/project.svg" alt /> -->
                 <div class="PorfolioItem_emoji">🚚</div>
               </div>
@@ -139,7 +139,7 @@
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
-              <div class="PortfolioItem_img">
+              <div class="PortfolioItem_img nuxtsites">
                 <img src="~/assets/images/nuxt.png" alt />
               </div>
               <div class="PortfolioItem_body">
@@ -161,7 +161,7 @@
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
-              <div class="PortfolioItem_img">
+              <div class="PortfolioItem_img vsapp">
                 <img src="~/assets/images/vs.png" alt />
               </div>
               <div class="PortfolioItem_body">
@@ -183,7 +183,7 @@
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
-              <div class="PortfolioItem_img">
+              <div class="PortfolioItem_img cardsapp">
                 <img src="~/assets/images/cardsapp.png" alt />
               </div>
               <div class="PortfolioItem_body">
@@ -205,7 +205,7 @@
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
-              <div class="PortfolioItem_img">
+              <div class="PortfolioItem_img pos">
                 <div class="PorfolioItem_emoji">🧾</div>
                 <!-- <img src="~/assets/images/project.svg" alt /> -->
               </div>
@@ -228,7 +228,7 @@
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
-              <div class="PortfolioItem_img">
+              <div class="PortfolioItem_img hnm">
                 <img src="~/assets/images/hostnmeet.png" alt />
               </div>
               <div class="PortfolioItem_body">
