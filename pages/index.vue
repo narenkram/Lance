@@ -435,8 +435,8 @@
             <p>UX/UI Design, HTML, CSS, Angular, Bootstrap, SCSS, CSS Animations, Adobe Photoshop, Adobe Illustrator, Figma, Adobe XD, Adobe Premiere Pro, Adobe Animate, Python, and Javascript.</p>
           </div>
           <div class="col-lg-6">
-            <h3>What am i doing in my free time</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cupiditate laudantium animi totam quibusdam.</p>
+            <h3>What am i doing in my free time?</h3>
+            <p>Learn something about space or lie down and stargaze. Read a book if the power is out.</p>
           </div>
         </div>
         <div class="row">
