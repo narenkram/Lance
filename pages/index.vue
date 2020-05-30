@@ -426,21 +426,21 @@
       <div class="container">
         <h2>What else?</h2>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 mb-3">
             <h3>Research</h3>
             <p>For now, only research i do is UX Research for projects, but trying to make time for my other interests.</p>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 mb-3">
             <h3>What do i know?(Skills)</h3>
             <p>UX/UI Design, HTML, CSS, Angular, Bootstrap, SCSS, CSS Animations, Adobe Photoshop, Adobe Illustrator, Figma, Adobe XD, Adobe Premiere Pro, Adobe Animate, Python, and Javascript.</p>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 mb-3">
             <h3>What am i doing in my free time?</h3>
             <p>Learn something about space or lie down and stargaze. Read a book if the power is out.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 mb-3">
             <h3>Here's something more</h3>
             <div class="badge badge-light">Indian Parents 🤦🏻‍♂️</div>
             <div class="badge badge-light">Netflix Chilling</div>
@@ -449,9 +449,13 @@
             <div class="badge badge-light">iPhones &amp; Androids</div>
             <div class="badge badge-light">Pizza 🍕</div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 mb-3">
             <h3>Wanna talk to me?</h3>
-            <button class="btn btn-primary">Say 👋🏼 Hello</button>
+            <a
+              href="mailto:nkr96@icloud.com"
+              target="_blank"
+              class="btn btn-primary btn-sm"
+            >Say 👋🏼 Hello</a>
           </div>
         </div>
         <div class="row">

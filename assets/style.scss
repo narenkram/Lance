@@ -31,7 +31,7 @@ $theme-colors: (
 $spacer: 1rem;
 $enable-rounded: true;
 $enable-shadows: true;
-$enable-gradients: true;
+$enable-gradients: false;
 $enable-transitions: true;
 $enable-prefers-reduced-motion-media-query: true;
 $enable-responsive-font-sizes: true;
@@ -332,7 +332,7 @@ hr {
   margin-right: 12px;
   margin-bottom: 12px;
 }
-button {
+.btn {
   font-family: Roboto-Regular !important;
   box-shadow: none !important;
 }
@@ -346,4 +346,7 @@ button {
 .ScrollDown:hover {
   box-shadow: 5px 5px 10px rgba(235, 233, 233, 0.31);
   cursor: pointer;
+}
+
+.btn-primary {
 }
