@@ -30,14 +30,12 @@ export default {
    ** Global CSS
    */
   css: [
-    { src: "aos/dist/aos.css" },
     { src: "~/assets/style.scss" }
   ],
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [
-    { src: "~/plugins/aos", ssr: false },
     { src: "~/node_modules/jquery/dist/jquery.min.js", ssr: false },
     { src: "~/node_modules/bootstrap/dist/js/bootstrap.min.js", ssr: false },
     { src: "~/node_modules/holderjs/holder.min.js", ssr: false },
@@ -55,7 +53,7 @@ export default {
     */
     extend(config, ctx) {
     },
-    vendor: ['aos', 'jquery'],
+    vendor: ['jquery'],
     plugins: [
       new webpack.ProvidePlugin({
         $: "jquery"

@@ -59,11 +59,12 @@
               <img src="~/assets/icons/tw.svg" class="SocialLink" />
               <img src="~/assets/icons/be.svg" class="SocialLink" />
               <img src="~/assets/icons/dr.svg" class="SocialLink" />
-              <img src="~/assets/icons/dev.svg" class="SocialLink" />
             </div>
           </div>
           <div class="col-auto text-right p-0">
-            <img src="~/assets/icons/down.svg" class="ScrollDown" />
+            <a href="#portfolio">
+              <img src="~/assets/icons/down.svg" class="ScrollDown" />
+            </a>
           </div>
         </div>
       </div>
