@@ -40,10 +40,10 @@
     <section class="IntroSection">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-auto text-right pr-0">
+          <div class="col-auto text-right pr-lg-0">
             <img src="~/assets/images/nr_memoji.png" class="img-fluid Memoji" />
           </div>
-          <div class="col-lg-5 text-left align-self-center pl-0">
+          <div class="col-lg-5 text-left align-self-center pl-lg-0">
             <h1>Hi, I'm Narendra</h1>
             <h2>Full Stack Designer</h2>
             <p
@@ -54,14 +54,14 @@
       </div>
       <div class="container IntroFooter">
         <div class="row justify-content-between">
-          <div class="col-auto text-left p-0">
+          <div class="col-auto text-left">
             <div class="SocialLinks">
               <img src="~/assets/icons/tw.svg" class="SocialLink" />
               <img src="~/assets/icons/be.svg" class="SocialLink" />
               <img src="~/assets/icons/dr.svg" class="SocialLink" />
             </div>
           </div>
-          <div class="col-auto text-right p-0">
+          <div class="col-auto text-right">
             <a href="#portfolio">
               <img src="~/assets/icons/down.svg" class="ScrollDown" />
             </a>
@@ -77,7 +77,7 @@
         <h2>Portfolio</h2>
         <h3>Here are some of my works</h3>
         <div class="row mt-3">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img gtrendz">
                 <img src="~/assets/images/gtrendz.png" alt />
@@ -118,7 +118,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img blaz">
                 <img src="~/assets/images/blaz.png" alt />
@@ -145,7 +145,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img deliveryapp">
                 <img src="~/assets/images/instantapp.png" alt />
@@ -163,7 +163,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img nuxtsites">
                 <img src="~/assets/images/nuxt.png" alt />
@@ -194,7 +194,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img vsapp">
                 <img src="~/assets/images/vs.png" alt />
@@ -217,7 +217,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img cardsapp">
                 <img src="~/assets/images/cardsapp.png" alt />
@@ -239,7 +239,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img pos">
                 <img src="~/assets/images/billapp.png" alt />
@@ -262,7 +262,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="PortfolioItem">
               <div class="PortfolioItem_img hnm">
                 <img src="~/assets/images/hostnmeet.png" alt />
@@ -283,7 +283,7 @@
         </div>
         <h3 class="mt-5">Open Source Contributions</h3>
         <div class="row mt-1">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="OpenSourceItem">
               <div class="OpenSourceItem_img hash2dev">
                 <img src="~/assets/images/hash2.png" alt />
@@ -300,11 +300,10 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-3 p-sm-3 p-md-3 p-lg-3">
             <div class="OpenSourceItem">
               <div class="OpenSourceItem_img filesapp">
-                <!-- <img src="~/assets/images/project.svg" alt /> -->
-                <div class="OpenSourceItem_emoji">🗄</div>
+                <img src="~/assets/images/filesapp.png" alt />
               </div>
               <div class="OpenSourceItem_body">
                 <h5>Felix App</h5>
@@ -367,45 +366,52 @@
               <div class="Timeline_Item">
                 <div class="Timeline_ItemYear">2020</div>
                 <div class="Timeline_ItemContent">
+                  <div class="Timeline_ItemEmoji">🎉</div>
+                  <div>Now, Focusing on Full Stack Design.</div>
+                </div>
+              </div>
+              <div class="Timeline_Item">
+                <div class="Timeline_ItemYear">2020</div>
+                <div class="Timeline_ItemContent">
                   <div class="Timeline_ItemEmoji">😎</div>
-                  <div>Realized my passion in user experience design, Then studied & graduated as UX designer from Udacity.com</div>
+                  <div>Realized my passion for user experience design, Then studied & graduated as UX designer from Udacity.</div>
                 </div>
               </div>
               <div class="Timeline_Item">
                 <div class="Timeline_ItemYear">2019</div>
                 <div class="Timeline_ItemContent">
                   <div class="Timeline_ItemEmoji">🚁</div>
-                  <div>Exploring opportunities, while also studying Machine Learning Foundations</div>
+                  <div>I explored opportunities while also studying Machine Learning Foundations.</div>
                 </div>
               </div>
               <div class="Timeline_Item">
                 <div class="Timeline_ItemYear">2019</div>
                 <div class="Timeline_ItemContent">
                   <div class="Timeline_ItemEmoji">👨🏽‍💻</div>
-                  <div>Started working as a Frontend Developer</div>
+                  <div>I started working as a Frontend Developer.</div>
                 </div>
               </div>
               <div class="Timeline_Item">
                 <div class="Timeline_ItemYear">2018</div>
                 <div class="Timeline_ItemContent">
                   <div class="Timeline_ItemEmoji">🚀</div>
-                  <div>I joined my friend and started a tech company with him</div>
+                  <div>I joined a friend and created a tech company together.</div>
                 </div>
               </div>
               <div class="Timeline_Item">
                 <div class="Timeline_ItemYear">2018</div>
                 <div class="Timeline_ItemContent">
                   <div class="Timeline_ItemEmoji">💻</div>
-                  <div>Start developing websites for college events, symposiums, etc</div>
+                  <div>I started developing websites for college events, symposiums, etc.</div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6">
             <h3>About Me</h3>
-            <p>I’m from Tamil Nadu, India. I love simple things that make a significant impact on people’s lives. I believe simple designs can be more powerful. I am determined to create a positive impact by creating the most simplistic design solutions for users.</p>
-            <p>I dropped out of college and started a company called Aroliant with an old high school friend. I learned a lot from working with my team as a frontend developer. Working as a frontend developer, i got so inspired by the designers. That pointed me to my next profound interest in UX-design. I enrolled in the UX Design program with Udacity and have taken many steps towards my goal of making a positive impact. I have fallen in love with this new role as a UX Designer.</p>
-            <p>Aside from all this, I enjoy Netflix, I’m into pop music, gaming, I consume podcasts, I love cycling, I’m passionate about solar projects, and I genuinely care about the environment.</p>
+            <p>I’m from Tamil Nadu, India. I love simple things that make a significant impact on people’s lives. I believe simple things can be more powerful. I am determined to create a positive impact by creating more simplistic design solutions for users.</p>
+            <p>After i graduated diploma in mechanical engineering, I discontinued my bachelor’s degree and started a company called Aroliant with an old high school friend. I learned a lot from working with my team as a frontend developer. Working as a frontend developer, i got so inspired by the designers. That pointed me to my next profound interest in UX-design. I enrolled in the UX Design program with Udacity and have taken many steps towards my goal of making a positive impact. I have fallen in love with this new role as a UX Designer.</p>
+            <p>Aside from all this, I enjoy Netflix, I’m into pop music, gaming, I consume podcasts, I like cycling, I’m excited about solar projects, and I care about the environment.</p>
             <p>I feel the design is the most crucial thing that completely shifts our perception of our world.</p>
           </div>
         </div>
