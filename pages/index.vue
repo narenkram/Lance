@@ -56,9 +56,15 @@
         <div class="row justify-content-between">
           <div class="col-auto text-left">
             <div class="SocialLinks">
-              <img src="~/assets/icons/tw.svg" class="SocialLink" />
-              <img src="~/assets/icons/be.svg" class="SocialLink" />
-              <img src="~/assets/icons/dr.svg" class="SocialLink" />
+              <a href="https://twitter.com/narendra__ram" target="_blank" class="SocialLink">
+                <img src="~/assets/icons/tw.svg" />
+              </a>
+              <a href="https://www.behance.net/narendraram" target="_blank" class="SocialLink">
+                <img src="~/assets/icons/be.svg" />
+              </a>
+              <a href="https://dribbble.com/narendraram" target="_blank" class="SocialLink">
+                <img src="~/assets/icons/dr.svg" />
+              </a>
             </div>
           </div>
           <div class="col-auto text-right">
