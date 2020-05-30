@@ -23,7 +23,7 @@
               <a class="nav-link" href="#">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#">Case Studies</a>
             </li>
             <li class="nav-item">
               <a
@@ -37,7 +37,7 @@
       </nav>
     </div>
 
-    <section>
+    <section class="IntroSection">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-auto text-right pr-0">
@@ -47,17 +47,23 @@
             <h1>Hi, I'm Narendra</h1>
             <h2>Full Stack Designer</h2>
             <p
-              class="m-0"
-            >Realized my passion in user experience design, Then studied & graduated as UX designer from Udacity.com</p>
+              class="mt-2 mb-0"
+            >A freelance full-stack designer and a writer, Hoping humans may one day be able to live digitally forever.</p>
           </div>
-
-          <div class="col-12 text-center">
+        </div>
+      </div>
+      <div class="container IntroFooter">
+        <div class="row justify-content-between">
+          <div class="col-auto text-left p-0">
             <div class="SocialLinks">
               <img src="~/assets/icons/tw.svg" class="SocialLink" />
               <img src="~/assets/icons/be.svg" class="SocialLink" />
               <img src="~/assets/icons/dr.svg" class="SocialLink" />
               <img src="~/assets/icons/dev.svg" class="SocialLink" />
             </div>
+          </div>
+          <div class="col-auto text-right p-0">
+            <img src="~/assets/icons/down.svg" class="ScrollDown" />
           </div>
         </div>
       </div>
@@ -81,12 +87,31 @@
                 <p
                   class="PortfolioItem_description"
                 >I worked on the frontend requirements for the website, react-native application, and the angular dashboards for both admin and seller.</p>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                <a
+                  href="https://gtrendz.online"
+                  rel="no-follow"
+                  class="ProjectLink"
+                  target="_blank"
+                >
                   website
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                <a
+                  href="https://apps.apple.com/us/app/gtrendz-footwear-exclusive/id1438408594"
+                  rel="no-follow"
+                  class="ProjectLink"
+                  target="_blank"
+                >
                   App
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+                <a
+                  href="https://seller.gtrendz.online/"
+                  rel="no-follow"
+                  class="ProjectLink"
+                  target="_blank"
+                >
+                  Dashboard
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
               </div>
@@ -103,12 +128,17 @@
                 <p
                   class="PortfolioItem_description"
                 >I have been working on building the frontend part for the blaz app and the landing pages for the website. It’s a work in progress.</p>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                <a href="https://blaz.app/" rel="no-follow" class="ProjectLink" target="_blank">
                   website
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
-                  App
+                <a
+                  href="https://docs.blaz.app/"
+                  rel="no-follow"
+                  class="ProjectLink"
+                  target="_blank"
+                >
+                  Docs
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
               </div>
@@ -125,11 +155,7 @@
                 <p
                   class="PortfolioItem_description"
                 >Designed from scratch using UX Research techniques such as interviews, surveys, from paper sketches to a digital prototype.</p>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
-                  website
-                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
-                </a>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                <a href="#" rel="no-follow" class="ProjectLink">
                   App
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
@@ -147,12 +173,21 @@
                 <p
                   class="PortfolioItem_description"
                 >It’s has been my choice for building websites for small scales businesses and corporate websites. Here are some of the nuxt.JS projects that i recently built.</p>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                <a href="https://aroliant.com" rel="no-follow" class="ProjectLink" target="_blank">
                   website
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
-                  App
+                <a href="https://oilr.in" rel="no-follow" class="ProjectLink" target="_blank">
+                  website
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+                <a
+                  href="http://sgv.construction/"
+                  rel="no-follow"
+                  class="ProjectLink"
+                  target="_blank"
+                >
+                  website
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
               </div>
@@ -169,12 +204,13 @@
                 <p
                   class="PortfolioItem_description"
                 >I worked on building an app-like frontend for the project. There were a lot of challenges when creating flexible layouts for all screens.</p>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
-                  website
-                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
-                </a>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
-                  App
+                <a
+                  href="https://app.vinegarstrokes.com/"
+                  rel="no-follow"
+                  class="ProjectLink"
+                  target="_blank"
+                >
+                  app
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
               </div>
@@ -213,12 +249,13 @@
                 <p
                   class="PortfolioItem_description"
                 >Simple design, easy to understand & use when compared to others in the market. Also, i helped the team to build the frontend.</p>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
-                  website
-                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
-                </a>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
-                  App
+                <a
+                  href="https://dribbble.com/shots/11695070-POS-Billing-Software-Design"
+                  rel="no-follow"
+                  class="ProjectLink"
+                  target="_blank"
+                >
+                  Design
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
               </div>
@@ -235,12 +272,8 @@
                 <p
                   class="PortfolioItem_description"
                 >Worked on the frontend for creating complex layouts, routes, and building mostly HTML Form parts of the website.</p>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                <a href="#" rel="no-follow" class="ProjectLink" target="_blank">
                   website
-                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
-                </a>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
-                  App
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
               </div>
@@ -259,8 +292,8 @@
                 <p
                   class="OpenSourceItem_description"
                 >It’s a small project, a website for developer tools. I contributed to redesigning the site with the latest bootstrap framework.</p>
-                <a href="#" rel="no-follow" class="ProjectLink">
-                  App
+                <a href="https://hash2.dev/" rel="no-follow" class="ProjectLink" target="_blank">
+                  Website
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
               </div>
@@ -277,8 +310,13 @@
                 <p
                   class="OpenSourceItem_description"
                 >I have been contributing to design and frontend development (UX/UI) for this dockerized file manager in my free time.</p>
-                <a href="#" rel="no-follow" class="ProjectLink">
-                  App
+                <a
+                  href="https://github.com/aroliant/felix"
+                  rel="no-follow"
+                  class="ProjectLink"
+                  target="_blank"
+                >
+                  Source Code
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
               </div>
