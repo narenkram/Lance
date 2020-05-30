@@ -23,7 +23,7 @@
               <a class="nav-link" href="#">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Case Studies</a>
+              <a class="nav-link" href="#case_studies">Case Studies</a>
             </li>
             <li class="nav-item">
               <a
@@ -173,7 +173,7 @@
                 <h5>Small Businesses & Companies</h5>
                 <p
                   class="PortfolioItem_description"
-                >It’s has been my choice for building websites for small scales businesses and corporate websites. Here are some of the nuxt.JS projects that i recently built.</p>
+                >It’s has been my choice for building websites for small scales businesses and corporate websites. Here are some of the recent projects.</p>
                 <a href="https://aroliant.com" rel="no-follow" class="ProjectLink" target="_blank">
                   website
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
@@ -328,14 +328,21 @@
     <div class="container">
       <hr />
     </div>
-    <section>
+    <section id="case_studies">
       <div class="container">
-        <h2>Case Study</h2>
+        <h2>Case Studies</h2>
         <h3>Explore the case studies of my projects</h3>
 
         <div class="CaseStudy">
           <div class="CaseStudy_itemLeft"></div>
-          <div class="CaseStudy_item"></div>
+          <div class="CaseStudy_item">
+            <a
+              href="https://docs.google.com/presentation/d/1du5My4KMPilYKJvPEyqZBjTKPpAzx5ES2sbASfAsgOA/edit?usp=sharing"
+              target="_blank"
+            >
+              <img src="~/assets/images/footwear_study.png" class="img-fluid CaseStudy_img" alt />
+            </a>
+          </div>
           <div class="CaseStudy_itemRight"></div>
           <div class="CaseStudy_actions">
             <div class="CaseStudy_btnLeft">

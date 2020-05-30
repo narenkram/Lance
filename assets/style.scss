@@ -161,6 +161,11 @@ hr {
   height: 75px;
   overflow: hidden;
 }
+@include media-breakpoint-down(md) {
+  .PortfolioItem_description {
+    height: auto;
+  }
+}
 .ProjectLink {
   text-transform: uppercase;
   margin-right: 18px;
@@ -232,6 +237,11 @@ hr {
   height: 75px;
   overflow: hidden;
 }
+@include media-breakpoint-down(md) {
+  .OpenSourceItem_description {
+    height: auto;
+  }
+}
 .OpenSourceItem_emoji {
   font-size: 3rem;
   text-align: center;
@@ -275,6 +285,10 @@ hr {
   margin-left: 26px;
   margin-right: 26px;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
 }
 .CaseStudy_itemLeft,
 .CaseStudy_itemRight {
@@ -315,7 +329,10 @@ hr {
   background-color: #21252917;
   cursor: pointer;
 }
-
+.CaseStudy_img {
+  max-height: 200px;
+  border-radius: 4px;
+}
 // Memoji
 .Memoji {
   max-height: 200px;
