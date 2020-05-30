@@ -20,10 +20,10 @@
               <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#case_studies">Case Studies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#case_studies">Case Studies</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a
@@ -368,7 +368,7 @@
     <div class="container">
       <hr />
     </div>
-    <section>
+    <section id="about">
       <div class="container">
         <h2>My Story &amp; Experience</h2>
 
