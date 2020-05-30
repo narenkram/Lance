@@ -80,7 +80,7 @@
                 <h5>A Multivendor E-Commerce</h5>
                 <p
                   class="PortfolioItem_description"
-                >I worked on the frontend requirements for website, react-native application and the angular dashboards.</p>
+                >I worked on the frontend requirements for the website, react-native application, and the angular dashboards for both admin and seller.</p>
                 <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
                   website
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
@@ -146,7 +146,7 @@
                 <h5>Small Businesses & Companies</h5>
                 <p
                   class="PortfolioItem_description"
-                >It’s has been my choice for building websites for small scales businesses and corporate websites.</p>
+                >It’s has been my choice for building websites for small scales businesses and corporate websites. Here are some of the nuxt.JS projects that i recently built.</p>
                 <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
                   website
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
@@ -168,7 +168,7 @@
                 <h5>Live Streaming Platform</h5>
                 <p
                   class="PortfolioItem_description"
-                >Designed from scratch using UX Research techniques such as interviews, surveys, from paper sketches to a digital prototype.</p>
+                >I worked on building an app-like frontend for the project. There were a lot of challenges when creating flexible layouts for all screens.</p>
                 <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
                   website
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
@@ -190,7 +190,7 @@
                 <h5>Mobile App</h5>
                 <p
                   class="PortfolioItem_description"
-                >It’s has been my choice for building websites for small scales businesses and corporate websites.</p>
+                >Designed the app in Figma, using UX techniques and testing. The design went through two iterations before the final one.</p>
                 <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
                   website
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
@@ -212,7 +212,7 @@
                 <h5>Billing Software</h5>
                 <p
                   class="PortfolioItem_description"
-                >Designed from scratch using UX Research techniques such as interviews, surveys, from paper sketches to a digital prototype.</p>
+                >Simple design, easy to understand & use when compared to others in the market. Also, i helped the team to build the frontend.</p>
                 <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
                   website
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
@@ -234,7 +234,7 @@
                 <h5>A Meetup Website</h5>
                 <p
                   class="PortfolioItem_description"
-                >A service used to organize online groups that host in-person events for people with similar interests.</p>
+                >Worked on the frontend for creating complex layouts, routes, and building mostly HTML Form parts of the website.</p>
                 <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
                   website
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
@@ -258,7 +258,7 @@
                 <h5>Hash2.dev</h5>
                 <p
                   class="OpenSourceItem_description"
-                >It’s a small project, a website for developer tools. I contributed to redesigning the site with the latest bootstrap framework a while ago.</p>
+                >It’s a small project, a website for developer tools. I contributed to redesigning the site with the latest bootstrap framework.</p>
                 <a href="#" rel="no-follow" class="ProjectLink">
                   App
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
@@ -276,7 +276,7 @@
                 <h5>Felix App</h5>
                 <p
                   class="OpenSourceItem_description"
-                >I have been contributing to design and frontend development (UX/UI) for this dockerized file manager on GitHub.</p>
+                >I have been contributing to design and frontend development (UX/UI) for this dockerized file manager in my free time.</p>
                 <a href="#" rel="no-follow" class="ProjectLink">
                   App
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
