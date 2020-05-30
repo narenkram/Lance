@@ -300,8 +300,12 @@
           <div class="CaseStudy_item"></div>
           <div class="CaseStudy_itemRight"></div>
           <div class="CaseStudy_actions">
-            <div class="CaseStudy_leftBtn"></div>
-            <div class="CaseStudy_leftBtn"></div>
+            <div class="CaseStudy_btnLeft">
+              <img src="~/assets/icons/left.svg" />
+            </div>
+            <div class="CaseStudy_btnRight">
+              <img src="~/assets/icons/right.svg" />
+            </div>
           </div>
         </div>
         <div class="w-100 text-center pt-4">
@@ -402,7 +406,7 @@
           </div>
           <div class="col-lg-6">
             <h3>Wanna talk to me?</h3>
-            <p>Say Hello</p>
+            <button class="btn btn-primary">Say 👋🏼 Hello</button>
           </div>
         </div>
         <div class="row">

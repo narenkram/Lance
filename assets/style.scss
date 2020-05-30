@@ -282,6 +282,7 @@ hr {
 .CaseStudy {
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 .CaseStudy_item {
   width: 50vw;
@@ -295,8 +296,40 @@ hr {
 .CaseStudy_itemRight {
   width: 20vw;
   min-height: 250px;
-  background-color: #dee2d6;
   border-radius: 4px;
+}
+.CaseStudy_itemLeft {
+  background-color: #eeeef6;
+}
+.CaseStudy_itemRight {
+  background-color: #fff8e5;
+}
+.CaseStudy_actions {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.CaseStudy_btnLeft {
+  float: left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.CaseStudy_btnRight {
+  float: right;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.CaseStudy_btnLeft:hover {
+  background-color: #21252917;
+  cursor: pointer;
+}
+.CaseStudy_btnRight:hover {
+  background-color: #21252917;
+  cursor: pointer;
 }
 
 // Memoji
@@ -312,4 +345,10 @@ hr {
   font-size: 14px;
   letter-spacing: 0.03em;
   padding: 7px 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+button {
+  font-family: Roboto-Regular !important;
+  box-shadow: none !important;
 }
