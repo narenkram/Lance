@@ -128,7 +128,7 @@ hr {
 .SocialLink {
   margin-right: 10px;
 }
-.SocialLink:hover{
+.SocialLink:hover {
   box-shadow: 5px 5px 10px rgba(235, 233, 233, 0.31);
 }
 .PortfolioItem {
@@ -362,6 +362,11 @@ hr {
   position: absolute;
   bottom: 30px;
   width: 100%;
+}
+@include media-breakpoint-down(sm) {
+  .IntroFooter {
+    bottom: 10px;
+  }
 }
 .ScrollDown:hover {
   box-shadow: 5px 5px 10px rgba(235, 233, 233, 0.31);
