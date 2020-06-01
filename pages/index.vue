@@ -234,11 +234,11 @@
                 <p
                   class="PortfolioItem_description"
                 >Designed the app in Figma, using UX techniques and testing. The design went through two iterations before the final one.</p>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
-                  website
+                <a href="#" rel="no-follow" class="ProjectLink">
+                  Design
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
-                <a href="https://gtrendz.online" rel="no-follow" class="ProjectLink">
+                <a href="#" rel="no-follow" class="ProjectLink">
                   App
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
@@ -408,7 +408,7 @@
                 <div class="Timeline_ItemYear">2018</div>
                 <div class="Timeline_ItemContent">
                   <div class="Timeline_ItemEmoji">🚀</div>
-                  <div>I joined a friend and created a tech company together.</div>
+                  <div>I co-founded a tech company with a friend.</div>
                 </div>
               </div>
               <div class="Timeline_Item">
