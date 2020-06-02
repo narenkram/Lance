@@ -375,3 +375,14 @@ hr {
 
 .btn-primary {
 }
+
+.navbar-toggler {
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  padding-right: 0!important;
+}
+.navbar-toggler img {
+  width: 35px;
+  height: 35px;
+}
