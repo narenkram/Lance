@@ -95,21 +95,21 @@
                   class="PortfolioItem_description"
                 >I worked on the frontend requirements for the website, react-native application, and the angular dashboards for both admin and seller.</p>
                 <a
+                  href="https://dribbble.com/shots/12137183-Multi-Vendor-E-Commerce-App"
+                  rel="no-follow"
+                  class="ProjectLink"
+                  target="_blank"
+                >
+                  Design
+                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
+                </a>
+                <a
                   href="https://gtrendz.online"
                   rel="no-follow"
                   class="ProjectLink"
                   target="_blank"
                 >
-                  website
-                  <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
-                </a>
-                <a
-                  href="https://apps.apple.com/us/app/gtrendz-footwear-exclusive/id1438408594"
-                  rel="no-follow"
-                  class="ProjectLink"
-                  target="_blank"
-                >
-                  App
+                  Website
                   <img src="~/assets/icons/link.svg" class="ProjectLink_img" />
                 </a>
                 <a
