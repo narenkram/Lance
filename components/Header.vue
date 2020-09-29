@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <nav class="navbar navbar-expand-md navbar-light bg-transparent px-lg-0">
-      <a class="navbar-brand" href="#"
+      <nuxt-link class="navbar-brand" to="/"
         ><img src="~/assets/images/logo.svg" alt="narendraram designer"
-      /></a>
+      /></nuxt-link>
       <button
         class="navbar-toggler d-lg-none"
         type="button"
@@ -24,7 +24,7 @@
             <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#pricing">Pricing</a>
+            <nuxt-link class="nav-link" to="/pricing">Pricing</nuxt-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>

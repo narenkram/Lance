@@ -21,7 +21,7 @@
       </div>
     </section>
 
-    <section id="portfolio">
+    <section id="services">
       <h2>What I do</h2>
 
       <div class="row">
@@ -162,7 +162,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="contact">
       <div class="row">
         <div class="col-lg-6">
           <h2>Just say hi.</h2>
