@@ -1,35 +1,30 @@
 @font-face {
-  font-family: Biryani-Light;
-  src: url("./fonts/Biryani/Biryani-Light.ttf");
+  font-family: Spartan-Light;
+  src: url("./fonts/Spartan/Spartan-Light.ttf");
 }
 
 @font-face {
-  font-family: Biryani-Regular;
-  src: url("./fonts/Biryani/Biryani-Regular.ttf");
+  font-family: Spartan-Regular;
+  src: url("./fonts/Spartan/Spartan-Regular.ttf");
 }
 
 @font-face {
-  font-family: Biryani-SemiBold;
-  src: url("./fonts/Biryani/Biryani-SemiBold.ttf");
+  font-family: Spartan-SemiBold;
+  src: url("./fonts/Spartan/Spartan-SemiBold.ttf");
 }
 
 @font-face {
-  font-family: Biryani-Bold;
-  src: url("./fonts/Biryani/Biryani-Bold.ttf");
+  font-family: Spartan-Bold;
+  src: url("./fonts/Spartan/Spartan-Bold.ttf");
 }
 
 @font-face {
-  font-family: Segoe-Script;
-  src: url("./fonts/segoe-script/segoesc.ttf");
+  font-family: Hind-Regular;
+  src: url("./fonts/Hind/Hind-Regular.ttf");
 }
 
-@font-face {
-  font-family: Roboto-Regular;
-  src: url("./fonts/Roboto-Regular.ttf");
-}
-
-$theme-colors: ("primary": #3581b8,
-  "orange": #fcb07e,
+$theme-colors: ("primary": #FF6666,
+  "secondary": #336699,
 );
 
 $spacer: 1rem;
@@ -51,27 +46,27 @@ body {
 }
 
 h1 {
-  font-family: Biryani-Bold;
+  font-family: Spartan-Bold;
   font-size: 40px;
 }
 
 h2 {
-  font-family: Biryani-SemiBold;
+  font-family: Spartan-SemiBold;
   font-size: 30px;
 }
 
 h3 {
-  font-family: Biryani-Regular;
+  font-family: Spartan-Regular;
   font-size: 20px;
 }
 
 h4 {
-  font-family: Biryani-Light;
+  font-family: Spartan-Light;
   font-size: 25px;
 }
 
 h5 {
-  font-family: Biryani-SemiBold;
+  font-family: Spartan-SemiBold;
   font-size: 18px;
 }
 
@@ -80,17 +75,8 @@ a,
 label,
 sub,
 div {
-  font-family: Biryani-Regular;
+  font-family: Hind-Regular;
   font-size: 14px;
-}
-
-section {
-  min-height: 90vh;
-  display: flex;
-  align-items: center;
-  position: relative;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 // Global
