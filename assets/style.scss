@@ -37,6 +37,15 @@ $enable-responsive-font-sizes: true;
 $enable-validation-icons: true;
 $enable-deprecation-messages: true;
 
+
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px
+// );
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Global

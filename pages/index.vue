@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <nav class="navbar navbar-expand-md navbar-light bg-transparent">
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent px-lg-0">
       <a class="navbar-brand" href="#"
         ><img src="~/assets/images/logo.svg" alt="narendraram designer"
       /></a>
@@ -41,6 +41,8 @@
             I’m a freelance UX/UI Designer & graphic designer specializing in
             Figma & Adobe Illustrator.
           </h1>
+          <button class="btn-secondary">My Work</button>
+          <button class="btn-primary">Let's Talk</button>
         </div>
         <div class="col-lg-5">
           <img
@@ -141,7 +143,7 @@
       </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="py-5">
       <div class="row">
         <div class="col-lg-6">
           <h3>About Me</h3>
