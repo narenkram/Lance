@@ -44,7 +44,7 @@
         </div>
         <div class="col-lg-5">
           <img
-            src="~/assets/images/narendra-designer.svg"
+            src="~/assets/images/narendra-designer.png"
             alt="narendraram"
             class="img-fluid"
           />
@@ -53,7 +53,7 @@
     </section>
 
     <section id="portfolio">
-      <h1>What I do</h1>
+      <h2>What I do</h2>
 
       <div class="row">
         <div class="col-lg-4">
@@ -88,7 +88,7 @@
         </div>
       </div>
 
-      <h1 class="mt-5">Latest Projects</h1>
+      <h2 class="mt-5">Latest Projects</h2>
       <div class="row">
         <div class="col-lg-6">
           <h3>App Design for footwear e-commerce, GTrendz Online</h3>
@@ -124,7 +124,7 @@
     </section>
 
     <section>
-      <h1>Recent Dribbble Shots</h1>
+      <h2>Recent Dribbble Shots</h2>
       <div class="row">
         <div class="col-lg-4">
           <img src="https://via.placeholder.com/200" alt="" />
@@ -196,7 +196,7 @@
     <section>
       <div class="row">
         <div class="col-lg-6">
-          <h1>Just say hi.</h1>
+          <h2>Just say hi.</h2>
           <p>
             I am always open to discuss your project, improve your online
             presence or help with your UX/UI design challenges.

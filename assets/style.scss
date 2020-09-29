@@ -43,21 +43,25 @@ $enable-deprecation-messages: true;
 html,
 body {
   scroll-behavior: smooth;
+  color: #212126;
 }
 
 h1 {
-  font-family: Spartan-Bold;
-  font-size: 40px;
+  font-family: Spartan-SemiBold;
+  font-size: 36px;
+  line-height: 60px;
 }
 
 h2 {
-  font-family: Spartan-SemiBold;
-  font-size: 30px;
+  font-family: Spartan-Bold;
+  font-size: 32px;
+  line-height: 60px;
 }
 
 h3 {
-  font-family: Spartan-Regular;
-  font-size: 20px;
+  font-family: Spartan-SemiBold;
+  font-size: 24px;
+  line-height: 60px;
 }
 
 h4 {

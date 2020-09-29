@@ -13,7 +13,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Official website of Narendra Ram | UX Designer | Frontend Developer | Freelancer' }
     ],
     link: [
-      { rel: 'icon', type: 'image/ico', href: '/initial.ico' }
+      { rel: 'icon', type: 'image/png', href: '/logo.png' }
     ],
     script: [
     ],
