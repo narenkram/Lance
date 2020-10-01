@@ -21,7 +21,7 @@
       </div>
     </section>
 
-    <section id="services">
+    <section id="services" class="pt-2">
       <h2 class="mb-3">What I do</h2>
 
       <div class="row pb-5">
@@ -159,21 +159,25 @@
           />
         </div>
       </div>
-      <div class="row bg-light justify-content-around">
-        <div class="col-lg-2">
-          <img src="https://via.placeholder.com/175x60" alt="" />
+      <div class="row bg-light justify-content-around py-1 mt-3">
+        <div class="col-lg-3 align-self-center">
+          <h3 class="m-0">Certified with</h3>
         </div>
-        <div class="col-lg-2">
-          <img src="https://via.placeholder.com/175x60" alt="" />
-        </div>
-        <div class="col-lg-2">
-          <img src="https://via.placeholder.com/175x60" alt="" />
-        </div>
-        <div class="col-lg-2">
-          <img src="https://via.placeholder.com/175x60" alt="" />
-        </div>
-        <div class="col-lg-2">
-          <img src="https://via.placeholder.com/175x60" alt="" />
+        <div class="col-lg-9">
+          <div class="row">
+            <div class="col-lg-3">
+              <img src="https://via.placeholder.com/175x60" alt="" />
+            </div>
+            <div class="col-lg-3">
+              <img src="https://via.placeholder.com/175x60" alt="" />
+            </div>
+            <div class="col-lg-3">
+              <img src="https://via.placeholder.com/175x60" alt="" />
+            </div>
+            <div class="col-lg-3">
+              <img src="https://via.placeholder.com/175x60" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -222,7 +226,7 @@
               rows="10"
             ></textarea>
           </div>
-          <button class="btn btn-primary">Get in Touch</button>
+          <button class="btn btn-primary float-right">Get in Touch</button>
         </div>
       </div>
     </section>
