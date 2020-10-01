@@ -117,7 +117,9 @@
           />
         </div>
       </div>
-      <button class="btn btn-outline-primary mx-auto">Visit My Dribble</button>
+      <div class="w-100 text-center">
+        <button class="btn btn-outline-primary">Visit My Dribble</button>
+      </div>
     </section>
 
     <section id="about" class="py-5">
@@ -159,23 +161,23 @@
           />
         </div>
       </div>
-      <div class="row bg-light justify-content-around py-1 mt-3">
-        <div class="col-lg-3 align-self-center">
+      <div class="row bg-light justify-content-around py-2 mt-3">
+        <div class="col-lg-3 align-self-center text-center">
           <h3 class="m-0">Certified with</h3>
         </div>
         <div class="col-lg-9">
-          <div class="row">
-            <div class="col-lg-3">
-              <img src="https://via.placeholder.com/175x60" alt="" />
+          <div class="row justify-content-around">
+            <div class="col-auto">
+              <img src="~/assets/images/udacity.svg" alt="" />
             </div>
-            <div class="col-lg-3">
-              <img src="https://via.placeholder.com/175x60" alt="" />
+            <div class="col-auto">
+              <img src="~/assets/images/google.svg" alt="" />
             </div>
-            <div class="col-lg-3">
-              <img src="https://via.placeholder.com/175x60" alt="" />
+            <div class="col-auto">
+              <img src="~/assets/images/sololearn.svg" alt="" />
             </div>
-            <div class="col-lg-3">
-              <img src="https://via.placeholder.com/175x60" alt="" />
+            <div class="col-auto">
+              <img src="~/assets/images/adobe.svg" alt="" />
             </div>
           </div>
         </div>

@@ -16,7 +16,6 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <img src="~/assets/icons/menu.svg" />
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
