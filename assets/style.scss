@@ -32,8 +32,8 @@ $theme-colors: ("primary": #FF6666,
   "secondary": #336699,
   "gray1":#212126,
   "gray2":#6E6D7A,
-  "gray3":#DEDEDE,
-  "gray4":#F9F9F9,
+  "gray3":#a4a4a4,
+  "gray4":#DEDEDE,
 );
 
 $spacer: 1rem;
@@ -123,6 +123,7 @@ div {
   font-family: Hind-Medium;
   font-size: 14px;
   line-height: unset;
+  color: map-get($theme-colors, "gray3");
 }
 
 .Text_dark {
@@ -158,4 +159,20 @@ a:hover {
 
 .Logo {
   height: 60px;
+}
+
+input,
+.form-control {
+  height: 52px;
+  border: 1px solid map-get($theme-colors, "gray4");
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: none;
+  font-family: Hind-Regular;
+  font-size: 16px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid map-get($theme-colors, "gray1");
 }

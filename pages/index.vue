@@ -9,7 +9,7 @@
             specializing in Design for Code.
           </h1>
           <button class="btn btn-secondary">My Work</button>
-          <button class="btn btn-primary ml-2">Let's Talk</button>
+          <button class="btn btn-primary ml-1">Let's Talk</button>
         </div>
         <div class="col-lg-5">
           <img
@@ -161,7 +161,7 @@
           />
         </div>
       </div>
-      <div class="row bg-light justify-content-around py-2 mt-3">
+      <div class="row bg-light justify-content-around align-items-center py-2 mt-3">
         <div class="col-lg-3 align-self-center text-center">
           <h3 class="m-0">Certified with</h3>
         </div>
@@ -188,17 +188,17 @@
       <div class="row">
         <div class="col-lg-6">
           <h2>Just say hi.</h2>
-          <p class="Text_dark">
+          <p class="Text_dark mb-3 w-75">
             I am always open to discuss your project, improve your online
             presence or help with your UX/UI design challenges.
           </p>
 
-          <label>Email me at</label>
-          <p>
+          <p class="Text_S">Email me at</p>
+          <p class="mb-3">
             <b class="Text_dark">hi@narendra.design</b>
           </p>
 
-          <label>Follow</label>
+          <p class="Text_S">Follow</p>
         </div>
         <div class="col-lg-6">
           <div class="form-group">
