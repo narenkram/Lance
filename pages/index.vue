@@ -5,8 +5,8 @@
         <div class="col-lg-7 text-left align-self-center">
           <h3>Hi, I'm Narendra.</h3>
           <h1>
-            I’m a freelance UX/UI Designer & graphic designer specializing in
-            Figma & Adobe Illustrator.
+            I’m a freelance UX/UI Designer with a frontend background
+            specializing in Design for Code.
           </h1>
           <button class="btn btn-secondary">My Work</button>
           <button class="btn btn-primary ml-2">Let's Talk</button>
@@ -27,33 +27,33 @@
       <div class="row pb-5">
         <div class="col-lg-4">
           <img src="~/assets/images/mobile_web.svg" />
-          <h3 class="my-1">Mobile & Web Design</h3>
-          <p class="mb-2">
+          <h4 class="my-1">Mobile & Web Design</h4>
+          <p class="mb-2 Text_M">
             Need help with designing your website? I can create beautiful
             website designs based on your content, or redesign old websites to
             improve your conversions or achieve your business goals.
           </p>
-          <a href="#">Contact</a>
+          <a href="#" class="Text_L">Contact</a>
         </div>
         <div class="col-lg-4">
           <img src="~/assets/images/graphic_crown.svg" />
-          <h3 class="my-1">Graphic Design</h3>
-          <p class="mb-2">
+          <h4 class="my-1">Graphic Design</h4>
+          <p class="mb-2 Text_M">
             Need help with designing your website? I can create beautiful
             website designs based on your content, or redesign old websites to
             improve your conversions or achieve your business goals.
           </p>
-          <a href="#">Learn more</a>
+          <a href="#" class="Text_L">Learn more</a>
         </div>
         <div class="col-lg-4">
           <img src="~/assets/images/frontend.svg" />
-          <h3 class="my-1">Frontend Development</h3>
-          <p class="mb-2">
+          <h4 class="my-1">Frontend Development</h4>
+          <p class="mb-2 Text_M">
             Need help with designing your website? I can create beautiful
             website designs based on your content, or redesign old websites to
             improve your conversions or achieve your business goals.
           </p>
-          <a href="#">Contact</a>
+          <a href="#" class="Text_L">Contact</a>
         </div>
       </div>
 
@@ -61,33 +61,41 @@
       <div class="row">
         <div class="col-lg-6">
           <h3>App Design for footwear e-commerce, GTrendz Online</h3>
-          <label>Mobile App Design</label>
-          <p>
+          <p class="Text_S">Mobile App Design</p>
+          <p class="Text_M">
             This was a fully custom website that I designed from scratch in
             Figma, and then built in Webflow. The aim was to have a friendly,
             yet professional vibe. The site is very fast—with a Google Pagespeed
             score of 99 for desktop and 92 for mobile.
           </p>
-          <a href="#">Visit project.online</a>
+          <a href="#" class="Text_L">Visit project.online</a>
         </div>
         <div class="col-lg-6">
-          <img src="https://via.placeholder.com/700x300" class="img-fluid" alt="" />
+          <img
+            src="https://via.placeholder.com/700x300"
+            class="img-fluid"
+            alt=""
+          />
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6">
           <h3>App Design for footwear e-commerce, GTrendz Online</h3>
-          <label>Mobile App Design</label>
-          <p>
+          <p class="Text_S">Mobile App Design</p>
+          <p class="Text_M">
             This was a fully custom website that I designed from scratch in
             Figma, and then built in Webflow. The aim was to have a friendly,
             yet professional vibe. The site is very fast—with a Google Pagespeed
             score of 99 for desktop and 92 for mobile.
           </p>
-          <a href="#">Visit project.online</a>
+          <a href="#" class="Text_L">Visit project.online</a>
         </div>
         <div class="col-lg-6">
-          <img src="https://via.placeholder.com/700x300" class="img-fluid" alt="" />
+          <img
+            src="https://via.placeholder.com/700x300"
+            class="img-fluid"
+            alt=""
+          />
         </div>
       </div>
     </section>
@@ -214,7 +222,6 @@
 </template>
 
 <script>
-
 export default {
   head: {
     title: "Narendra Ram",
