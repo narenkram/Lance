@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <section>
+    <section class="pt-4 pb-5">
       <div class="row justify-content-center">
         <div class="col-lg-7 text-left align-self-center">
           <h3>Hi, I'm Narendra.</h3>
@@ -8,8 +8,8 @@
             I’m a freelance UX/UI Designer & graphic designer specializing in
             Figma & Adobe Illustrator.
           </h1>
-          <button class="btn-secondary">My Work</button>
-          <button class="btn-primary">Let's Talk</button>
+          <button class="btn btn-secondary">My Work</button>
+          <button class="btn btn-primary ml-2">Let's Talk</button>
         </div>
         <div class="col-lg-5">
           <img
@@ -22,13 +22,13 @@
     </section>
 
     <section id="services">
-      <h2>What I do</h2>
+      <h2 class="mb-3">What I do</h2>
 
-      <div class="row">
+      <div class="row pb-5">
         <div class="col-lg-4">
           <img src="~/assets/images/mobile_web.svg" />
-          <h3>Mobile & Web Design</h3>
-          <p>
+          <h3 class="my-1">Mobile & Web Design</h3>
+          <p class="mb-2">
             Need help with designing your website? I can create beautiful
             website designs based on your content, or redesign old websites to
             improve your conversions or achieve your business goals.
@@ -37,18 +37,18 @@
         </div>
         <div class="col-lg-4">
           <img src="~/assets/images/graphic_crown.svg" />
-          <h3>Graphic Design</h3>
-          <p>
+          <h3 class="my-1">Graphic Design</h3>
+          <p class="mb-2">
             Need help with designing your website? I can create beautiful
             website designs based on your content, or redesign old websites to
             improve your conversions or achieve your business goals.
           </p>
-          <a href="#">Contact</a>
+          <a href="#">Learn more</a>
         </div>
         <div class="col-lg-4">
           <img src="~/assets/images/frontend.svg" />
-          <h3>Frontend Development</h3>
-          <p>
+          <h3 class="my-1">Frontend Development</h3>
+          <p class="mb-2">
             Need help with designing your website? I can create beautiful
             website designs based on your content, or redesign old websites to
             improve your conversions or achieve your business goals.
@@ -57,7 +57,7 @@
         </div>
       </div>
 
-      <h2 class="mt-5">Latest Projects</h2>
+      <h2 class="mb-3">Latest Projects</h2>
       <div class="row">
         <div class="col-lg-6">
           <h3>App Design for footwear e-commerce, GTrendz Online</h3>
@@ -71,7 +71,7 @@
           <a href="#">Visit project.online</a>
         </div>
         <div class="col-lg-6">
-          <img src="https://via.placeholder.com/400x200" alt="" />
+          <img src="https://via.placeholder.com/700x300" class="img-fluid" alt="" />
         </div>
       </div>
       <div class="row">
@@ -87,7 +87,7 @@
           <a href="#">Visit project.online</a>
         </div>
         <div class="col-lg-6">
-          <img src="https://via.placeholder.com/400x200" alt="" />
+          <img src="https://via.placeholder.com/700x300" class="img-fluid" alt="" />
         </div>
       </div>
     </section>

@@ -1,8 +1,11 @@
 <template>
   <div class="container">
-    <nav class="navbar navbar-expand-md navbar-light bg-transparent px-lg-0">
+    <nav class="navbar navbar-expand-md navbar-light bg-white px-lg-0 py-1">
       <nuxt-link class="navbar-brand" to="/"
-        ><img src="~/assets/images/logo.svg" alt="narendraram designer"
+        ><img
+          src="~/assets/images/logo.svg"
+          class="Logo"
+          alt="narendraram designer"
       /></nuxt-link>
       <button
         class="navbar-toggler d-lg-none"

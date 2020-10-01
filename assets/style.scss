@@ -25,6 +25,10 @@
 
 $theme-colors: ("primary": #FF6666,
   "secondary": #336699,
+  "gray1":#212126,
+  "gray2":#6E6D7A,
+  "gray3":#DEDEDE,
+  "gray4":#F9F9F9,
 );
 
 $spacer: 1rem;
@@ -36,7 +40,7 @@ $enable-prefers-reduced-motion-media-query: true;
 $enable-responsive-font-sizes: true;
 $enable-validation-icons: true;
 $enable-deprecation-messages: true;
-
+$spacer: 4.2rem;
 
 // $container-max-widths: (
 //   sm: 540px,
@@ -52,25 +56,28 @@ $enable-deprecation-messages: true;
 html,
 body {
   scroll-behavior: smooth;
-  color: #212126;
+  color: map-get($theme-colors, "gray1");
 }
 
 h1 {
   font-family: Spartan-SemiBold;
   font-size: 36px;
   line-height: 60px;
+  color: map-get($theme-colors, "gray1");
 }
 
 h2 {
   font-family: Spartan-Bold;
   font-size: 32px;
   line-height: 60px;
+  color: map-get($theme-colors, "gray1");
 }
 
 h3 {
   font-family: Spartan-SemiBold;
   font-size: 24px;
   line-height: 60px;
+  color: map-get($theme-colors, "gray1");
 }
 
 h4 {
@@ -84,12 +91,48 @@ h5 {
 }
 
 p,
-a,
 label,
 sub,
 div {
   font-family: Hind-Regular;
-  font-size: 14px;
+  font-size: 16px;
+  color: map-get($theme-colors, "gray2");
 }
 
 // Global
+
+// section {
+//   padding-top: 160px;
+//   padding-bottom: 160px;
+// }
+
+a {
+  font-family: Spartan-SemiBold;
+  font-size: 16px;
+  color: map-get($theme-colors, "gray1");
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  font-family: Spartan-SemiBold;
+  font-size: 16px;
+  line-height: 22px;
+  color: map-get($theme-colors, "gray2");
+  margin-left: 30px;
+}
+
+.btn {
+  padding-top: 9.5px;
+  padding-bottom: 9.5px;
+  padding-right: 19px;
+  padding-left: 19px;
+  font-family: Spartan-SemiBold;
+  font-size: 16px;
+}
+
+.Logo {
+  height: 60px;
+}
