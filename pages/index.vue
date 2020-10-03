@@ -161,23 +161,33 @@
           />
         </div>
       </div>
-      <div class="row bg-light justify-content-around align-items-center py-2 mt-3">
+      <div
+        class="row bg-light justify-content-around align-items-center py-2 mt-3"
+      >
         <div class="col-lg-3 align-self-center text-center">
           <h3 class="m-0">Certified with</h3>
         </div>
         <div class="col-lg-9">
           <div class="row justify-content-around">
             <div class="col-auto">
-              <img src="~/assets/images/udacity.svg" alt="" />
+              <a href="https://confirm.udacity.com/JQPS6SC6" target="_blank">
+                <img src="~/assets/images/udacity.svg" alt="" />
+              </a>
             </div>
             <div class="col-auto">
-              <img src="~/assets/images/google.svg" alt="" />
+              <a href="#">
+                <img src="~/assets/images/google.svg" alt="" />
+              </a>
             </div>
             <div class="col-auto">
-              <img src="~/assets/images/sololearn.svg" alt="" />
+              <a href="#">
+                <img src="~/assets/images/sololearn.svg" alt="" />
+              </a>
             </div>
             <div class="col-auto">
-              <img src="~/assets/images/adobe.svg" alt="" />
+              <a href="#">
+                <img src="~/assets/images/adobe.svg" alt="" />
+              </a>
             </div>
           </div>
         </div>
@@ -199,6 +209,44 @@
           </p>
 
           <p class="Text_S">Follow</p>
+          <div class="d-flex flex-row flex-wrap">
+            <a href="https://dribbble.com/narendraram" target="_blank">
+              <img
+                src="~/assets/icons/dribbble.svg"
+                class="mr-1 img-fluid"
+                alt=""
+              />
+            </a>
+            <a href="">
+              <img
+                src="~/assets/icons/instagram.svg"
+                class="mr-1 img-fluid"
+                alt=""
+              />
+            </a>
+
+            <a href="https://www.facebook.com/narendrakram/" target="_blank">
+              <img
+                src="~/assets/icons/facebook.svg"
+                class="mr-1 img-fluid"
+                alt=""
+              />
+            </a>
+            <a href="https://twitter.com/narendra__ram" target="_blank">
+              <img
+                src="~/assets/icons/twitter.svg"
+                class="mr-1 img-fluid"
+                alt=""
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/narendraram/" target="_blank">
+              <img
+                src="~/assets/icons/linkedin.svg"
+                class="mr-1 img-fluid"
+                alt=""
+              />
+            </a>
+          </div>
         </div>
         <div class="col-lg-6">
           <div class="form-group">
