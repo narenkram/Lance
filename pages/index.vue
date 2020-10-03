@@ -131,20 +131,20 @@
     <section id="about" class="pt-5">
       <div class="row">
         <div class="col-lg-6">
-          <h2 class="pt-1">About Me</h2>
-          <p class="Text_M Text_dark">
+          <h2 class="pt-1 mb-4">About Me</h2>
+          <p class="Text_M Text_dark mb-2">
             I started as a frontend developer in college, and later i co-founded
             Aroliant with a friend. As director and a developer, i learned a lot
             about managing a company, team, and projects.
           </p>
-          <p class="Text_M Text_dark">
+          <p class="Text_M Text_dark mb-2">
             And in two years, I found my passion for design. In 2020 for
             personal reasons, i became a freelancer. Now, I’m selling graphic
             designs on the web and working on freelance projects. I love helping
             small businesses to create their online presence and help setting up
             their own online store (e-commerce) to boost their business.
           </p>
-          <p class="Text_M Text_dark">
+          <p class="Text_M Text_dark mb-3">
             My design work ensures that it is developer-friendly as it passes
             through the lens of my experience as a frontend developer. When i
             design, i make sure it is 100% implementable by a frontend developer
@@ -155,7 +155,7 @@
               our perception of our world.
             </p> -->
           <p class="Text_M Text_dark">
-            <img src="~/assets/icons/heart.svg" alt="" />
+            <img src="~/assets/icons/heart.svg" class="mr-2" alt="" />
             I love
             <a
               class="Link_underline_paragraph"
@@ -209,18 +209,18 @@
     <section id="contact" class="pt-5">
       <div class="row">
         <div class="col-lg-6">
-          <h2>Just say hi.</h2>
+          <h2 class="mb-2">Just say hi.</h2>
           <p class="Text_dark mb-3 w-75">
             I am always open to discuss your project, improve your online
             presence or help with your UX/UI design challenges.
           </p>
 
-          <p class="Text_S">Email me at</p>
+          <p class="Text_S mb-1">Email me at</p>
           <p class="mb-3">
             <b class="Text_dark">hi@narendra.design</b>
           </p>
 
-          <p class="Text_S">Follow</p>
+          <p class="Text_S mb-1">Follow</p>
           <div class="d-flex flex-row flex-wrap">
             <a href="https://dribbble.com/narendraram" target="_blank">
               <img
@@ -262,7 +262,7 @@
         </div>
         <div class="col-lg-6">
           <form method="POST" action="https://formspree.io/hi@narendra.design">
-            <div class="form-group">
+            <div class="form-group mb-2">
               <input
                 type="text"
                 name="name"
@@ -270,7 +270,7 @@
                 placeholder="Your name*"
               />
             </div>
-            <div class="form-group">
+            <div class="form-group mb-2">
               <input
                 type="email"
                 name="_replyto"
@@ -278,7 +278,7 @@
                 placeholder="Your email*"
               />
             </div>
-            <div class="form-group">
+            <div class="form-group mb-2">
               <input
                 type="text"
                 name="website"
@@ -286,9 +286,9 @@
                 placeholder="Your website (if exists)"
               />
             </div>
-            <div class="form-group">
+            <div class="form-group mb-4">
               <textarea
-                class="form-control"
+                class="form-control textarea"
                 name="message"
                 placeholder="How can i help?*"
                 id=""

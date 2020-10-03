@@ -72,6 +72,8 @@ body {
 
 .container {
   padding: 0 !important;
+  // padding-left: $spacer*.25;
+  // padding-right: $spacer*.25;
 }
 
 h1 {
@@ -133,7 +135,7 @@ div {
   font-family: Hind-Medium;
   font-size: 14px;
   line-height: unset;
-  color: map-get($theme-colors, "gray3");
+  color: map-get($theme-colors, "gray2");
 }
 
 .Text_dark {
@@ -155,7 +157,7 @@ a:hover {
   font-size: 16px;
   line-height: unset;
   color: map-get($theme-colors, "gray2");
-  padding: 0!important;
+  padding: 0 !important;
 }
 
 .btn {
@@ -165,6 +167,7 @@ a:hover {
   padding-left: 19px;
   font-family: Spartan-SemiBold;
   font-size: 16px;
+  box-shadow: none !important;
 }
 
 .Logo {
@@ -195,6 +198,7 @@ input,
   box-shadow: none;
   font-family: Hind-Regular;
   font-size: 16px;
+  padding: 12px 20px;
 }
 
 .form-control:focus {
@@ -204,4 +208,8 @@ input,
 
 .Narendra_Ram {
   height: 468px;
+}
+
+.textarea{
+  max-height: 140px;
 }

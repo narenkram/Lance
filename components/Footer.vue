@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-light py-3 mt-3">
+  <footer class="bg-light py-3 mt-6">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="col-lg-6 text-right">
-          <p>
+          <p class="m-0">
             Designed using Figma <br />Hosted on <a href="#" class="Link_underline_footer">GitHub Pages</a>
           </p>
         </div>
