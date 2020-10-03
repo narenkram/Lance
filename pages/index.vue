@@ -11,7 +11,7 @@
           <a href="#mywork" class="btn btn-secondary">My Work</a>
           <a href="#contact" class="btn btn-primary ml-2">Let's Talk</a>
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-5 text-right">
           <img
             src="~/assets/images/narendra-designer.png"
             alt="narendraram"
@@ -174,7 +174,7 @@
         </div>
       </div>
       <div
-        class="row bg-light justify-content-around align-items-center py-2 mt-3"
+        class="row bg-gray5 justify-content-around align-items-center py-2 mt-3"
       >
         <div class="col-lg-3 align-self-center text-center">
           <h3 class="m-0">Certified with</h3>
