@@ -17,7 +17,7 @@
         </div>
         <div class="col-lg-6 text-right">
           <p>
-            Designed using Figma <br />Hosted on <a href="#">GitHub Pages</a>
+            Designed using Figma <br />Hosted on <a href="#" class="Link_underline_footer">GitHub Pages</a>
           </p>
         </div>
       </div>

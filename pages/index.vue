@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <section class="pt-4 pb-5">
+    <section class="pt-4 pb-1">
       <div class="row justify-content-center">
         <div class="col-lg-7 text-left align-self-center">
           <h3>Hi, I'm Narendra.</h3>
@@ -8,8 +8,8 @@
             I’m a freelance UX/UI Designer with a frontend background
             specializing in Design for Code.
           </h1>
-          <button class="btn btn-secondary">My Work</button>
-          <button class="btn btn-primary ml-1">Let's Talk</button>
+          <a href="#mywork" class="btn btn-secondary">My Work</a>
+          <a href="#contact" class="btn btn-primary ml-1">Let's Talk</a>
         </div>
         <div class="col-lg-5">
           <img
@@ -21,17 +21,17 @@
       </div>
     </section>
 
-    <section id="services" class="pt-2">
+    <section id="services" class="pt-5">
       <h2 class="mb-3">What I do</h2>
 
-      <div class="row pb-5">
+      <div class="row">
         <div class="col-lg-4">
           <img src="~/assets/images/mobile_web.svg" />
           <h4 class="my-1">Mobile & Web Design</h4>
           <p class="mb-2 Text_M">
-            Need help with designing your website? I can create beautiful
-            website designs based on your content, or redesign old websites to
-            improve your conversions or achieve your business goals.
+            Need a website or mobile app? I can create beautiful websites or
+            mobile apps based on your content, or redesign your old website to
+            improve user engagement or achieve your business goals.
           </p>
           <a href="#" class="Text_L">Contact</a>
         </div>
@@ -39,9 +39,9 @@
           <img src="~/assets/images/graphic_crown.svg" />
           <h4 class="my-1">Graphic Design</h4>
           <p class="mb-2 Text_M">
-            Need help with designing your website? I can create beautiful
-            website designs based on your content, or redesign old websites to
-            improve your conversions or achieve your business goals.
+            I just got started in graphic designing, drawing icons, characters,
+            abstracts, textures, etc. Need art for your project? I can create
+            beautiful illustrations based on your project requirements.
           </p>
           <a href="#" class="Text_L">Learn more</a>
         </div>
@@ -49,14 +49,16 @@
           <img src="~/assets/images/frontend.svg" />
           <h4 class="my-1">Frontend Development</h4>
           <p class="mb-2 Text_M">
-            Need help with designing your website? I can create beautiful
-            website designs based on your content, or redesign old websites to
-            improve your conversions or achieve your business goals.
+            Already have the design? I can create static websites such as
+            landing pages, company sites, and custom websites with minimal
+            javascript. Will deliver a well-documented code.
           </p>
           <a href="#" class="Text_L">Contact</a>
         </div>
       </div>
+    </section>
 
+    <section id="mywork" class="pt-5">
       <h2 class="mb-3">Latest Projects</h2>
       <div class="row">
         <div class="col-lg-6 pt-1">
@@ -122,14 +124,14 @@
       </div>
     </section>
 
-    <section id="about" class="py-5">
+    <section id="about" class="pt-5">
       <div class="row">
         <div class="col-lg-6">
           <h2 class="pt-1">About Me</h2>
           <p class="Text_M Text_dark">
-            I started as a front-end developer in college, and later i
-            co-founded Aroliant with a friend. As director and a developer, i
-            learned a lot about managing a company, team, and projects.
+            I started as a frontend developer in college, and later i co-founded
+            Aroliant with a friend. As director and a developer, i learned a lot
+            about managing a company, team, and projects.
           </p>
           <p class="Text_M Text_dark">
             And in two years, I found my passion for design. In 2020 for
@@ -140,17 +142,23 @@
           </p>
           <p class="Text_M Text_dark">
             My design work ensures that it is developer-friendly as it passes
-            through the lens of my experience as a front-end developer. When i
-            design, i give equal importance to user experience as much as the
-            aesthetically pleasing user interface to get the balanced output. So
-            it minimizes the problems to zero on implementation.
+            through the lens of my experience as a frontend developer. When i
+            design, i make sure it is 100% implementable by a frontend developer
+            without any difficulties. I call it “Design for Code.”
           </p>
           <!-- <p>
               I feel the design is the most crucial thing that completely shifts
               our perception of our world.
             </p> -->
           <p class="Text_M Text_dark">
-            I love good design, gaming, art, netflix, and gadgets.
+            <img src="~/assets/icons/heart.svg" alt="" />
+            I love
+            <a
+              class="Link_underline_paragraph"
+              href="https://www.vitsoe.com/eu/about/good-design"
+              target="_blank"
+              >good design</a
+            >, gaming, art, netflix, and gadgets.
           </p>
         </div>
         <div class="col-lg-6">
@@ -194,7 +202,7 @@
       </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="pt-5">
       <div class="row">
         <div class="col-lg-6">
           <h2>Just say hi.</h2>

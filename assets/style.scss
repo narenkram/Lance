@@ -161,6 +161,21 @@ a:hover {
   height: 60px;
 }
 
+.Link_underline_paragraph {
+  font-family: Hind-Regular;
+  font-size: 16px;
+  line-height: unset;
+  text-decoration: underline;
+}
+
+.Link_underline_footer {
+  font-family: Hind-Regular;
+  font-size: 16px;
+  line-height: unset;
+  text-decoration: underline;
+  color: map-get($theme-colors, "gray2");
+}
+
 input,
 .form-control {
   height: 52px;
