@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <nav class="navbar navbar-expand-md navbar-light bg-white px-lg-0 py-1">
-      <nuxt-link class="navbar-brand" to="/"
+    <nav class="navbar navbar-expand-md navbar-light bg-white mt-1 p-0">
+      <nuxt-link class="navbar-brand p-0" to="/"
         ><img
           src="~/assets/images/logo.svg"
           class="Logo"
@@ -23,13 +23,13 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link ml-2" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/pricing">Pricing</nuxt-link>
+            <nuxt-link class="nav-link ml-2" to="/pricing">Pricing</nuxt-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link ml-2" href="#contact">Contact</a>
           </li>
         </ul>
       </div>

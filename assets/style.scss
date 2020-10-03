@@ -36,7 +36,6 @@ $theme-colors: ("primary": #FF6666,
   "gray4":#DEDEDE,
 );
 
-$spacer: 1rem;
 $enable-rounded: true;
 $enable-shadows: true;
 $enable-gradients: false;
@@ -45,14 +44,21 @@ $enable-prefers-reduced-motion-media-query: true;
 $enable-responsive-font-sizes: true;
 $enable-validation-icons: true;
 $enable-deprecation-messages: true;
-$spacer: 4.2rem;
+$spacer: 53.33px;
 
-// $container-max-widths: (
-//   sm: 540px,
-//   md: 720px,
-//   lg: 960px,
-//   xl: 1140px
-// );
+$container-max-widths: (sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px);
+
+$spacers: (0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 3.5),
+  7: ($spacer * 4));
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -62,6 +68,10 @@ html,
 body {
   scroll-behavior: smooth;
   color: map-get($theme-colors, "gray1");
+}
+
+.container {
+  padding: 0 !important;
 }
 
 h1 {
@@ -143,14 +153,14 @@ a:hover {
 .nav-link {
   font-family: Spartan-SemiBold;
   font-size: 16px;
-  line-height: 22px;
+  line-height: unset;
   color: map-get($theme-colors, "gray2");
-  margin-left: 30px;
+  padding: 0!important;
 }
 
 .btn {
-  padding-top: 9.5px;
-  padding-bottom: 9.5px;
+  padding-top: 11px;
+  padding-bottom: 11px;
   padding-right: 19px;
   padding-left: 19px;
   font-family: Spartan-SemiBold;
@@ -190,4 +200,8 @@ input,
 .form-control:focus {
   box-shadow: none;
   border: 1px solid map-get($theme-colors, "gray1");
+}
+
+.Narendra_Ram {
+  height: 468px;
 }

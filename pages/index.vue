@@ -1,33 +1,33 @@
 <template>
   <div class="container">
-    <section class="pt-4 pb-1">
+    <section class="pt-5">
       <div class="row justify-content-center">
         <div class="col-lg-7 text-left align-self-center">
-          <h3>Hi, I'm Narendra.</h3>
-          <h1>
+          <h3 class="mb-2">Hi, I'm Narendra.</h3>
+          <h1 class="mb-3">
             I’m a freelance UX/UI Designer with a frontend background
             specializing in Design for Code.
           </h1>
           <a href="#mywork" class="btn btn-secondary">My Work</a>
-          <a href="#contact" class="btn btn-primary ml-1">Let's Talk</a>
+          <a href="#contact" class="btn btn-primary ml-2">Let's Talk</a>
         </div>
         <div class="col-lg-5">
           <img
             src="~/assets/images/narendra-designer.png"
             alt="narendraram"
-            class="img-fluid"
+            class="img-fluid Narendra_Ram"
           />
         </div>
       </div>
     </section>
 
-    <section id="services" class="pt-5">
-      <h2 class="mb-3">What I do</h2>
+    <section id="services" class="pt-6">
+      <h2 class="mb-4">What I do</h2>
 
       <div class="row">
         <div class="col-lg-4">
-          <img src="~/assets/images/mobile_web.svg" />
-          <h4 class="my-1">Mobile & Web Design</h4>
+          <img class="mb-2" src="~/assets/images/mobile_web.svg" />
+          <h4 class="mb-2">Mobile & Web Design</h4>
           <p class="mb-2 Text_M">
             Need a website or mobile app? I can create beautiful websites or
             mobile apps based on your content, or redesign your old website to
@@ -36,8 +36,8 @@
           <a href="#" class="Text_L">Contact</a>
         </div>
         <div class="col-lg-4">
-          <img src="~/assets/images/graphic_crown.svg" />
-          <h4 class="my-1">Graphic Design</h4>
+          <img class="mb-2" src="~/assets/images/graphic_crown.svg" />
+          <h4 class="mb-2">Graphic Design</h4>
           <p class="mb-2 Text_M">
             I just got started in graphic designing, drawing icons, characters,
             abstracts, textures, etc. Need art for your project? I can create
@@ -46,8 +46,8 @@
           <a href="#" class="Text_L">Learn more</a>
         </div>
         <div class="col-lg-4">
-          <img src="~/assets/images/frontend.svg" />
-          <h4 class="my-1">Frontend Development</h4>
+          <img class="mb-2" src="~/assets/images/frontend.svg" />
+          <h4 class="mb-2">Frontend Development</h4>
           <p class="mb-2 Text_M">
             Already have the design? I can create static websites such as
             landing pages, company sites, and custom websites with minimal
@@ -59,12 +59,14 @@
     </section>
 
     <section id="mywork" class="pt-5">
-      <h2 class="mb-3">Latest Projects</h2>
-      <div class="row">
-        <div class="col-lg-6 pt-1">
-          <h3>App Design for footwear e-commerce, GTrendz Online</h3>
-          <p class="Text_S">Mobile App Design</p>
-          <p class="Text_M">
+      <h2 class="mb-4">Latest Projects</h2>
+      <div class="row mb-4">
+        <div class="col-lg-6">
+          <h3 class="py-1 m-0">
+            App Design for footwear e-commerce, GTrendz Online
+          </h3>
+          <p class="Text_S mb-2">Mobile App Design</p>
+          <p class="Text_M mb-3">
             This was a fully custom website that I designed from scratch in
             Figma, and then built in Webflow. The aim was to have a friendly,
             yet professional vibe. The site is very fast—with a Google Pagespeed
@@ -77,10 +79,12 @@
         </div>
       </div>
       <div class="row mt-3">
-        <div class="col-lg-6 pt-1">
-          <h3>App Design for footwear e-commerce, GTrendz Online</h3>
-          <p class="Text_S">Mobile App Design</p>
-          <p class="Text_M">
+        <div class="col-lg-6">
+          <h3 class="py-1 m-0">
+            App Design for footwear e-commerce, GTrendz Online
+          </h3>
+          <p class="Text_S mb-2">Mobile App Design</p>
+          <p class="Text_M mb-3">
             This was a fully custom website that I designed from scratch in
             Figma, and then built in Webflow. The aim was to have a friendly,
             yet professional vibe. The site is very fast—with a Google Pagespeed
@@ -95,8 +99,8 @@
     </section>
 
     <section class="pt-5">
-      <h2 class="mb-3">Recent Dribbble shots</h2>
-      <div class="row mb-3">
+      <h2 class="mb-4">Recent Dribbble shots</h2>
+      <div class="row mb-4">
         <div class="col-lg-4">
           <img
             src="https://via.placeholder.com/400x300"
@@ -120,7 +124,7 @@
         </div>
       </div>
       <div class="w-100 text-center">
-        <button class="btn btn-outline-primary">Visit My Dribble</button>
+        <button class="btn btn-outline-primary">Visit My Dribbble</button>
       </div>
     </section>
 
@@ -257,34 +261,49 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Your name*" />
-          </div>
-          <div class="form-group">
-            <input
-              type="email"
-              class="form-control"
-              placeholder="Your email*"
-            />
-          </div>
-          <div class="form-group">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Your website (if exists)"
-            />
-          </div>
-          <div class="form-group">
-            <textarea
-              class="form-control"
-              name=""
-              placeholder="How can i help?*"
-              id=""
-              cols="30"
-              rows="10"
-            ></textarea>
-          </div>
-          <button class="btn btn-primary float-right">Get in Touch</button>
+          <form method="POST" action="https://formspree.io/hi@narendra.design">
+            <div class="form-group">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="Your name*"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="_replyto"
+                class="form-control"
+                placeholder="Your email*"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="website"
+                class="form-control"
+                placeholder="Your website (if exists)"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                name="message"
+                placeholder="How can i help?*"
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <button
+              class="btn btn-primary float-right"
+              type="submit"
+              value="send"
+            >
+              Get in Touch
+            </button>
+          </form>
         </div>
       </div>
     </section>
