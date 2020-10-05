@@ -1,3 +1,6 @@
+// This website is configured with Bootstrap SCSS 
+// Imports and Variables ***********************************************
+
 @font-face {
   font-family: Spartan-Light;
   src: url("./fonts/Spartan/Spartan-Light.ttf");
@@ -64,153 +67,157 @@ $spacers: (0: 0,
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// Global
+// Imports and Variables ***********************************************
+
+
+// Global Style ***********************************************
+
 html,
 body {
   scroll-behavior: smooth;
   color: map-get($theme-colors, "gray1");
+  background-color: #ffffff;
 }
 
-.container {
-  padding: 0 !important;
-  // padding-left: $spacer*.25;
-  // padding-right: $spacer*.25;
+// Global Style ***********************************************
+
+
+// Desktop Style ***********************************************
+
+@include media-breakpoint-up(lg) {
+
+  .container {
+    padding: 0 !important;
+  }
+
+  h1 {
+    font-family: Spartan-SemiBold;
+    font-size: 36px;
+    line-height: 54px;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  h2 {
+    font-family: Spartan-Bold;
+    font-size: 32px;
+    line-height: unset;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  h3 {
+    font-family: Spartan-SemiBold;
+    font-size: 24px;
+    line-height: 36px;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  h4 {
+    font-family: Spartan-SemiBold;
+    font-size: 20px;
+    line-height: unset;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  p,
+  label,
+  sub,
+  div {
+    font-family: Hind-Regular;
+    font-size: 16px;
+    color: map-get($theme-colors, "gray2");
+  }
+
+  .Text_L {
+    font-family: Spartan-SemiBold;
+    font-size: 18px;
+    line-height: unset;
+  }
+
+  .Text_M {
+    font-family: Hind-Regular;
+    font-size: 16px;
+    line-height: unset;
+  }
+
+  .Text_S {
+    font-family: Hind-Medium;
+    font-size: 14px;
+    line-height: unset;
+    color: map-get($theme-colors, "gray2");
+  }
+
+  .Text_dark {
+    color: map-get($theme-colors, "gray1");
+  }
+
+  a {
+    font-family: Spartan-SemiBold;
+    font-size: 16px;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .nav-link {
+    font-family: Spartan-SemiBold;
+    font-size: 16px;
+    line-height: unset;
+    color: map-get($theme-colors, "gray2");
+    padding: 0 !important;
+  }
+
+  .btn {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 19px;
+    padding-left: 19px;
+    font-family: Spartan-SemiBold;
+    font-size: 16px;
+    box-shadow: none !important;
+  }
+
+  .Logo {
+    height: 60px;
+  }
+
+  .Link_underline_paragraph {
+    font-family: Hind-Regular;
+    font-size: 16px;
+    line-height: unset;
+    text-decoration: underline;
+  }
+
+  .Link_underline_footer {
+    font-family: Hind-Regular;
+    font-size: 16px;
+    line-height: unset;
+    text-decoration: underline;
+    color: map-get($theme-colors, "gray2");
+  }
+
+  input,
+  .form-control {
+    height: 52px;
+    border: 1px solid map-get($theme-colors, "gray4");
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: none;
+    font-family: Hind-Regular;
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    border: 1px solid map-get($theme-colors, "gray1");
+  }
+
+  .textarea {
+    max-height: 140px;
+  }
+
 }
 
-h1 {
-  font-family: Spartan-SemiBold;
-  font-size: 36px;
-  line-height: 54px;
-  color: map-get($theme-colors, "gray1");
-}
-
-h2 {
-  font-family: Spartan-Bold;
-  font-size: 32px;
-  line-height: unset;
-  color: map-get($theme-colors, "gray1");
-}
-
-h3 {
-  font-family: Spartan-SemiBold;
-  font-size: 24px;
-  line-height: 36px;
-  color: map-get($theme-colors, "gray1");
-}
-
-h4 {
-  font-family: Spartan-SemiBold;
-  font-size: 20px;
-  line-height: unset;
-  color: map-get($theme-colors, "gray1");
-}
-
-p,
-label,
-sub,
-div {
-  font-family: Hind-Regular;
-  font-size: 16px;
-  color: map-get($theme-colors, "gray2");
-}
-
-// Global
-
-// section {
-//   padding-top: 160px;
-//   padding-bottom: 160px;
-// }
-.Text_L {
-  font-family: Spartan-SemiBold;
-  font-size: 18px;
-  line-height: unset;
-}
-
-.Text_M {
-  font-family: Hind-Regular;
-  font-size: 16px;
-  line-height: unset;
-}
-
-.Text_S {
-  font-family: Hind-Medium;
-  font-size: 14px;
-  line-height: unset;
-  color: map-get($theme-colors, "gray2");
-}
-
-.Text_dark {
-  color: map-get($theme-colors, "gray1");
-}
-
-a {
-  font-family: Spartan-SemiBold;
-  font-size: 16px;
-  color: map-get($theme-colors, "gray1");
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-.nav-link {
-  font-family: Spartan-SemiBold;
-  font-size: 16px;
-  line-height: unset;
-  color: map-get($theme-colors, "gray2");
-  padding: 0 !important;
-}
-
-.btn {
-  padding-top: 11px;
-  padding-bottom: 11px;
-  padding-right: 19px;
-  padding-left: 19px;
-  font-family: Spartan-SemiBold;
-  font-size: 16px;
-  box-shadow: none !important;
-}
-
-.Logo {
-  height: 60px;
-}
-
-.Link_underline_paragraph {
-  font-family: Hind-Regular;
-  font-size: 16px;
-  line-height: unset;
-  text-decoration: underline;
-}
-
-.Link_underline_footer {
-  font-family: Hind-Regular;
-  font-size: 16px;
-  line-height: unset;
-  text-decoration: underline;
-  color: map-get($theme-colors, "gray2");
-}
-
-input,
-.form-control {
-  height: 52px;
-  border: 1px solid map-get($theme-colors, "gray4");
-  box-sizing: border-box;
-  border-radius: 4px;
-  box-shadow: none;
-  font-family: Hind-Regular;
-  font-size: 16px;
-  padding: 12px 20px;
-}
-
-.form-control:focus {
-  box-shadow: none;
-  border: 1px solid map-get($theme-colors, "gray1");
-}
-
-.Narendra_Ram {
-  height: 468px;
-}
-
-.textarea{
-  max-height: 140px;
-}
+// Desktop Style ***********************************************

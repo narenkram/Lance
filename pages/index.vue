@@ -2,7 +2,7 @@
   <div class="container">
     <section class="pt-5">
       <div class="row justify-content-center">
-        <div class="col-lg-7 text-left align-self-center">
+        <div class="col-12 col-md-7 col-lg-7 text-left align-self-center">
           <h3 class="mb-2">Hi, I'm Narendra.</h3>
           <h1 class="mb-3">
             I’m a freelance UX/UI Designer with a frontend background
@@ -11,7 +11,7 @@
           <a href="#mywork" class="btn btn-secondary">My Work</a>
           <a href="#contact" class="btn btn-primary ml-2">Let's Talk</a>
         </div>
-        <div class="col-lg-5 text-right">
+        <div class="col-12 col-md-5 col-lg-5 text-right">
           <img
             src="~/assets/images/narendra-designer.png"
             alt="narendraram"
