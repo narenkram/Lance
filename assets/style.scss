@@ -294,7 +294,7 @@ a:hover {
   }
 
   .Logo {
-    height: 60px;
+    height: 50px;
   }
 
   .Link_underline_paragraph {
@@ -342,7 +342,8 @@ a:hover {
 @include media-breakpoint-down(sm) {
 
   .container {
-    padding: 0 !important;
+    padding-left: $spacer*.25!important;
+    padding-right: $spacer*.25!important;
   }
 
   h1 {
@@ -412,7 +413,7 @@ a:hover {
   }
 
   .Logo {
-    height: 60px;
+    height: 30px;
   }
 
   .Link_underline_paragraph {

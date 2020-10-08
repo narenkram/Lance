@@ -8,7 +8,7 @@
           alt="narendraram designer"
       /></nuxt-link>
       <button
-        class="navbar-toggler d-lg-none"
+        class="navbar-toggler d-lg-none border-0 p-0"
         type="button"
         data-toggle="collapse"
         data-target="#collapsibleNavId"
@@ -16,6 +16,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
+        <img src="~/assets/icons/menu.svg" alt="" />
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
