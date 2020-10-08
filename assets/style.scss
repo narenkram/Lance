@@ -79,12 +79,30 @@ body {
   background-color: #ffffff;
 }
 
+a {
+  color: map-get($theme-colors, "gray1");
+  font-family: Spartan-SemiBold;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: map-get($theme-colors, "gray2");
+}
+
+.btn {
+  font-family: Spartan-SemiBold;
+  box-shadow: none !important;
+}
+
 // Global Style ***********************************************
 
 
 // Desktop Style ***********************************************
 
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-down(xl) {
 
   .container {
     padding: 0 !important;
@@ -118,15 +136,6 @@ body {
     color: map-get($theme-colors, "gray1");
   }
 
-  p,
-  label,
-  sub,
-  div {
-    font-family: Hind-Regular;
-    font-size: 16px;
-    color: map-get($theme-colors, "gray2");
-  }
-
   .Text_L {
     font-family: Spartan-SemiBold;
     font-size: 18px;
@@ -150,21 +159,10 @@ body {
     color: map-get($theme-colors, "gray1");
   }
 
-  a {
-    font-family: Spartan-SemiBold;
-    font-size: 16px;
-    color: map-get($theme-colors, "gray1");
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
-
   .nav-link {
     font-family: Spartan-SemiBold;
     font-size: 16px;
     line-height: unset;
-    color: map-get($theme-colors, "gray2");
     padding: 0 !important;
   }
 
@@ -173,9 +171,7 @@ body {
     padding-bottom: 11px;
     padding-right: 19px;
     padding-left: 19px;
-    font-family: Spartan-SemiBold;
     font-size: 16px;
-    box-shadow: none !important;
   }
 
   .Logo {
@@ -221,3 +217,240 @@ body {
 }
 
 // Desktop Style ***********************************************
+
+
+// Tablet Style ***********************************************
+
+@include media-breakpoint-down(md) {
+
+  .container {
+    padding: 0 !important;
+  }
+
+  h1 {
+    font-family: Spartan-SemiBold;
+    font-size: 24px;
+    line-height: 36px;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  h2 {
+    font-family: Spartan-Bold;
+    font-size: 22px;
+    line-height: unset;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  h3 {
+    font-family: Spartan-SemiBold;
+    font-size: 18px;
+    line-height: 26px;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  h4 {
+    font-family: Spartan-SemiBold;
+    font-size: 16px;
+    line-height: unset;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  .Text_L {
+    font-family: Spartan-SemiBold;
+    font-size: 14px;
+    line-height: unset;
+  }
+
+  .Text_M {
+    font-family: Hind-Regular;
+    font-size: 14px;
+    line-height: unset;
+  }
+
+  .Text_S {
+    font-family: Hind-Medium;
+    font-size: 12px;
+    line-height: unset;
+    color: map-get($theme-colors, "gray2");
+  }
+
+  .Text_dark {
+    color: map-get($theme-colors, "gray1");
+  }
+
+  .nav-link {
+    font-family: Spartan-SemiBold;
+    font-size: 14px;
+    line-height: unset;
+    padding: 0 !important;
+  }
+
+  .btn {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 19px;
+    padding-left: 19px;
+    font-size: 16px;
+  }
+
+  .Logo {
+    height: 60px;
+  }
+
+  .Link_underline_paragraph {
+    font-family: Hind-Regular;
+    font-size: 16px;
+    line-height: unset;
+    text-decoration: underline;
+  }
+
+  .Link_underline_footer {
+    font-family: Hind-Regular;
+    font-size: 16px;
+    line-height: unset;
+    text-decoration: underline;
+    color: map-get($theme-colors, "gray2");
+  }
+
+  input,
+  .form-control {
+    height: 52px;
+    border: 1px solid map-get($theme-colors, "gray4");
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: none;
+    font-family: Hind-Regular;
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    border: 1px solid map-get($theme-colors, "gray1");
+  }
+
+  .textarea {
+    max-height: 140px;
+  }
+
+}
+
+// Tablet Style ***********************************************
+
+// Mobile Style ***********************************************
+
+@include media-breakpoint-down(sm) {
+
+  .container {
+    padding: 0 !important;
+  }
+
+  h1 {
+    font-family: Spartan-SemiBold;
+    font-size: 20px;
+    line-height: 36px;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  h2 {
+    font-family: Spartan-Bold;
+    font-size: 18px;
+    line-height: unset;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  h3 {
+    font-family: Spartan-SemiBold;
+    font-size: 16px;
+    line-height: 26px;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  h4 {
+    font-family: Spartan-SemiBold;
+    font-size: 14px;
+    line-height: unset;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  .Text_L {
+    font-family: Spartan-SemiBold;
+    font-size: 12px;
+    line-height: unset;
+  }
+
+  .Text_M {
+    font-family: Hind-Regular;
+    font-size: 12px;
+    line-height: unset;
+  }
+
+  .Text_S {
+    font-family: Hind-Medium;
+    font-size: 10px;
+    line-height: unset;
+    color: map-get($theme-colors, "gray2");
+  }
+
+  .Text_dark {
+    color: map-get($theme-colors, "gray1");
+  }
+
+  .nav-link {
+    font-family: Spartan-SemiBold;
+    font-size: 12px;
+    line-height: unset;
+    padding: 0 !important;
+  }
+
+  .btn {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 19px;
+    padding-left: 19px;
+    font-size: 16px;
+  }
+
+  .Logo {
+    height: 60px;
+  }
+
+  .Link_underline_paragraph {
+    font-family: Hind-Regular;
+    font-size: 16px;
+    line-height: unset;
+    text-decoration: underline;
+  }
+
+  .Link_underline_footer {
+    font-family: Hind-Regular;
+    font-size: 16px;
+    line-height: unset;
+    text-decoration: underline;
+    color: map-get($theme-colors, "gray2");
+  }
+
+  input,
+  .form-control {
+    height: 52px;
+    border: 1px solid map-get($theme-colors, "gray4");
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: none;
+    font-family: Hind-Regular;
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    border: 1px solid map-get($theme-colors, "gray1");
+  }
+
+  .textarea {
+    max-height: 140px;
+  }
+
+}
+
+// Mobile Style ***********************************************
