@@ -63,37 +63,37 @@
       <div class="row mb-4">
         <div class="col-lg-6">
           <h3 class="py-1 m-0">
-            App Design for footwear e-commerce, GTrendz Online
+            Website design for machine learning of synthetic dataset
           </h3>
-          <p class="Text_S mb-2">Mobile App Design</p>
+          <p class="Text_S mb-2">Web App Design</p>
           <p class="Text_M mb-3">
-            This was a fully custom website that I designed from scratch in
-            Figma, and then built in Webflow. The aim was to have a friendly,
-            yet professional vibe. The site is very fast—with a Google Pagespeed
-            score of 99 for desktop and 92 for mobile.
+            It’s a website to create, compare, analyze synthetic data with the
+            use of machine learning. I worked on creating a traditional web
+            design and redefining the workflow of the site. It went through two
+            design iterations before the final prototype.
           </p>
-          <a href="#" class="Text_L">Visit project.online</a>
+          <a href="#" class="Text_L">Visit ml.syntheticus.ai</a>
         </div>
         <div class="col-lg-6">
-          <img src="https://via.placeholder.com/700x500" class="img-fluid" />
+          <img src="~/assets/images/1.png" class="img-fluid Project" />
         </div>
       </div>
       <div class="row mt-3">
         <div class="col-lg-6">
           <h3 class="py-1 m-0">
-            App Design for footwear e-commerce, GTrendz Online
+            X-Cards App, A dark mode design of flashcard learning
           </h3>
           <p class="Text_S mb-2">Mobile App Design</p>
           <p class="Text_M mb-3">
-            This was a fully custom website that I designed from scratch in
-            Figma, and then built in Webflow. The aim was to have a friendly,
-            yet professional vibe. The site is very fast—with a Google Pagespeed
-            score of 99 for desktop and 92 for mobile.
+            A learning card app designed from scratch, similar to the agile
+            coaching cards app. The emphasis was to deliver a professional’s
+            knowledge and experience through categorized flashcards. Helping
+            users to advance their expertise in the job.
           </p>
-          <a href="#" class="Text_L">Visit project.online</a>
+          <a href="#" class="Text_L">Visit coachingcards.app</a>
         </div>
         <div class="col-lg-6">
-          <img src="https://via.placeholder.com/700x500" class="img-fluid" />
+          <img src="~/assets/images/2.png" class="img-fluid Project" />
         </div>
       </div>
     </section>

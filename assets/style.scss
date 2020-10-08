@@ -114,6 +114,23 @@ a:hover {
   color: map-get($theme-colors, "gray2");
 }
 
+.Link_underline_paragraph {
+  font-family: Hind-Regular;
+  text-decoration: underline;
+}
+
+.Project {
+  box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.img-fluid {
+  border-radius: 8px;
+}
+
+p {
+  color: map-get($theme-colors, "gray2");
+}
+
 // Global Style ***********************************************
 
 
@@ -333,7 +350,7 @@ a:hover {
   }
 
   .textarea {
-    max-height: 140px;
+    max-height: 100px;
   }
 
 }
@@ -445,7 +462,7 @@ a:hover {
   }
 
   .textarea {
-    max-height: 140px;
+    max-height: 90px;
   }
 
 }
