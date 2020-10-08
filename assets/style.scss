@@ -97,6 +97,23 @@ a:hover {
   box-shadow: none !important;
 }
 
+* {
+  outline: 0 !important;
+}
+
+.Footer_paragraph {
+  font-family: Hind-Regular;
+  line-height: unset;
+  color: map-get($theme-colors, "gray2");
+}
+
+.Link_underline_footer {
+  font-family: Hind-Regular;
+  line-height: unset;
+  text-decoration: underline;
+  color: map-get($theme-colors, "gray2");
+}
+
 // Global Style ***********************************************
 
 
@@ -178,19 +195,12 @@ a:hover {
     height: 60px;
   }
 
-  .Link_underline_paragraph {
-    font-family: Hind-Regular;
-    font-size: 16px;
-    line-height: unset;
-    text-decoration: underline;
+  .Footer_paragraph {
+    font-size: 18px;
   }
 
   .Link_underline_footer {
-    font-family: Hind-Regular;
-    font-size: 16px;
-    line-height: unset;
-    text-decoration: underline;
-    color: map-get($theme-colors, "gray2");
+    font-size: 18px;
   }
 
   input,
@@ -297,19 +307,12 @@ a:hover {
     height: 50px;
   }
 
-  .Link_underline_paragraph {
-    font-family: Hind-Regular;
-    font-size: 16px;
-    line-height: unset;
-    text-decoration: underline;
+  .Footer_paragraph {
+    font-size: 14px;
   }
 
   .Link_underline_footer {
-    font-family: Hind-Regular;
-    font-size: 16px;
-    line-height: unset;
-    text-decoration: underline;
-    color: map-get($theme-colors, "gray2");
+    font-size: 14px;
   }
 
   input,
@@ -342,8 +345,8 @@ a:hover {
 @include media-breakpoint-down(sm) {
 
   .container {
-    padding-left: $spacer*.25!important;
-    padding-right: $spacer*.25!important;
+    padding-left: $spacer*.25 !important;
+    padding-right: $spacer*.25 !important;
   }
 
   h1 {
@@ -416,19 +419,12 @@ a:hover {
     height: 30px;
   }
 
-  .Link_underline_paragraph {
-    font-family: Hind-Regular;
-    font-size: 16px;
-    line-height: unset;
-    text-decoration: underline;
+  .Footer_paragraph {
+    font-size: 10px;
   }
 
   .Link_underline_footer {
-    font-family: Hind-Regular;
-    font-size: 16px;
-    line-height: unset;
-    text-decoration: underline;
-    color: map-get($theme-colors, "gray2");
+    font-size: 10px;
   }
 
   input,

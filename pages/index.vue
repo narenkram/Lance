@@ -25,7 +25,7 @@
       <h2 class="mb-4">What I do</h2>
 
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <img class="mb-2" src="~/assets/images/mobile_web.svg" />
           <h4 class="mb-2">Mobile & Web Design</h4>
           <p class="mb-2 Text_M">
@@ -35,7 +35,7 @@
           </p>
           <a href="#" class="Text_L">Contact</a>
         </div>
-        <div class="col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <img class="mb-2" src="~/assets/images/graphic_crown.svg" />
           <h4 class="mb-2">Graphic Design</h4>
           <p class="mb-2 Text_M">
@@ -45,7 +45,7 @@
           </p>
           <a href="#" class="Text_L">Learn more</a>
         </div>
-        <div class="col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <img class="mb-2" src="~/assets/images/frontend.svg" />
           <h4 class="mb-2">Frontend Development</h4>
           <p class="mb-2 Text_M">
