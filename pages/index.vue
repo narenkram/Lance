@@ -75,7 +75,7 @@
           <a href="#" class="Text_L">Visit ml.syntheticus.ai</a>
         </div>
         <div class="col-lg-6">
-          <img src="~/assets/images/1.png" class="img-fluid Project" />
+          <img src="~/assets/images/1.png" class="img-fluid shadow" />
         </div>
       </div>
       <div class="row mt-3">
@@ -93,7 +93,7 @@
           <a href="#" class="Text_L">Visit coachingcards.app</a>
         </div>
         <div class="col-lg-6">
-          <img src="~/assets/images/2.png" class="img-fluid Project" />
+          <img src="~/assets/images/2.png" class="img-fluid shadow" />
         </div>
       </div>
     </section>
@@ -101,24 +101,24 @@
     <section class="pt-5">
       <h2 class="mb-4">Recent Dribbble shots</h2>
       <div class="row mb-4">
-        <div class="col-lg-4">
+        <div class="col-12 col-md-4 col-lg-4 pb-2 pb-md-0 pb-lg-0">
           <img
             src="https://via.placeholder.com/400x300"
-            class="img-fluid"
+            class="img-fluid shadow"
             alt=""
           />
         </div>
-        <div class="col-lg-4">
+        <div class="col-12 col-md-4 col-lg-4 pb-2 pb-md-0 pb-lg-0">
           <img
             src="https://via.placeholder.com/400x300"
-            class="img-fluid"
+            class="img-fluid shadow"
             alt=""
           />
         </div>
-        <div class="col-lg-4">
+        <div class="col-12 col-md-4 col-lg-4 pb-2 pb-md-0 pb-lg-0">
           <img
             src="https://via.placeholder.com/400x300"
-            class="img-fluid"
+            class="img-fluid shadow"
             alt=""
           />
         </div>
