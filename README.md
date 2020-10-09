@@ -1,6 +1,15 @@
-# nkr-website
+# Narendra Ram
+Hi, I'm Narendra. I’m a freelance UX/UI Designer with a frontend background specializing in Design for Code.
 
-> Official website of Narendra Ram
+## Figma Design
+* Prototype Link: 
+* Design File:
+* Style Guide:
+
+## Frontend Development
+
+* Bootstrap with SCSS
+* Jquery
 
 ## Build Setup
 
