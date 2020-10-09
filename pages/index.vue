@@ -40,7 +40,7 @@
             mobile apps based on your content, or redesign your old website to
             improve user engagement or achieve your business goals.
           </p>
-          <a href="#" class="Text_L">Contact</a>
+          <a href="#contact" class="Text_L">Contact</a>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-3 mb-md-0 mb-lg-0">
           <img
@@ -53,7 +53,7 @@
             abstracts, textures, etc. Need art for your project? I can create
             beautiful illustrations based on your project requirements.
           </p>
-          <a href="#" class="Text_L">Learn more</a>
+          <a href="#contact" class="Text_L">Learn more</a>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mt-0 mt-md-3 mt-lg-0">
           <img
@@ -66,7 +66,7 @@
             landing pages, company sites, and custom websites with minimal
             javascript. Will deliver a well-documented code.
           </p>
-          <a href="#" class="Text_L">Contact</a>
+          <a href="#contact" class="Text_L">Contact</a>
         </div>
       </div>
     </section>
