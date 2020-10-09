@@ -3,11 +3,11 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-7 col-lg-7">
-          <div class="row">
-            <div class="col-auto">
-              <img src="~/assets/images/logo.svg" class="Logo" alt="narendraram designer" />
+          <div class="row text-center text-md-left text-lg-left">
+            <div class="col-12 col-md-auto">
+              <img src="~/assets/images/logo.svg" class="Logo mb-1 mb-md-0 mb-lg-0" alt="narendraram designer" />
             </div>
-            <div class="col-auto align-self-center">
+            <div class="col-12 col-md-auto align-self-center">
               <p class="m-0 Footer_paragraph">
                 Narendra Ram <br />
                 Freelance UX/UI Designer & Graphic Designer
