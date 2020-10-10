@@ -179,33 +179,25 @@
         </div>
       </div>
       <div
-        class="row bg-gray5 justify-content-around align-items-center py-1 py-md-1 py-lg-2 mt-3 mt-md-3 mt-lg-3"
+        class="row bg-gray5 justify-content-around align-items-center py-1 py-md-2 py-lg-2 mt-3 mt-md-3 mt-lg-3"
       >
         <div class="col-lg-3 align-self-center text-center">
           <h3 class="m-0">Certified with</h3>
         </div>
-        <div class="col-lg-9">
-          <div class="row justify-content-around">
-            <div class="col-auto">
-              <a href="https://confirm.udacity.com/JQPS6SC6" target="_blank">
-                <img src="~/assets/images/udacity.svg" alt="" />
-              </a>
-            </div>
-            <div class="col-auto">
-              <a href="#">
-                <img src="~/assets/images/google.svg" alt="" />
-              </a>
-            </div>
-            <div class="col-auto">
-              <a href="#">
-                <img src="~/assets/images/sololearn.svg" alt="" />
-              </a>
-            </div>
-            <div class="col-auto">
-              <a href="#">
-                <img src="~/assets/images/adobe.svg" alt="" />
-              </a>
-            </div>
+        <div class="col-lg-9 mt-1 mt-md-1 mt-lg-0">
+          <div class="d-flex flex-row flex-wrap justify-content-around">
+            <a href="https://confirm.udacity.com/JQPS6SC6" target="_blank">
+              <img src="~/assets/images/udacity.svg" class="img-fluid p-1 p-md-0" />
+            </a>
+            <a href="#">
+              <img src="~/assets/images/google.svg" class="img-fluid p-1 p-md-0" />
+            </a>
+            <a href="#">
+              <img src="~/assets/images/sololearn.svg" class="img-fluid p-1 p-md-0" />
+            </a>
+            <a href="#">
+              <img src="~/assets/images/adobe.svg" class="img-fluid p-1 p-md-0" />
+            </a>
           </div>
         </div>
       </div>
