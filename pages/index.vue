@@ -191,25 +191,25 @@
             <a href="https://confirm.udacity.com/JQPS6SC6" target="_blank">
               <img
                 src="~/assets/images/udacity.svg"
-                class="img-fluid p-1 p-md-0"
+                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
               />
             </a>
             <a href="#">
               <img
                 src="~/assets/images/google.svg"
-                class="img-fluid p-1 p-md-0"
+                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
               />
             </a>
             <a href="#">
               <img
                 src="~/assets/images/sololearn.svg"
-                class="img-fluid p-1 p-md-0"
+                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
               />
             </a>
             <a href="#">
               <img
                 src="~/assets/images/adobe.svg"
-                class="img-fluid p-1 p-md-0"
+                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
               />
             </a>
           </div>
