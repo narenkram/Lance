@@ -155,20 +155,22 @@
               I feel the design is the most crucial thing that completely shifts
               our perception of our world.
             </p> -->
-          <p class="Text_M Text_dark">
+          <div class="d-flex flex-row align-items-start">
             <img
               src="~/assets/icons/heart.svg"
               class="mr-1 mr-md-2 mr-lg-2"
               alt=""
             />
-            I love
-            <a
-              class="Link_underline_paragraph"
-              href="https://www.vitsoe.com/eu/about/good-design"
-              target="_blank"
-              >good design</a
-            >, gaming, art, netflix, and gadgets.
-          </p>
+            <p class="Text_M Text_dark">
+              I love
+              <a
+                class="Link_underline_paragraph"
+                href="https://www.vitsoe.com/eu/about/good-design"
+                target="_blank"
+                >good design</a
+              >, gaming, art, netflix, and gadgets.
+            </p>
+          </div>
         </div>
         <div class="col-lg-6">
           <img
