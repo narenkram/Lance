@@ -131,6 +131,10 @@ p {
   color: map-get($theme-colors, "gray2");
 }
 
+.MyEmail {
+  font-family: Hind-Medium !important;
+}
+
 input,
 .form-control {
   border: 1px solid map-get($theme-colors, "gray4");
@@ -248,6 +252,9 @@ input,
     height: 55px;
   }
 
+  .Certificate {
+    height: 50px;
+  }
 }
 
 // Desktop Style ***********************************************
@@ -359,6 +366,10 @@ input,
     height: 44px;
   }
 
+  .Certificate {
+    height: 45px;
+  }
+
 }
 
 // Tablet Style ***********************************************
@@ -468,6 +479,10 @@ input,
 
   .ServiceIcon {
     height: 35px;
+  }
+
+  .Certificate {
+    height: 10px;
   }
 
 }

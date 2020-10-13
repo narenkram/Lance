@@ -155,20 +155,22 @@
               I feel the design is the most crucial thing that completely shifts
               our perception of our world.
             </p> -->
-          <p class="Text_M Text_dark">
+          <div class="d-flex flex-row align-items-start">
             <img
               src="~/assets/icons/heart.svg"
               class="mr-1 mr-md-2 mr-lg-2"
               alt=""
             />
-            I love
-            <a
-              class="Link_underline_paragraph"
-              href="https://www.vitsoe.com/eu/about/good-design"
-              target="_blank"
-              >good design</a
-            >, gaming, art, netflix, and gadgets.
-          </p>
+            <p class="Text_M Text_dark">
+              I love
+              <a
+                class="Link_underline_paragraph"
+                href="https://www.vitsoe.com/eu/about/good-design"
+                target="_blank"
+                >good design</a
+              >, gaming, art, netflix, and gadgets.
+            </p>
+          </div>
         </div>
         <div class="col-lg-6">
           <img
@@ -187,16 +189,28 @@
         <div class="col-lg-9 mt-1 mt-md-1 mt-lg-0">
           <div class="d-flex flex-row flex-wrap justify-content-around">
             <a href="https://confirm.udacity.com/JQPS6SC6" target="_blank">
-              <img src="~/assets/images/udacity.svg" class="img-fluid p-1 p-md-0" />
+              <img
+                src="~/assets/images/udacity.svg"
+                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
+              />
             </a>
             <a href="#">
-              <img src="~/assets/images/google.svg" class="img-fluid p-1 p-md-0" />
+              <img
+                src="~/assets/images/google.svg"
+                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
+              />
             </a>
             <a href="#">
-              <img src="~/assets/images/sololearn.svg" class="img-fluid p-1 p-md-0" />
+              <img
+                src="~/assets/images/sololearn.svg"
+                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
+              />
             </a>
             <a href="#">
-              <img src="~/assets/images/adobe.svg" class="img-fluid p-1 p-md-0" />
+              <img
+                src="~/assets/images/adobe.svg"
+                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
+              />
             </a>
           </div>
         </div>
@@ -208,21 +222,21 @@
         <div class="col-12 col-md-12 col-lg-6">
           <h2 class="mb-2 mb-md-2 mb-lg-2">Just say hi.</h2>
           <p
-            class="Text_dark mb-3 mb-md-3 mb-lg-3 w-100 d-block d-md-none d-lg-none d-xl-none"
+            class="Text_M Text_dark mb-3 mb-md-3 mb-lg-3 w-100 d-block d-md-none d-lg-none d-xl-none"
           >
             I am always open to discuss your project, improve your online
             presence or help with your UX/UI design challenges.
           </p>
           <p
-            class="Text_dark mb-3 mb-md-3 mb-lg-3 w-75 d-none d-md-block d-lg-block d-xl-block"
+            class="Text_M Text_dark mb-3 mb-md-3 mb-lg-3 w-75 d-none d-md-block d-lg-block d-xl-block"
           >
             I am always open to discuss your project, improve your online
             presence or help with your UX/UI design challenges.
           </p>
 
           <p class="Text_S mb-1 mb-md-1 mb-lg-1">Email me at</p>
-          <p class="mb-3 mb-md-3 mb-lg-3">
-            <b class="Text_dark">hi@narendra.design</b>
+          <p class="Text_M mb-3 mb-md-3 mb-lg-3 Text_dark MyEmail">
+            hi@narendra.design
           </p>
           <div class="d-none d-md-none d-lg-block">
             <p class="Text_S mb-1 mb-md-1 mb-lg-1">Follow</p>
