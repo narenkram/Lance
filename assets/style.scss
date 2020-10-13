@@ -131,6 +131,10 @@ p {
   color: map-get($theme-colors, "gray2");
 }
 
+.MyEmail{
+  font-family: Hind-Medium!important;
+}
+
 input,
 .form-control {
   border: 1px solid map-get($theme-colors, "gray4");
