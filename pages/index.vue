@@ -125,7 +125,12 @@
         </div>
       </div>
       <div class="w-100 text-center">
-        <button class="btn btn-outline-primary">Visit My Dribbble</button>
+        <a
+          href="https://dribbble.com/narendraram"
+          target="_blank"
+          class="btn btn-outline-primary"
+          >Visit My Dribbble</a
+        >
       </div>
     </section>
 
