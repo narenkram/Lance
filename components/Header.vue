@@ -32,9 +32,9 @@
           </li>
           <li class="nav-item">
             <nuxt-link
+              to="/hire-ui-ux-designer"
               class="p-1 p-md-0 p-lg-0 nav-link ml-0 ml-md-2 ml-lg-2"
-              to="/pricing"
-              >Pricing</nuxt-link
+              >Hire Me</nuxt-link
             >
           </li>
           <li class="nav-item">
@@ -45,10 +45,10 @@
             >
           </li>
           <li class="nav-item">
-            <a
+            <nuxt-link
               class="p-1 p-md-0 p-lg-0 nav-link ml-0 ml-md-2 ml-lg-2"
-              href="https://blog.narendra.design"
-              >Blog</a
+              to="/blog"
+              >Blog</nuxt-link
             >
           </li>
         </ul>
