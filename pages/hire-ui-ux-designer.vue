@@ -5,17 +5,16 @@
         <div class="col-12 text-center">
           <h4>
             You are now leaving <br />
-            <span class="text-secondary">https://narendra.design</span>
+            <span class="text-secondary">portfolio.narendra.design</span>
           </h4>
           <p>
-            This page will be automatically redirected to
-            <b>Narendra's Upwork Page</b> at <br />
+            This page will be automatically redirected to at
             <a
               class="text-primary"
               href="https://www.upwork.com/freelancers/~01d7fc59aedbaa665c"
-              >https://www.upwork.com/freelancers/~01d7fc59aedbaa665c</a
+              >Narendra's Upwork Page</a
             >
-            in <span id="hire_me_counter">10</span> second(s). Click
+            in <span id="hire_me_counter">10</span> second(s).<br />Click
             <a href="https://www.upwork.com/freelancers/~01d7fc59aedbaa665c"
               >here</a
             >

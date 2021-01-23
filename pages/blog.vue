@@ -5,16 +5,16 @@
         <div class="col-12 text-center">
           <h4>
             You are now leaving <br />
-            <span class="text-secondary">https://narendra.design</span>
+            <span class="text-secondary">portfolio.narendra.design</span>
           </h4>
           <p>
             This page will be automatically redirected to
             <b>Narendra's Blog</b> at <br />
-            <a class="text-primary" href="https://blog.narendra.design"
-              >https://blog.narendra.design</a
+            <a class="text-primary" href="https://narendra.design"
+              >https://narendra.design</a
             >
             in <span id="blog_counter">10</span> second(s). Click
-            <a href="https://blog.narendra.design">here</a> to redirect
+            <a href="https://narendra.design">here</a> to redirect
             manually.
           </p>
         </div>
