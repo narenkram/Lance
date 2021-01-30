@@ -8,14 +8,11 @@
             <span class="text-secondary">portfolio.narendra.design</span>
           </h4>
           <p>
-            This page will be automatically redirected to
-            <b>Narendra's Blog</b> at <br />
-            <a class="text-primary" href="https://narendra.design"
-              >https://narendra.design</a
+            Click
+            <a href="https://narendra.design">here</a> to visit
+            <a href="https://narendra.design"
+              ><span class="text-primary">Narendra's blog</span></a
             >
-            in <span id="blog_counter">10</span> second(s). Click
-            <a href="https://narendra.design">here</a> to redirect
-            manually.
           </p>
         </div>
       </div>

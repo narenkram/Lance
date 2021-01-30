@@ -39,7 +39,6 @@ export default {
     { src: "~/node_modules/jquery/dist/jquery.min.js", ssr: false },
     { src: "~/node_modules/bootstrap/dist/js/bootstrap.min.js", ssr: false },
     { src: "~/node_modules/holderjs/holder.min.js", ssr: false },
-    { src: "~/plugins/client-only.client.js", ssr: false },
   ],
   /*
    ** Nuxt.js modules
