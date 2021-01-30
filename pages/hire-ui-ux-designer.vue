@@ -4,21 +4,22 @@
       <div class="row">
         <div class="col-12 text-center">
           <h4>
-            You are now leaving <br />
-            <span class="text-secondary">portfolio.narendra.design</span>
+            I'm available via <br />
+            <a
+              href="https://www.upwork.com/freelancers/~01d7fc59aedbaa665c"
+              class="text-secondary"
+              >Upwork.com</a
+            >
           </h4>
           <p>
-            This page will be automatically redirected to at
+            Please don't impose to work outside Upwork, unless you have a lot to
+            offer. <br />
+            Click here to visit my
             <a
-              class="text-primary"
               href="https://www.upwork.com/freelancers/~01d7fc59aedbaa665c"
-              >Narendra's Upwork Page</a
-            >
-            in <span id="hire_me_counter">10</span> second(s).<br />Click
-            <a href="https://www.upwork.com/freelancers/~01d7fc59aedbaa665c"
-              >here</a
-            >
-            to redirect manually.
+              class="text-primary"
+              >Upwork profile.
+            </a>
           </p>
         </div>
       </div>
