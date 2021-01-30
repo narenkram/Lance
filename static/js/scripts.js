@@ -4,7 +4,7 @@
     }, i[r].l = 1 * new Date(); a = s.createElement(o),
         m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
 })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-ga('create', 'UA-70841865-6', 'auto');
+ga('create', 'G-FXGFMCMH1F', 'auto');
 ga('send', 'pageview');
 
 <script data-ad-client="ca-pub-2248841277721034" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
