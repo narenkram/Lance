@@ -396,7 +396,7 @@ export default {
         hid: "keywords",
         name: "keywords",
         content:
-          "narendra ram, narendra, ram, full stack designer, designer narendra, naren, naren ram, freelance designer",
+          "narendra ram, narendra, ram, full stack designer, designer narendra, naren, naren ram, freelance designer, narendra's portfolio, aroliant cofounder, narendra tirunelveli, frontend developer narendra, narendra krishna ram, hire ui ux designer, hire ui designer, hire ux designer, ",
       },
     ],
   },
