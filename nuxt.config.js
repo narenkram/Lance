@@ -16,6 +16,7 @@ export default {
       { rel: 'icon', type: 'image/png', href: '/logo.png' }
     ],
     script: [
+      { src: "https://www.googletagmanager.com/gtag/js?id=G-FXGFMCMH1F", async: true },
     ],
   },
   router: {
