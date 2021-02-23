@@ -3,6 +3,7 @@
     <section class="py-6">
       <div class="row">
         <div class="col-12 text-center">
+          <h3>Outside India (Global)</h3>
           <h4>
             I'm available via <br />
             <a
@@ -20,6 +21,14 @@
               class="text-primary"
               >Upwork profile.
             </a>
+          </p>
+        </div>
+        <div class="col-12 text-center mt-4">
+          <h3>Within India</h3>
+          <h4>UI UX Design Tirunelveli</h4>
+          <p>
+            I'm available to work in-person and collaborate with your team.<br />
+            (only if you live in my city)
           </p>
         </div>
       </div>
