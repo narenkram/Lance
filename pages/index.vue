@@ -385,7 +385,7 @@
 <script>
 export default {
   head: {
-    title: "Narendra Ram",
+    title: "Narendra Ram | Full Stack Designer",
     meta: [
       {
         hid: "description",
