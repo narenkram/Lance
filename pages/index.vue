@@ -249,14 +249,14 @@
               <a href="https://dribbble.com/narendraram" target="_blank">
                 <img
                   src="~/assets/icons/dribbble.svg"
-                  class="mr-1 img-fluid"
+                  class="mr-1 img-fluid SocialIcon"
                   alt=""
                 />
               </a>
               <a href="">
                 <img
                   src="~/assets/icons/instagram.svg"
-                  class="mr-1 img-fluid"
+                  class="mr-1 img-fluid SocialIcon"
                   alt=""
                 />
               </a>
@@ -264,14 +264,14 @@
               <a href="https://www.facebook.com/narendrakram/" target="_blank">
                 <img
                   src="~/assets/icons/facebook.svg"
-                  class="mr-1 img-fluid"
+                  class="mr-1 img-fluid SocialIcon"
                   alt=""
                 />
               </a>
               <a href="https://twitter.com/narendra__ram" target="_blank">
                 <img
                   src="~/assets/icons/twitter.svg"
-                  class="mr-1 img-fluid"
+                  class="mr-1 img-fluid SocialIcon"
                   alt=""
                 />
               </a>
@@ -281,7 +281,7 @@
               >
                 <img
                   src="~/assets/icons/linkedin.svg"
-                  class="mr-1 img-fluid"
+                  class="mr-1 img-fluid SocialIcon"
                   alt=""
                 />
               </a>
