@@ -126,7 +126,7 @@
       </div>
       <div class="w-100 text-center">
         <a
-          href="https://dribbble.com/narendraram"
+          href="https://dribbble.com/narenkram"
           target="_blank"
           class="btn btn-outline-primary"
           >Visit My Dribbble</a
@@ -246,43 +246,40 @@
           <div class="d-none d-md-none d-lg-block">
             <p class="Text_S mb-1 mb-md-1 mb-lg-1">Follow</p>
             <div class="d-flex flex-row flex-wrap">
-              <a href="https://dribbble.com/narendraram" target="_blank">
+              <a href="https://dribbble.com/narenkram" target="_blank">
                 <img
                   src="~/assets/icons/dribbble.svg"
                   class="mr-1 img-fluid SocialIcon"
-                  alt=""
+                  alt="narenkram_dribbble_icon"
                 />
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/narenkram/" target="_blank">
                 <img
                   src="~/assets/icons/instagram.svg"
                   class="mr-1 img-fluid SocialIcon"
-                  alt=""
+                  alt="narenkram_instagram_icon"
                 />
               </a>
 
-              <a href="https://www.facebook.com/narendrakram/" target="_blank">
+              <a href="https://www.facebook.com/narenkram/" target="_blank">
                 <img
                   src="~/assets/icons/facebook.svg"
                   class="mr-1 img-fluid SocialIcon"
-                  alt=""
+                  alt="narenkram_facebook_icon"
                 />
               </a>
-              <a href="https://twitter.com/narendra__ram" target="_blank">
+              <a href="https://twitter.com/narenkram" target="_blank">
                 <img
                   src="~/assets/icons/twitter.svg"
                   class="mr-1 img-fluid SocialIcon"
-                  alt=""
+                  alt="narenkram_twitter_icon"
                 />
               </a>
-              <a
-                href="https://www.linkedin.com/in/narendraram/"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/narenkram/" target="_blank">
                 <img
                   src="~/assets/icons/linkedin.svg"
                   class="mr-1 img-fluid SocialIcon"
-                  alt=""
+                  alt="narenkram_linkedin_icon"
                 />
               </a>
             </div>
@@ -339,40 +336,40 @@
         <div class="d-block d-md-block d-lg-none col-12 mt-3 mt-md-4">
           <p class="Text_S mb-1 mb-md-1 mb-lg-1">Follow</p>
           <div class="d-flex flex-row flex-wrap">
-            <a href="https://dribbble.com/narendraram" target="_blank">
+            <a href="https://dribbble.com/narenkram" target="_blank">
               <img
                 src="~/assets/icons/dribbble.svg"
                 class="mr-1 img-fluid"
-                alt=""
+                alt="narenkram_dribbble_icon"
               />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/narenkram/" target="_blank">
               <img
                 src="~/assets/icons/instagram.svg"
                 class="mr-1 img-fluid"
-                alt=""
+                alt="narenkram_instagram_icon"
               />
             </a>
 
-            <a href="https://www.facebook.com/narendrakram/" target="_blank">
+            <a href="https://www.facebook.com/narenkram/" target="_blank">
               <img
                 src="~/assets/icons/facebook.svg"
                 class="mr-1 img-fluid"
-                alt=""
+                alt="narenkram_facebook_icon"
               />
             </a>
-            <a href="https://twitter.com/narendra__ram" target="_blank">
+            <a href="https://twitter.com/narenkram" target="_blank">
               <img
                 src="~/assets/icons/twitter.svg"
                 class="mr-1 img-fluid"
-                alt=""
+                alt="narenkram_twitter_icon"
               />
             </a>
-            <a href="https://www.linkedin.com/in/narendraram/" target="_blank">
+            <a href="https://www.linkedin.com/in/narenkram/" target="_blank">
               <img
                 src="~/assets/icons/linkedin.svg"
                 class="mr-1 img-fluid"
-                alt=""
+                alt="narenkram_linkedin_icon"
               />
             </a>
           </div>
@@ -396,7 +393,7 @@ export default {
         hid: "keywords",
         name: "keywords",
         content:
-          "narendra ram, narendra, ram, full stack designer, designer narendra, naren, naren ram, freelance designer, narendra's portfolio, aroliant cofounder, narendra tirunelveli, frontend developer narendra, narendra krishna ram, hire ui ux designer, hire ui designer, hire ux designer, ",
+          "narendra ram, narendra, ram, full stack designer, designer narendra, naren, naren ram, narenkram, freelance designer, narendra's portfolio, aroliant cofounder, narendra tirunelveli, frontend developer narendra, narendra krishna ram, hire ui ux designer, hire ui designer, hire ux designer, ",
       },
     ],
   },
