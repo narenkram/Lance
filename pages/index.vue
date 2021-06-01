@@ -248,10 +248,10 @@
         </div>
       </div>
       <div
-        class="row bg-secondary justify-content-around align-items-center py-1 py-md-2 py-lg-2 mt-3 mt-md-3 mt-lg-3 rounded-lg"
+        class="row bg-secondary justify-content-around align-items-center py-2 py-md-2 py-lg-2 mt-3 mt-md-3 mt-lg-3 rounded-lg"
       >
         <div class="col-lg-3 align-self-center text-center">
-          <h3 class="m-0 text-gray5">Certified with</h3>
+          <h3 class="m-0 text-gray5">🎓 Certified by</h3>
         </div>
         <div class="col-lg-9 mt-1 mt-md-1 mt-lg-0">
           <div class="d-flex flex-row flex-wrap justify-content-around">
