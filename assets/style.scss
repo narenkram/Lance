@@ -156,7 +156,7 @@ input,
 }
 
 .SocialIcon:hover {
-  filter: contrast(50%);
+  filter: brightness(10%);
 }
 
 .Portfolio_Link {
@@ -378,7 +378,7 @@ input,
 
   .form-control:focus {
     box-shadow: none;
-    border: 1px solid map-get($theme-colors, "gray1");
+    border: 1px solid map-get($theme-colors, "secondary");
   }
 
   .textarea {
@@ -491,7 +491,7 @@ input,
 
   .form-control:focus {
     box-shadow: none;
-    border: 1px solid map-get($theme-colors, "gray1");
+    border: 1px solid map-get($theme-colors, "secondary");
   }
 
   .textarea {

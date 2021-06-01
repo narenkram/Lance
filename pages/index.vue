@@ -6,7 +6,9 @@
           <h3 class="mb-1 mb-md-2 mb-lg-2">👋 Hi, I'm Narendra</h3>
           <h1 class="mb-1 mb-md-1 mb-lg-0">Freelance Full Stack Designer</h1>
           <blockquote class="blockquote mb-2 mb-md-3 mb-lg-3">
-            <p class="Text_M mb-0">“good design makes the world a better place.”</p>
+            <p class="Text_M mb-0">
+              “good design makes the world a better place.”
+            </p>
           </blockquote>
           <a href="#mywork" class="btn btn-secondary">My Work</a>
           <a href="#contact" class="btn btn-primary ml-1 ml-md-2 ml-lg-2"
@@ -312,15 +314,8 @@
             hi@narendra.design
           </p>
           <div class="d-none d-md-none d-lg-block">
-            <p class="Text_S mb-1 mb-md-1 mb-lg-1">Follow</p>
+            <p class="Text_S mb-1 mb-md-1 mb-lg-1">👀 Follow</p>
             <div class="d-flex flex-row flex-wrap">
-              <a href="https://www.facebook.com/narenkram/" target="_blank">
-                <img
-                  src="~/assets/icons/facebook.svg"
-                  class="mr-1 img-fluid SocialIcon"
-                  alt="narenkram_facebook_icon"
-                />
-              </a>
               <a href="https://twitter.com/narenkram" target="_blank">
                 <img
                   src="~/assets/icons/twitter.svg"
@@ -333,6 +328,13 @@
                   src="~/assets/icons/linkedin.svg"
                   class="mr-1 img-fluid SocialIcon"
                   alt="narenkram_linkedin_icon"
+                />
+              </a>
+              <a href="https://www.facebook.com/narenkram/" target="_blank">
+                <img
+                  src="~/assets/icons/facebook.svg"
+                  class="mr-1 img-fluid SocialIcon"
+                  alt="narenkram_facebook_icon"
                 />
               </a>
             </div>
@@ -387,27 +389,27 @@
           </form>
         </div>
         <div class="d-block d-md-block d-lg-none col-12 mt-3 mt-md-4">
-          <p class="Text_S mb-1 mb-md-1 mb-lg-1">Follow</p>
+          <p class="Text_S mb-1 mb-md-1 mb-lg-1">👀 Follow</p>
           <div class="d-flex flex-row flex-wrap">
-            <a href="https://www.facebook.com/narenkram/" target="_blank">
-              <img
-                src="~/assets/icons/facebook.svg"
-                class="mr-1 img-fluid"
-                alt="narenkram_facebook_icon"
-              />
-            </a>
             <a href="https://twitter.com/narenkram" target="_blank">
               <img
                 src="~/assets/icons/twitter.svg"
-                class="mr-1 img-fluid"
+                class="mr-1 img-fluid SocialIcon"
                 alt="narenkram_twitter_icon"
               />
             </a>
             <a href="https://www.linkedin.com/in/narenkram/" target="_blank">
               <img
                 src="~/assets/icons/linkedin.svg"
-                class="mr-1 img-fluid"
+                class="mr-1 img-fluid SocialIcon"
                 alt="narenkram_linkedin_icon"
+              />
+            </a>
+            <a href="https://www.facebook.com/narenkram/" target="_blank">
+              <img
+                src="~/assets/icons/facebook.svg"
+                class="mr-1 img-fluid SocialIcon"
+                alt="narenkram_facebook_icon"
               />
             </a>
           </div>
