@@ -25,7 +25,7 @@
           <p class="m-0 Footer_paragraph">
             Designed using Figma <br />Hosted on
             <a
-              href="https://github.com/narendra-ram/narendra-ram"
+              href="https://github.com/narenkram/narenkram"
               target="_blank"
               class="Link_underline_footer"
               >GitHub Pages</a

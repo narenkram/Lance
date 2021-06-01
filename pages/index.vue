@@ -5,7 +5,7 @@
         <div class="col-12 col-md-6 col-lg-7 text-left align-self-center">
           <h3 class="mb-1 mb-md-2 mb-lg-2">Hi, I'm Narendra.</h3>
           <h1 class="mb-2 mb-md-3 mb-lg-3">
-            I’m a freelance UX/UI Designer with a frontend background
+            Freelance UX/UI Designer with a frontend background
             specializing in Design for Code.
           </h1>
           <a href="#mywork" class="btn btn-secondary">My Work</a>
@@ -114,19 +114,19 @@
     <section class="pt-4 pt-md-5 pt-lg-5">
       <h2 class="mb-3 mb-md-4 mb-lg-4">Recent Dribbble shots</h2>
       <div class="row mb-3 mb-md-4 mb-lg-4">
-        <div class="col-12 col-md-4 col-lg-4 pb-2 pb-md-0 pb-lg-0">
-          <img src="~/assets/images/1.png" class="img-fluid shadow" alt="" />
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 pb-2 pb-md-0 pb-lg-0">
+          <img src="~/assets/images/1.png" class="img-fluid Dribbble_shot" alt="" />
         </div>
-        <div class="col-12 col-md-4 col-lg-4 pb-2 pb-md-0 pb-lg-0">
-          <img src="~/assets/images/2.png" class="img-fluid shadow" alt="" />
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 pb-2 pb-md-0 pb-lg-0">
+          <img src="~/assets/images/2.png" class="img-fluid Dribbble_shot" alt="" />
         </div>
-        <div class="col-12 col-md-4 col-lg-4 pb-2 pb-md-0 pb-lg-0">
-          <img src="~/assets/images/3.png" class="img-fluid shadow" alt="" />
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 pb-2 pb-md-0 pb-lg-0">
+          <img src="~/assets/images/3.png" class="img-fluid Dribbble_shot" alt="" />
         </div>
       </div>
       <div class="w-100 text-center">
         <a
-          href="https://dribbble.com/narendraram"
+          href="https://dribbble.com/narenkram"
           target="_blank"
           class="btn btn-outline-primary"
           >Visit My Dribbble</a
@@ -136,7 +136,7 @@
 
     <section id="about" class="pt-4 pt-md-5 pt-lg-5">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-12 col-sm-12 col-md-7 col-lg-7">
           <h2 class="pt-0 pt-md-0 pt-lg-1 mb-3 mb-md-4 mb-lg-4">About Me</h2>
           <p class="Text_M Text_dark mb-2 mb-md-2 mb-lg-2">
             I started as a frontend developer in college, and later i co-founded
@@ -177,19 +177,19 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="d-none d-md-block col-md-5 col-lg-5">
           <img
-            src="https://via.placeholder.com/700x700"
+            src="~/assets/images/narendra_ram.png"
             class="img-fluid"
             alt=""
           />
         </div>
       </div>
       <div
-        class="row bg-gray5 justify-content-around align-items-center py-1 py-md-2 py-lg-2 mt-3 mt-md-3 mt-lg-3"
+        class="row bg-secondary justify-content-around align-items-center py-1 py-md-2 py-lg-2 mt-3 mt-md-3 mt-lg-3 rounded-lg"
       >
         <div class="col-lg-3 align-self-center text-center">
-          <h3 class="m-0">Certified with</h3>
+          <h3 class="m-0 text-gray5">Certified with</h3>
         </div>
         <div class="col-lg-9 mt-1 mt-md-1 mt-lg-0">
           <div class="d-flex flex-row flex-wrap justify-content-around">
@@ -201,19 +201,7 @@
             </a>
             <a href="#">
               <img
-                src="~/assets/images/google.svg"
-                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
-              />
-            </a>
-            <a href="#">
-              <img
                 src="~/assets/images/sololearn.svg"
-                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
-              />
-            </a>
-            <a href="#">
-              <img
-                src="~/assets/images/adobe.svg"
                 class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
               />
             </a>
@@ -246,43 +234,40 @@
           <div class="d-none d-md-none d-lg-block">
             <p class="Text_S mb-1 mb-md-1 mb-lg-1">Follow</p>
             <div class="d-flex flex-row flex-wrap">
-              <a href="https://dribbble.com/narendraram" target="_blank">
+              <a href="https://dribbble.com/narenkram" target="_blank">
                 <img
                   src="~/assets/icons/dribbble.svg"
                   class="mr-1 img-fluid SocialIcon"
-                  alt=""
+                  alt="narenkram_dribbble_icon"
                 />
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/narenkram/" target="_blank">
                 <img
                   src="~/assets/icons/instagram.svg"
                   class="mr-1 img-fluid SocialIcon"
-                  alt=""
+                  alt="narenkram_instagram_icon"
                 />
               </a>
 
-              <a href="https://www.facebook.com/narendrakram/" target="_blank">
+              <a href="https://www.facebook.com/narenkram/" target="_blank">
                 <img
                   src="~/assets/icons/facebook.svg"
                   class="mr-1 img-fluid SocialIcon"
-                  alt=""
+                  alt="narenkram_facebook_icon"
                 />
               </a>
-              <a href="https://twitter.com/narendra__ram" target="_blank">
+              <a href="https://twitter.com/narenkram" target="_blank">
                 <img
                   src="~/assets/icons/twitter.svg"
                   class="mr-1 img-fluid SocialIcon"
-                  alt=""
+                  alt="narenkram_twitter_icon"
                 />
               </a>
-              <a
-                href="https://www.linkedin.com/in/narendraram/"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/narenkram/" target="_blank">
                 <img
                   src="~/assets/icons/linkedin.svg"
                   class="mr-1 img-fluid SocialIcon"
-                  alt=""
+                  alt="narenkram_linkedin_icon"
                 />
               </a>
             </div>
@@ -339,40 +324,40 @@
         <div class="d-block d-md-block d-lg-none col-12 mt-3 mt-md-4">
           <p class="Text_S mb-1 mb-md-1 mb-lg-1">Follow</p>
           <div class="d-flex flex-row flex-wrap">
-            <a href="https://dribbble.com/narendraram" target="_blank">
+            <a href="https://dribbble.com/narenkram" target="_blank">
               <img
                 src="~/assets/icons/dribbble.svg"
                 class="mr-1 img-fluid"
-                alt=""
+                alt="narenkram_dribbble_icon"
               />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/narenkram/" target="_blank">
               <img
                 src="~/assets/icons/instagram.svg"
                 class="mr-1 img-fluid"
-                alt=""
+                alt="narenkram_instagram_icon"
               />
             </a>
 
-            <a href="https://www.facebook.com/narendrakram/" target="_blank">
+            <a href="https://www.facebook.com/narenkram/" target="_blank">
               <img
                 src="~/assets/icons/facebook.svg"
                 class="mr-1 img-fluid"
-                alt=""
+                alt="narenkram_facebook_icon"
               />
             </a>
-            <a href="https://twitter.com/narendra__ram" target="_blank">
+            <a href="https://twitter.com/narenkram" target="_blank">
               <img
                 src="~/assets/icons/twitter.svg"
                 class="mr-1 img-fluid"
-                alt=""
+                alt="narenkram_twitter_icon"
               />
             </a>
-            <a href="https://www.linkedin.com/in/narendraram/" target="_blank">
+            <a href="https://www.linkedin.com/in/narenkram/" target="_blank">
               <img
                 src="~/assets/icons/linkedin.svg"
                 class="mr-1 img-fluid"
-                alt=""
+                alt="narenkram_linkedin_icon"
               />
             </a>
           </div>
@@ -396,7 +381,7 @@ export default {
         hid: "keywords",
         name: "keywords",
         content:
-          "narendra ram, narendra, ram, full stack designer, designer narendra, naren, naren ram, freelance designer, narendra's portfolio, aroliant cofounder, narendra tirunelveli, frontend developer narendra, narendra krishna ram, hire ui ux designer, hire ui designer, hire ux designer, ",
+          "narendra ram, narendra, ram, full stack designer, designer narendra, naren, naren ram, narenkram, freelance designer, narendra's portfolio, aroliant cofounder, narendra tirunelveli, frontend developer narendra, narendra krishna ram, hire ui ux designer, hire ui designer, hire ux designer, ",
       },
     ],
   },
