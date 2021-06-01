@@ -341,21 +341,6 @@
         <div class="d-block d-md-block d-lg-none col-12 mt-3 mt-md-4">
           <p class="Text_S mb-1 mb-md-1 mb-lg-1">Follow</p>
           <div class="d-flex flex-row flex-wrap">
-            <a href="https://dribbble.com/narenkram" target="_blank">
-              <img
-                src="~/assets/icons/dribbble.svg"
-                class="mr-1 img-fluid"
-                alt="narenkram_dribbble_icon"
-              />
-            </a>
-            <a href="https://www.instagram.com/narenkram/" target="_blank">
-              <img
-                src="~/assets/icons/instagram.svg"
-                class="mr-1 img-fluid"
-                alt="narenkram_instagram_icon"
-              />
-            </a>
-
             <a href="https://www.facebook.com/narenkram/" target="_blank">
               <img
                 src="~/assets/icons/facebook.svg"
