@@ -14,7 +14,7 @@
             <div class="col-12 col-md-auto align-self-center">
               <p class="m-0 Footer_paragraph">
                 Narendra Ram <br />
-                Freelance UX/UI Designer & Graphic Designer
+                Freelance Full Stack Designer
               </p>
             </div>
           </div>

@@ -3,11 +3,11 @@
     <section class="pt-3 pt-md-5 pt-lg-5">
       <div class="row justify-content-center">
         <div class="col-12 col-md-6 col-lg-7 text-left align-self-center">
-          <h3 class="mb-1 mb-md-2 mb-lg-2">👋 Hi, I'm Narendra.</h3>
-          <h1 class="mb-2 mb-md-3 mb-lg-3">
-            Freelance UX/UI Designer with a frontend background specializing in
-            Design for Code.
-          </h1>
+          <h3 class="mb-1 mb-md-2 mb-lg-2">👋 Hi, I'm Narendra</h3>
+          <h1 class="mb-0">Freelance Full Stack Designer</h1>
+          <blockquote class="blockquote mb-2 mb-md-3 mb-lg-3">
+            <p class="mb-0">“good design makes the world a better place.”</p>
+          </blockquote>
           <a href="#mywork" class="btn btn-secondary">My Work</a>
           <a href="#contact" class="btn btn-primary ml-1 ml-md-2 ml-lg-2"
             >Let's Talk</a
