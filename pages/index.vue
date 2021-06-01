@@ -112,7 +112,7 @@
     </section>
 
     <section class="pt-4 pt-md-5 pt-lg-5">
-      <h2 class="mb-3 mb-md-4 mb-lg-4">💼 Where to find my work?</h2>
+      <h2 class="mb-3 mb-md-4 mb-lg-4">Where to find 🔍 my work?</h2>
       <div class="row mb-3 mb-md-4 mb-lg-4 justify-content-around">
         <a href="http://dribbble.com/narenkram" class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link" target="_blank">
           <img
