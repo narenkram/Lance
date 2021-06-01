@@ -34,7 +34,7 @@
             class="ServiceIcon mb-2 mb-md-2 mb-lg-2"
             src="~/assets/images/mobile_web.svg"
           />
-          <h4 class="mb-2 mb-md-2 mb-lg-2">📱 Mobile & 🌐 Web Design</h4>
+          <h4 class="mb-2 mb-md-2 mb-lg-2">Mobile & Web Design</h4>
           <p class="mb-2 mb-md-2 mb-lg-2 Text_M">
             Need a website or mobile app? I can create beautiful websites or
             mobile apps based on your content, or redesign your old website to
@@ -47,7 +47,7 @@
             class="ServiceIcon mb-2 mb-md-2 mb-lg-2"
             src="~/assets/images/graphic_crown.svg"
           />
-          <h4 class="mb-2 mb-md-2 mb-lg-2">🎨 Graphic Design</h4>
+          <h4 class="mb-2 mb-md-2 mb-lg-2">Graphic Design</h4>
           <p class="mb-2 mb-md-2 mb-lg-2 Text_M">
             I just got started in graphic designing, drawing icons, characters,
             abstracts, textures, etc. Need art for your project? I can create
@@ -60,7 +60,7 @@
             class="ServiceIcon mb-2 mb-md-2 mb-lg-2"
             src="~/assets/images/frontend.svg"
           />
-          <h4 class="mb-2 mb-md-2 mb-lg-2">💻 Frontend Development</h4>
+          <h4 class="mb-2 mb-md-2 mb-lg-2">Frontend Development</h4>
           <p class="mb-2 mb-md-2 mb-lg-2 Text_M">
             Already have the design? I can create static websites such as
             landing pages, company sites, and custom websites with minimal
