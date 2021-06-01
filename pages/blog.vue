@@ -7,7 +7,7 @@
             You are now leaving <br />
             <span class="text-secondary">ram.narendra.design</span>
           </h4>
-          <p>
+          <p class="Text_M Text_dark">
             Click
             <a href="https://narendra.design">here</a> to visit
             <a href="https://narendra.design"
