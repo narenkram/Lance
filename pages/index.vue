@@ -237,6 +237,12 @@
                 class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
               />
             </a>
+             <a href="#" data-toggle="tooltip" data-placement="top" title="Link broken">
+              <img
+                src="~/assets/images/lynda.svg"
+                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
+              />
+            </a>
           </div>
         </div>
       </div>
