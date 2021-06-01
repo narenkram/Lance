@@ -171,21 +171,21 @@
         <div class="col-12 col-sm-12 col-md-7 col-lg-7">
           <h2 class="pt-0 pt-md-0 pt-lg-1 mb-3 mb-md-4 mb-lg-4">About 👨‍💼 Me</h2>
           <p class="Text_M Text_dark mb-2 mb-md-2 mb-lg-2">
-            I started as a frontend developer in college, and later i co-founded
-            Aroliant with a friend. As director and a developer, i learned a lot
+            I started as a frontend developer in college, and later I co-founded
+            Aroliant with a friend. As a director and a developer, I learned a lot
             about managing a company, team, and projects.
           </p>
           <p class="Text_M Text_dark mb-2 mb-md-2 mb-lg-2">
             And in two years, I found my passion for design. In 2020 for
-            personal reasons, i became a freelancer. Now, I’m selling digital
+            personal reasons, I became a freelancer. Now, I’m selling digital
             goods on the web and working on freelance projects. I love helping
             small businesses to create their online presence and help setting up
             their own online store (e-commerce) to boost their business.
           </p>
           <p class="Text_M Text_dark mb-3 mb-md-3 mb-lg-3">
             My design work ensures that it is developer-friendly as it passes
-            through the lens of my experience as a frontend developer. When i
-            design, i make sure it is 100% implementable by a frontend developer
+            through the lens of my experience as a frontend developer. When I
+            design, I make sure it is 100% implementable by a frontend developer
             without any difficulties. I call it “Design for Code.”
           </p>
           <!-- <p>
