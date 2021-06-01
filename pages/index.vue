@@ -114,49 +114,77 @@
     <section class="pt-4 pt-md-5 pt-lg-5">
       <h2 class="mb-3 mb-md-4 mb-lg-4">Where to find 🔍 my work?</h2>
       <div class="row mb-3 mb-md-4 mb-lg-4 justify-content-around">
-        <a href="http://dribbble.com/narenkram" class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link" target="_blank">
+        <a
+          href="http://dribbble.com/narenkram"
+          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          target="_blank"
+        >
           <img
             src="~/assets/images/dribbble.png"
             class="img-fluid"
             alt="narenkram_dribbble_link"
           />
         </a>
-        <a href="https://www.deviantart.com/narenkram" class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link" target="_blank">
+        <a
+          href="https://www.deviantart.com/narenkram"
+          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          target="_blank"
+        >
           <img
             src="~/assets/images/deviantart.png"
             class="img-fluid"
             alt="narenkram_deviantart_link"
           />
         </a>
-        <a href="https://www.artstation.com/narenkram" class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link" target="_blank">
+        <a
+          href="https://www.artstation.com/narenkram"
+          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          target="_blank"
+        >
           <img
             src="~/assets/images/artstation.png"
             class="img-fluid"
             alt="narenkram_artstation_link"
           />
         </a>
-        <a href="https://sketchfab.com/narenkram" class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link" target="_blank">
+        <a
+          href="https://sketchfab.com/narenkram"
+          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          target="_blank"
+        >
           <img
             src="~/assets/images/sketchfab.png"
             class="img-fluid"
             alt="narenkram_sketchfab_link"
           />
         </a>
-        <a href="https://narenkram.cgsociety.org/" class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link" target="_blank">
+        <a
+          href="https://narenkram.cgsociety.org/"
+          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          target="_blank"
+        >
           <img
             src="~/assets/images/cgsociety.png"
             class="img-fluid"
             alt="narenkram_cgsociety_link"
           />
         </a>
-        <a href="https://www.behance.net/narenkram_" class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link" target="_blank">
+        <a
+          href="https://www.behance.net/narenkram_"
+          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          target="_blank"
+        >
           <img
             src="~/assets/images/behance.png"
             class="img-fluid"
             alt="narenkram_behance_link"
           />
         </a>
-        <a href="https://www.artmajeur.com/narenkram" class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link" target="_blank">
+        <a
+          href="https://www.artmajeur.com/narenkram"
+          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          target="_blank"
+        >
           <img
             src="~/assets/images/artmajeur.png"
             class="img-fluid"
@@ -172,8 +200,8 @@
           <h2 class="pt-0 pt-md-0 pt-lg-1 mb-3 mb-md-4 mb-lg-4">About 👨‍💼 Me</h2>
           <p class="Text_M Text_dark mb-2 mb-md-2 mb-lg-2">
             I started as a frontend developer in college, and later I co-founded
-            Aroliant with a friend. As a director and a developer, I learned a lot
-            about managing a company, team, and projects.
+            Aroliant with a friend. As a director and a developer, I learned a
+            lot about managing a company, team, and projects.
           </p>
           <p class="Text_M Text_dark mb-2 mb-md-2 mb-lg-2">
             And in two years, I found my passion for design. In 2020 for
@@ -225,22 +253,36 @@
         </div>
         <div class="col-lg-9 mt-1 mt-md-1 mt-lg-0">
           <div class="d-flex flex-row flex-wrap justify-content-around">
-            <a href="https://confirm.udacity.com/JQPS6SC6" target="_blank">
+            <a
+              class="col-auto p-1 p-md-1 p-lg-1"
+              href="https://confirm.udacity.com/JQPS6SC6"
+              target="_blank"
+            >
               <img
                 src="~/assets/images/udacity.svg"
-                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
+                class="Certificate img-fluid"
               />
             </a>
-            <a href="https://www.sololearn.com/profile/318291" target="_blank">
+            <a
+              class="col-auto p-1 p-md-1 p-lg-1"
+              href="https://www.sololearn.com/profile/318291"
+              target="_blank"
+            >
               <img
                 src="~/assets/images/sololearn.svg"
-                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
+                class="Certificate img-fluid"
               />
             </a>
-             <a href="#" data-toggle="tooltip" data-placement="top" title="Link broken">
+            <a
+              class="col-auto p-1 p-md-1 p-lg-1"
+              href="#"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Link broken"
+            >
               <img
                 src="~/assets/images/lynda.svg"
-                class="Certificate img-fluid p-0 p-md-1 p-lg-1 p-md-0"
+                class="Certificate img-fluid"
               />
             </a>
           </div>
