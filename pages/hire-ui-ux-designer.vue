@@ -2,7 +2,7 @@
   <div class="container">
     <section class="py-6">
       <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-12 order-2 text-center mt-4">
           <h3>Outside India (Global)</h3>
           <h4>
             I'm available via <br />
@@ -12,7 +12,7 @@
               >Upwork.com</a
             >
           </h4>
-          <p>
+          <p class="Text_M Text_dark">
             Please don't impose to work outside Upwork, unless you have a lot to
             offer. <br />
             Click here to visit my
@@ -23,10 +23,10 @@
             </a>
           </p>
         </div>
-        <div class="col-12 text-center mt-4">
+        <div class="col-12 order-1 text-center">
           <h3>Within India</h3>
           <h4>UI UX Design Tirunelveli</h4>
-          <p>
+          <p class="Text_M Text_dark">
             I'm available to work in-person and collaborate with your team.<br />
             (only if you live in my city)
           </p>
