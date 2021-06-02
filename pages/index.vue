@@ -193,6 +193,17 @@
             alt="narenkram_artmajeur_link"
           />
         </a>
+        <a
+          href="https://www.spreadshirt.com/shop/user/narenkram/"
+          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          target="_blank"
+        >
+          <img
+            src="~/assets/images/spreadshop.png"
+            class="img-fluid"
+            alt="narenkram_spreadshirt_link"
+          />
+        </a>
       </div>
     </section>
 
