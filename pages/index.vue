@@ -42,7 +42,7 @@
             mobile apps based on your content, or redesign your old website to
             improve user engagement or achieve your business goals.
           </p>
-          <a href="#contact" class="Text_L">Contact</a>
+          <a href="#contact" class="Text_L">Get a estimate</a>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-3 mb-md-0 mb-lg-0">
           <img
@@ -55,7 +55,7 @@
             abstracts, textures, etc. Need art for your project? I can create
             beautiful illustrations based on your project requirements.
           </p>
-          <a href="#contact" class="Text_L">Learn more</a>
+          <a href="#contact" class="Text_L">Get a estimate</a>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mt-0 mt-md-3 mt-lg-0">
           <img
@@ -68,7 +68,7 @@
             landing pages, company sites, and custom websites with minimal
             javascript. Will deliver a well-documented code.
           </p>
-          <a href="#contact" class="Text_L">Contact</a>
+          <a href="#contact" class="Text_L">Get a estimate</a>
         </div>
       </div>
     </section>
@@ -76,7 +76,7 @@
     <section id="mywork" class="pt-4 pt-md-5 pt-lg-5">
       <h2 class="mb-3 mb-md-4 mb-lg-4">👉 Latest Projects</h2>
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-6">
+        <div class="order-2 order-md-1 col-12 col-md-6 col-lg-6">
           <h3 class="pt-0 pb-1 py-md-1 py-lg-1 m-0">
             Website design for machine learning of synthetic dataset
           </h3>
@@ -87,14 +87,13 @@
             design and redefining the workflow of the site. It went through two
             design iterations before the final prototype.
           </p>
-          <a href="#" class="Text_L">Visit ml.syntheticus.ai</a>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 mt-2 mt-md-0 mt-lg-0">
+        <div class="order-1 order-md-2 col-12 col-md-6 col-lg-6 mb-2 mb-md-0 mb-lg-0">
           <img src="~/assets/images/01.png" class="img-fluid shadow" />
         </div>
       </div>
       <div class="row mt-3 mt-md-4 mt-lg-4">
-        <div class="col-12 col-md-6 col-lg-6">
+        <div class="order-2 order-md-1 col-12 col-md-6 col-lg-6">
           <h3 class="pt-0 pb-1 py-md-1 py-lg-1 m-0">
             X-Cards App, A dark mode design of flashcard learning
           </h3>
@@ -105,12 +104,16 @@
             knowledge and experience through categorized flashcards. Helping
             users to advance their expertise in the job.
           </p>
-          <a href="#" class="Text_L">Visit coachingcards.app</a>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 mt-2 mt-md-0 mt-lg-0">
+        <div class="order-1 order-md-2 col-12 col-md-6 col-lg-6 mb-2 mb-md-0 mb-lg-0">
           <img src="~/assets/images/02.png" class="img-fluid shadow" />
         </div>
       </div>
+      <!-- <div class="row mt-2">
+        <div class="col-12 text-left">
+          <nuxt-link to="/projects-timeline" class="Text_L text-primary">🤜 View all projects</nuxt-link>
+        </div>
+      </div> -->
     </section>
 
     <section class="pt-4 pt-md-5 pt-lg-5">
