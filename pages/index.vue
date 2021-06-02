@@ -88,7 +88,9 @@
             design iterations before the final prototype.
           </p>
         </div>
-        <div class="order-1 order-md-2 col-12 col-md-6 col-lg-6 mb-2 mb-md-0 mb-lg-0">
+        <div
+          class="order-1 order-md-2 col-12 col-md-6 col-lg-6 mb-2 mb-md-0 mb-lg-0"
+        >
           <img src="~/assets/images/01.png" class="img-fluid shadow" />
         </div>
       </div>
@@ -105,7 +107,9 @@
             users to advance their expertise in the job.
           </p>
         </div>
-        <div class="order-1 order-md-2 col-12 col-md-6 col-lg-6 mb-2 mb-md-0 mb-lg-0">
+        <div
+          class="order-1 order-md-2 col-12 col-md-6 col-lg-6 mb-2 mb-md-0 mb-lg-0"
+        >
           <img src="~/assets/images/02.png" class="img-fluid shadow" />
         </div>
       </div>
@@ -205,6 +209,28 @@
             src="~/assets/images/spreadshop.png"
             class="img-fluid"
             alt="narenkram_spreadshirt_link"
+          />
+        </a>
+        <a
+          href="https://stock.adobe.com/in/contributor/210012185/narenkram"
+          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          target="_blank"
+        >
+          <img
+            src="~/assets/images/adobestock.png"
+            class="img-fluid"
+            alt="narenkram_adobestock_link"
+          />
+        </a>
+        <a
+          href="https://www.freepik.com/narenkram"
+          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          target="_blank"
+        >
+          <img
+            src="~/assets/images/freepik.png"
+            class="img-fluid"
+            alt="narenkram_freepik_link"
           />
         </a>
       </div>
