@@ -278,23 +278,21 @@
             </a>
             <a
               class="col-auto p-1 p-md-1 p-lg-1"
-              href="https://www.sololearn.com/profile/318291"
+              href="https://www.upwork.com/freelancers/~01d7fc59aedbaa665c"
               target="_blank"
             >
               <img
-                src="~/assets/images/sololearn.svg"
+                src="~/assets/images/upwork.svg"
                 class="Certificate img-fluid"
               />
             </a>
             <a
               class="col-auto p-1 p-md-1 p-lg-1"
-              href="#"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="Link broken"
+              href="https://www.sololearn.com/profile/318291"
+              target="_blank"
             >
               <img
-                src="~/assets/images/lynda.svg"
+                src="~/assets/images/sololearn.svg"
                 class="Certificate img-fluid"
               />
             </a>
