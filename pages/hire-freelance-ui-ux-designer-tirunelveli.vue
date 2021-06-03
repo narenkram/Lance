@@ -30,6 +30,7 @@
             I'm available to work in-person and collaborate with your team.<br />
             (only if you live in my city)
           </p>
+          <nuxt-link to="/#contact" class="Text_L text-primary">Contact</nuxt-link>
         </div>
       </div>
     </section>
