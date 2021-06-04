@@ -21,7 +21,7 @@
         </li>
         <li class="nav-item">
           <nuxt-link
-            to="/hire-freelance-ui-ux-designer-tirunelveli"
+            to="/hire-freelance-ui-ux-designer-india"
             class="p-1 p-md-0 p-lg-0 nav-link ml-0 ml-md-2 ml-lg-2"
             >Hire Me</nuxt-link
           >
