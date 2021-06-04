@@ -51,9 +51,9 @@
           />
           <h4 class="mb-2 mb-md-2 mb-lg-2">Graphic Design</h4>
           <p class="mb-2 mb-md-2 mb-lg-2 Text_M">
-            I just got started in graphic designing, drawing icons, characters,
-            abstracts, textures, etc. Need art for your project? I can create
-            beautiful illustrations based on your project requirements.
+            Need art for your project? I can create beautiful art, designs based
+            on your project requirements such as business cards, digital
+            banners, icons, hand-drawn characters, abstracts, textures, etc.
           </p>
           <a href="#contact" class="Text_L">Get a estimate</a>
         </div>
