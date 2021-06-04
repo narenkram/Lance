@@ -4,14 +4,7 @@
       <div class="row">
         <div class="col-12 order-2 text-center mt-4">
           <h3>Outside India (Global)</h3>
-          <h4>
-            Available via <br />
-            <a
-              href="https://www.upwork.com/freelancers/~01d7fc59aedbaa665c"
-              class="text-secondary"
-              >Upwork.com</a
-            >
-          </h4>
+          <h4>Available via Upwork.com</h4>
           <p class="Text_M Text_dark">
             Please don't impose to work outside Upwork, unless you have a lot to
             offer. <br />
@@ -28,9 +21,17 @@
           <h4>Available to work-from-home</h4>
           <p class="Text_M Text_dark">
             I'm available to work-from-home and collaborate with your team.<br />
-            (Available to work in-person, if you live in my <a href="https://goo.gl/maps/TMwfgu8odj2eNGUb9" target="_blank" class="text-secondary">city</a>)
+            (Available to work in-person, if you live in my
+            <a
+              href="https://goo.gl/maps/TMwfgu8odj2eNGUb9"
+              target="_blank"
+              class="text-secondary"
+              >city</a
+            >)
           </p>
-          <nuxt-link to="/#contact" class="Text_L text-primary">Contact</nuxt-link>
+          <nuxt-link to="/#contact" class="Text_L text-primary"
+            >Contact</nuxt-link
+          >
         </div>
       </div>
     </section>
