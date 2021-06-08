@@ -44,7 +44,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['@nuxtjs/google-analytics'],
   /*
    ** Build configuration
    */
@@ -60,4 +60,15 @@ export default {
         $: "jquery"
       })]
   },
+  googleAnalytics: {
+    id: 'G-848NRXZRM8'
+  },
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
+  }
 }
