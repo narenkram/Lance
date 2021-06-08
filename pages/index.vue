@@ -16,7 +16,11 @@
           >
         </div>
         <div
-          class="col-12 col-md-6 col-lg-5 text-center text-md-right text-lg-right mt-3 mt-md-0 mt-lg-0"
+          class="
+            col-12 col-md-6 col-lg-5
+            text-center text-md-right text-lg-right
+            mt-3 mt-md-0 mt-lg-0
+          "
         >
           <img
             src="~/assets/images/narendra-designer.png"
@@ -89,7 +93,11 @@
           </p>
         </div>
         <div
-          class="order-1 order-md-2 col-12 col-md-6 col-lg-6 mb-2 mb-md-0 mb-lg-0"
+          class="
+            order-1 order-md-2
+            col-12 col-md-6 col-lg-6
+            mb-2 mb-md-0 mb-lg-0
+          "
         >
           <img src="~/assets/images/01.png" class="img-fluid shadow" />
         </div>
@@ -108,7 +116,11 @@
           </p>
         </div>
         <div
-          class="order-1 order-md-2 col-12 col-md-6 col-lg-6 mb-2 mb-md-0 mb-lg-0"
+          class="
+            order-1 order-md-2
+            col-12 col-md-6 col-lg-6
+            mb-2 mb-md-0 mb-lg-0
+          "
         >
           <img src="~/assets/images/02.png" class="img-fluid shadow" />
         </div>
@@ -125,7 +137,11 @@
       <div class="row mb-3 mb-md-4 mb-lg-4 justify-content-around">
         <a
           href="http://dribbble.com/narenkram"
-          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          class="
+            col-6 col-sm-6 col-md-4 col-lg-auto
+            p-1 p-md-2 p-lg-2
+            Portfolio_Link
+          "
           target="_blank"
         >
           <img
@@ -136,7 +152,11 @@
         </a>
         <a
           href="https://www.deviantart.com/narenkram"
-          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          class="
+            col-6 col-sm-6 col-md-4 col-lg-auto
+            p-1 p-md-2 p-lg-2
+            Portfolio_Link
+          "
           target="_blank"
         >
           <img
@@ -147,7 +167,11 @@
         </a>
         <a
           href="https://www.artstation.com/narenkram"
-          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          class="
+            col-6 col-sm-6 col-md-4 col-lg-auto
+            p-1 p-md-2 p-lg-2
+            Portfolio_Link
+          "
           target="_blank"
         >
           <img
@@ -158,7 +182,11 @@
         </a>
         <a
           href="https://sketchfab.com/narenkram"
-          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          class="
+            col-6 col-sm-6 col-md-4 col-lg-auto
+            p-1 p-md-2 p-lg-2
+            Portfolio_Link
+          "
           target="_blank"
         >
           <img
@@ -169,7 +197,11 @@
         </a>
         <a
           href="https://narenkram.cgsociety.org/"
-          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          class="
+            col-6 col-sm-6 col-md-4 col-lg-auto
+            p-1 p-md-2 p-lg-2
+            Portfolio_Link
+          "
           target="_blank"
         >
           <img
@@ -180,7 +212,11 @@
         </a>
         <a
           href="https://www.behance.net/narenkram_"
-          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          class="
+            col-6 col-sm-6 col-md-4 col-lg-auto
+            p-1 p-md-2 p-lg-2
+            Portfolio_Link
+          "
           target="_blank"
         >
           <img
@@ -191,7 +227,11 @@
         </a>
         <a
           href="https://www.artmajeur.com/narenkram"
-          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          class="
+            col-6 col-sm-6 col-md-4 col-lg-auto
+            p-1 p-md-2 p-lg-2
+            Portfolio_Link
+          "
           target="_blank"
         >
           <img
@@ -202,7 +242,11 @@
         </a>
         <a
           href="https://www.spreadshirt.com/shop/user/narenkram/"
-          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          class="
+            col-6 col-sm-6 col-md-4 col-lg-auto
+            p-1 p-md-2 p-lg-2
+            Portfolio_Link
+          "
           target="_blank"
         >
           <img
@@ -213,7 +257,11 @@
         </a>
         <a
           href="https://stock.adobe.com/in/contributor/210012185/narenkram"
-          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          class="
+            col-6 col-sm-6 col-md-4 col-lg-auto
+            p-1 p-md-2 p-lg-2
+            Portfolio_Link
+          "
           target="_blank"
         >
           <img
@@ -224,7 +272,11 @@
         </a>
         <a
           href="https://www.freepik.com/narenkram"
-          class="col-6 col-sm-6 col-md-4 col-lg-auto p-1 p-md-2 p-lg-2 Portfolio_Link"
+          class="
+            col-6 col-sm-6 col-md-4 col-lg-auto
+            p-1 p-md-2 p-lg-2
+            Portfolio_Link
+          "
           target="_blank"
         >
           <img
@@ -272,8 +324,7 @@
               I love
               <a
                 class="Link_underline_paragraph"
-                href="https://www.vitsoe.com/eu/about/good-design"
-                target="_blank"
+                href="https://narendra.design/how-to-achieve-good-design-principles-by-narendra-ram/"
                 >good design</a
               >, gaming, art, netflix, and gadgets.
             </p>
@@ -288,7 +339,15 @@
         </div>
       </div>
       <div
-        class="row bg-secondary justify-content-around align-items-center py-2 py-md-2 py-lg-2 mt-3 mt-md-3 mt-lg-3 rounded-lg"
+        class="
+          row
+          bg-secondary
+          justify-content-around
+          align-items-center
+          py-2 py-md-2 py-lg-2
+          mt-3 mt-md-3 mt-lg-3
+          rounded-lg
+        "
       >
         <div class="col-lg-3 align-self-center text-center">
           <h3 class="m-0 text-gray5">🎓 Certified by</h3>
@@ -335,13 +394,23 @@
         <div class="col-12 col-md-12 col-lg-6">
           <h2 class="mb-2 mb-md-2 mb-lg-2">📅 Schedule a consult.</h2>
           <p
-            class="Text_M Text_dark mb-3 mb-md-3 mb-lg-3 w-100 d-block d-md-none d-lg-none d-xl-none"
+            class="
+              Text_M Text_dark
+              mb-3 mb-md-3 mb-lg-3
+              w-100
+              d-block d-md-none d-lg-none d-xl-none
+            "
           >
             I am always open to discuss your project, improve your online
             presence or help with your UX/UI design challenges.
           </p>
           <p
-            class="Text_M Text_dark mb-3 mb-md-3 mb-lg-3 w-75 d-none d-md-block d-lg-block d-xl-block"
+            class="
+              Text_M Text_dark
+              mb-3 mb-md-3 mb-lg-3
+              w-75
+              d-none d-md-block d-lg-block d-xl-block
+            "
           >
             I am always open to discuss your project, improve your online
             presence or help with your UX/UI design challenges.
