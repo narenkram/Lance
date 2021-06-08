@@ -1,7 +1,6 @@
 const webpack = require("webpack");
 
 export default {
-  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -62,13 +61,5 @@ export default {
   },
   googleAnalytics: {
     id: 'G-848NRXZRM8'
-  },
-  googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
-  },
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID
-    }
   }
 }
