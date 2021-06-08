@@ -15,7 +15,7 @@ export default {
       { rel: 'icon', type: 'image/png', href: '/logo.png' }
     ],
     script: [
-      { src: "https://www.googletagmanager.com/gtag/js?id=G-FXGFMCMH1F", async: true },
+      { src: "https://www.googletagmanager.com/gtag/js?id=G-848NRXZRM8", async: true },
     ],
   },
   router: {
@@ -43,7 +43,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/google-analytics'],
+  modules: [],
   /*
    ** Build configuration
    */
@@ -58,8 +58,5 @@ export default {
       new webpack.ProvidePlugin({
         $: "jquery"
       })]
-  },
-  googleAnalytics: {
-    id: 'G-848NRXZRM8'
   }
 }
