@@ -1,5 +1,5 @@
 # Narendra Ram
-Hi, I'm Narendra. I’m a freelance UX/UI Designer with a frontend background specializing in Design for Code.
+Hi, I'm Narendra. I’m a Freelance Full Stack Designer.
 
 ## Figma Design
 * Prototype Link: 
