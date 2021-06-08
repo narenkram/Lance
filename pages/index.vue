@@ -57,7 +57,8 @@
           <p class="mb-2 mb-md-2 mb-lg-2 Text_M">
             Need art for your project? I can create beautiful art, designs based
             on your project requirements such as business cards, digital
-            banners, icons, hand-drawn characters, abstracts, textures, etc.
+            banners, icons, logos, hand-drawn characters, abstracts, textures,
+            etc.
           </p>
           <a href="#contact" class="Text_L">Get a estimate</a>
         </div>
