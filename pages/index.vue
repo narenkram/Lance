@@ -11,7 +11,7 @@
             </p>
           </blockquote>
           <a href="#mywork" class="btn btn-secondary">My Work</a>
-          <a href="#contact" class="btn btn-primary ml-1 ml-md-2 ml-lg-2"
+          <a href="#contact" class="btn btn-primary ml-1 ms-md-2 ms-lg-2"
             >Let's Talk</a
           >
         </div>
@@ -318,7 +318,7 @@
           <div class="d-flex flex-row align-items-start">
             <img
               src="~/assets/icons/heart.svg"
-              class="mr-1 mr-md-2 mr-lg-2"
+              class="me-1 me-md-2 me-lg-2"
               alt=""
             />
             <p class="Text_M Text_dark">
@@ -427,21 +427,21 @@
               <a href="https://twitter.com/narenkram" target="_blank">
                 <img
                   src="~/assets/icons/twitter.svg"
-                  class="mr-1 img-fluid SocialIcon"
+                  class="me-1 img-fluid SocialIcon"
                   alt="narenkram_twitter_icon"
                 />
               </a>
               <a href="https://www.linkedin.com/in/narenkram/" target="_blank">
                 <img
                   src="~/assets/icons/linkedin.svg"
-                  class="mr-1 img-fluid SocialIcon"
+                  class="me-1 img-fluid SocialIcon"
                   alt="narenkram_linkedin_icon"
                 />
               </a>
               <a href="https://www.facebook.com/narenkram/" target="_blank">
                 <img
                   src="~/assets/icons/facebook.svg"
-                  class="mr-1 img-fluid SocialIcon"
+                  class="me-1 img-fluid SocialIcon"
                   alt="narenkram_facebook_icon"
                 />
               </a>
@@ -502,21 +502,21 @@
             <a href="https://twitter.com/narenkram" target="_blank">
               <img
                 src="~/assets/icons/twitter.svg"
-                class="mr-1 img-fluid SocialIcon"
+                class="me-1 img-fluid SocialIcon"
                 alt="narenkram_twitter_icon"
               />
             </a>
             <a href="https://www.linkedin.com/in/narenkram/" target="_blank">
               <img
                 src="~/assets/icons/linkedin.svg"
-                class="mr-1 img-fluid SocialIcon"
+                class="me-1 img-fluid SocialIcon"
                 alt="narenkram_linkedin_icon"
               />
             </a>
             <a href="https://www.facebook.com/narenkram/" target="_blank">
               <img
                 src="~/assets/icons/facebook.svg"
-                class="mr-1 img-fluid SocialIcon"
+                class="me-1 img-fluid SocialIcon"
                 alt="narenkram_facebook_icon"
               />
             </a>
