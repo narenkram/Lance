@@ -2,14 +2,11 @@
 Hi, I'm Narendra. I’m a Freelance Full Stack Designer.
 
 ## Figma Design
-* Prototype Link: 
 * Design File:
-* Style Guide:
 
 ## Frontend Development
 
 * Bootstrap with SCSS
-* Jquery
 
 ## Build Setup
 
