@@ -34,6 +34,7 @@
 $theme-colors: (
   "primary": #ff6666,
   "secondary": #336699,
+  "gray0": #111113,
   "gray1": #212126,
   "gray2": #6e6d7a,
   "gray3": #a4a4a4,
@@ -97,6 +98,18 @@ $spacers: (
   .Footer {
     background-color: map-get($theme-colors, "gray5");
   }
+  .Footer_paragraph {
+    color: map-get($theme-colors, "gray2");
+  }
+  a {
+    color: map-get($theme-colors, "gray1");
+  }
+  .nav-link {
+    color: map-get($theme-colors, "gray2");
+  }
+  .form-control {
+    background-color: map-get($theme-colors, "gray5");
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -106,6 +119,18 @@ $spacers: (
     background-color: #000000;
   }
   .Footer {
+    background-color: map-get($theme-colors, "gray0");
+  }
+  .Footer_paragraph {
+    color: map-get($theme-colors, "gray3");
+  }
+  a {
+    color: map-get($theme-colors, "gray3");
+  }
+  .nav-link {
+    color: map-get($theme-colors, "gray3");
+  }
+  .form-control {
     background-color: map-get($theme-colors, "gray1");
   }
 }
@@ -116,16 +141,11 @@ body {
 }
 
 a {
-  color: map-get($theme-colors, "gray1");
   font-family: Spartan-SemiBold;
   text-decoration: none;
 }
 
 a:hover {
-}
-
-.nav-link {
-  color: map-get($theme-colors, "gray2");
 }
 
 .btn {
@@ -140,7 +160,6 @@ a:hover {
 .Footer_paragraph {
   font-family: Hind-Regular;
   line-height: unset;
-  color: map-get($theme-colors, "gray2");
 }
 
 .Link_underline_footer {
