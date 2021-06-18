@@ -159,6 +159,9 @@ $spacers: (
   .Text_paragraph {
     color: map-get($theme-colors, "gray1");
   }
+  .Portrait{
+    filter: brightness(100%);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -230,6 +233,9 @@ $spacers: (
   }
   .Text_paragraph {
     color: map-get($theme-colors, "gray4");
+  }
+  .Portrait{
+    filter: brightness(70%);
   }
 }
 

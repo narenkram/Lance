@@ -334,7 +334,7 @@
         <div class="d-none d-md-block col-md-5 col-lg-5 align-self-center">
           <img
             src="~/assets/images/narendra_ram.png"
-            class="img-fluid"
+            class="img-fluid Portrait"
             alt="narendra_ram_potrait"
           />
         </div>
