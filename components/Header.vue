@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <nav class="navbar navbar-expand-md navbar-light bg-white mt-1 p-0">
+    <nav class="navbar navbar-expand-md mt-1 p-0">
       <nuxt-link class="navbar-brand p-0 col-auto" to="/"
         ><img
           src="~/assets/images/logo.svg"

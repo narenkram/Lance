@@ -88,11 +88,31 @@ $spacers: (
 
 // Global Style ***********************************************
 
+@media (prefers-color-scheme: light) {
+  html,
+  body {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  .Footer {
+    background-color: map-get($theme-colors, "gray5");
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    color: #ffffff;
+    background-color: #000000;
+  }
+  .Footer {
+    background-color: map-get($theme-colors, "gray1");
+  }
+}
+
 html,
 body {
   scroll-behavior: smooth;
-  color: map-get($theme-colors, "gray1");
-  background-color: #ffffff;
 }
 
 a {
