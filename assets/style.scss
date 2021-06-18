@@ -49,13 +49,14 @@ $enable-prefers-reduced-motion-media-query: true;
 $enable-responsive-font-sizes: true;
 $enable-validation-icons: true;
 $enable-deprecation-messages: true;
-$spacer: 53.33px;
+$spacer: 3.333rem;
 
 $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
   xl: 1200px,
+  xxl: 1400px,
 );
 
 $spacers: (
@@ -171,6 +172,118 @@ input,
   background-color: map-get($theme-colors, "gray5");
 }
 // Global Style ***********************************************
+
+// Extra Large Desktop Style ***********************************************
+
+@include media-breakpoint-down(xxl) {
+  .container {
+    padding: 0 !important;
+  }
+
+  h1 {
+    font-family: Spartan-SemiBold;
+    font-size: 30px;
+    line-height: 54px;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  h2 {
+    font-family: Spartan-Bold;
+    font-size: 28px;
+    line-height: unset;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  h3 {
+    font-family: Spartan-SemiBold;
+    font-size: 26px;
+    line-height: 36px;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  h4 {
+    font-family: Spartan-SemiBold;
+    font-size: 24px;
+    line-height: unset;
+    color: map-get($theme-colors, "gray1");
+  }
+
+  .Text_L {
+    font-family: Spartan-SemiBold;
+    font-size: 22px;
+    line-height: unset;
+  }
+
+  .Text_M {
+    font-family: Hind-Regular;
+    font-size: 20px;
+    line-height: unset;
+  }
+
+  .Text_S {
+    font-family: Hind-Medium;
+    font-size: 18px;
+    line-height: unset;
+    color: map-get($theme-colors, "gray2");
+  }
+
+  .Text_dark {
+    color: map-get($theme-colors, "gray1");
+  }
+
+  .nav-link {
+    font-family: Spartan-SemiBold;
+    font-size: 20px;
+    line-height: unset;
+  }
+
+  .btn {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 19px;
+    padding-left: 19px;
+    font-size: 20px;
+  }
+
+  .Logo {
+    height: 60px;
+  }
+
+  .Footer_paragraph {
+    font-size: 20px;
+  }
+
+  .Link_underline_footer {
+    font-size: 20px;
+  }
+
+  input,
+  .form-control {
+    height: 52px;
+    font-family: Hind-Regular;
+    font-size: 20px;
+    padding: 12px 20px;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    border: 1px solid map-get($theme-colors, "secondary");
+  }
+
+  .textarea {
+    max-height: 140px;
+  }
+
+  .ServiceIcon {
+    height: 65px;
+  }
+
+  .Certificate {
+    height: 40px;
+  }
+}
+
+// Extra Large Desktop Style ***********************************************
 
 // Desktop Style ***********************************************
 

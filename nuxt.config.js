@@ -1,5 +1,3 @@
-const webpack = require("webpack");
-
 export default {
   /*
   ** Headers of the page
@@ -38,7 +36,6 @@ export default {
   plugins: [
     { src: "~/node_modules/jquery/dist/jquery.min.js", ssr: false },
     { src: "~/node_modules/bootstrap/dist/js/bootstrap.min.js", ssr: false },
-    { src: "~/node_modules/holderjs/holder.min.js", ssr: false },
   ],
   /*
    ** Nuxt.js modules
@@ -53,10 +50,8 @@ export default {
     */
     extend(config, ctx) {
     },
-    vendor: ['jquery'],
+    vendor: [],
     plugins: [
-      new webpack.ProvidePlugin({
-        $: "jquery"
-      })]
+    ]
   }
 }
