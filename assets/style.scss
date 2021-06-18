@@ -119,6 +119,9 @@ $spacers: (
   .nav-link {
     color: map-get($theme-colors, "gray2");
   }
+  .nav-link:hover {
+    color: map-get($theme-colors, "primary");
+  }
   .form-control {
     background-color: map-get($theme-colors, "gray5");
     color: map-get($theme-colors, "gray1");
@@ -159,7 +162,7 @@ $spacers: (
   .Text_paragraph {
     color: map-get($theme-colors, "gray1");
   }
-  .Portrait{
+  .Portrait {
     filter: brightness(100%);
   }
 }
@@ -186,13 +189,16 @@ $spacers: (
     color: map-get($theme-colors, "primary");
   }
   a {
-    color: map-get($theme-colors, "secondary");
+    color: map-get($theme-colors, "gray3");
   }
   a:hover {
     color: map-get($theme-colors, "primary");
   }
   .nav-link {
     color: map-get($theme-colors, "gray3");
+  }
+  .nav-link:hover {
+    color: map-get($theme-colors, "primary");
   }
   .form-control {
     background-color: map-get($theme-colors, "gray1");
@@ -234,7 +240,7 @@ $spacers: (
   .Text_paragraph {
     color: map-get($theme-colors, "gray4");
   }
-  .Portrait{
+  .Portrait {
     filter: brightness(70%);
   }
 }
