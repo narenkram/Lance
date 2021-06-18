@@ -347,7 +347,7 @@
           align-items-center
           py-2 py-md-2 py-lg-2
           mt-3 mt-md-3 mt-lg-3
-          rounded-lg
+          rounded-3
         "
       >
         <div class="col-lg-3 align-self-center text-center">
@@ -488,7 +488,7 @@
               ></textarea>
             </div>
             <button
-              class="btn btn-primary float-right"
+              class="btn btn-primary float-end"
               type="submit"
               value="send"
             >
