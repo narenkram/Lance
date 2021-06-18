@@ -2,7 +2,7 @@
   <div class="container">
     <section class="pt-3 pt-md-5 pt-lg-5">
       <div class="row justify-content-center">
-        <div class="col-12 col-md-6 col-lg-7 text-left align-self-center">
+        <div class="col-12 col-md-6 col-lg-7 text-start align-self-center">
           <h3 class="mb-1 mb-md-2 mb-lg-2">👋 Hi, I'm Narendra</h3>
           <h1 class="mb-1 mb-md-1 mb-lg-0">Freelance Full Stack Designer</h1>
           <blockquote class="blockquote mb-2 mb-md-3 mb-lg-3">
@@ -18,7 +18,7 @@
         <div
           class="
             col-12 col-md-6 col-lg-5
-            text-center text-md-right text-lg-right
+            text-center text-md-end text-lg-end
             mt-3 mt-md-0 mt-lg-0
           "
         >
@@ -127,7 +127,7 @@
         </div>
       </div>
       <!-- <div class="row mt-2">
-        <div class="col-12 text-left">
+        <div class="col-12 text-start">
           <nuxt-link to="/projects-timeline" class="Text_L text-primary">🤜 View all projects</nuxt-link>
         </div>
       </div> -->

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-7 col-lg-7">
-          <div class="row text-center text-md-left text-lg-left">
+          <div class="row text-center text-md-start text-lg-start">
             <div class="col-12 col-md-auto">
               <img
                 src="~/assets/images/logo.svg"
@@ -12,7 +12,7 @@
               />
             </div>
             <div class="col-12 col-md-auto align-self-center">
-              <p class="m-0 Footer_paragraph">
+              <p class="m-0 Footer_paragraph text-start">
                 Narendra Ram <br />
                 Freelance Full Stack Designer
               </p>
@@ -20,9 +20,9 @@
           </div>
         </div>
         <div
-          class="col-12 col-md-5 col-lg-5 text-center text-md-right text-lg-right mt-2 mt-md-0 mt-lg-0"
+          class="col-12 col-md-5 col-lg-5 text-center text-md-end text-lg-end mt-2 mt-md-0 mt-lg-0"
         >
-          <p class="m-0 Footer_paragraph">
+          <p class="m-0 Footer_paragraph text-end">
             Designed using Figma <br />Hosted on
             <a
               href="https://github.com/narenkram/narenkram"

@@ -56,7 +56,7 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1200px,
-  xxl: 1400px,
+  xxl: 1200px,
 );
 
 $spacers: (
@@ -121,7 +121,6 @@ a:hover {
   font-family: Hind-Regular;
   line-height: unset;
   color: map-get($theme-colors, "gray2");
-  text-align: left;
 }
 
 .Link_underline_footer {
