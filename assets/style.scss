@@ -98,10 +98,10 @@ body {
 a {
   color: map-get($theme-colors, "gray1");
   font-family: Spartan-SemiBold;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: none;
 }
 
 .nav-link {
@@ -164,7 +164,7 @@ input,
   border-radius: 10px;
 }
 
-.Portfolio_Link img{
+.Portfolio_Link img {
   height: 50px;
 }
 

@@ -12,7 +12,7 @@
               />
             </div>
             <div class="col-12 col-md-auto align-self-center">
-              <p class="m-0 Footer_paragraph text-start">
+              <p class="m-0 Footer_paragraph">
                 Narendra Ram <br />
                 Freelance Full Stack Designer
               </p>
@@ -22,7 +22,7 @@
         <div
           class="col-12 col-md-5 col-lg-5 text-center text-md-end text-lg-end mt-2 mt-md-0 mt-lg-0"
         >
-          <p class="m-0 Footer_paragraph text-end">
+          <p class="m-0 Footer_paragraph">
             Designed using Figma <br />Hosted on
             <a
               href="https://github.com/narenkram/narenkram"
