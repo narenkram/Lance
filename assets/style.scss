@@ -175,7 +175,7 @@ input,
 
 // Extra Large Desktop Style ***********************************************
 
-@include media-breakpoint-down(xxl) {
+@include media-breakpoint-up(xl) {
   .container {
     padding: 0 !important;
   }
