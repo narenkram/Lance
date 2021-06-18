@@ -2,7 +2,7 @@
   <div class="container">
     <section class="pt-3 pt-md-5 pt-lg-5">
       <div class="row justify-content-center">
-        <div class="col-12 col-md-6 col-lg-7 text-left align-self-center">
+        <div class="col-12 col-md-6 col-lg-7 text-start align-self-center">
           <h3 class="mb-1 mb-md-2 mb-lg-2">👋 Hi, I'm Narendra</h3>
           <h1 class="mb-1 mb-md-1 mb-lg-0">Freelance Full Stack Designer</h1>
           <blockquote class="blockquote mb-2 mb-md-3 mb-lg-3">
@@ -11,14 +11,14 @@
             </p>
           </blockquote>
           <a href="#mywork" class="btn btn-secondary">My Work</a>
-          <a href="#contact" class="btn btn-primary ml-1 ml-md-2 ml-lg-2"
+          <a href="#contact" class="btn btn-primary ms-1 ms-md-2 ms-lg-2"
             >Let's Talk</a
           >
         </div>
         <div
           class="
             col-12 col-md-6 col-lg-5
-            text-center text-md-right text-lg-right
+            text-center text-md-end text-lg-end
             mt-3 mt-md-0 mt-lg-0
           "
         >
@@ -127,7 +127,7 @@
         </div>
       </div>
       <!-- <div class="row mt-2">
-        <div class="col-12 text-left">
+        <div class="col-12 text-start">
           <nuxt-link to="/projects-timeline" class="Text_L text-primary">🤜 View all projects</nuxt-link>
         </div>
       </div> -->
@@ -293,19 +293,19 @@
       <div class="row">
         <div class="col-12 col-sm-12 col-md-7 col-lg-7">
           <h2 class="pt-0 pt-md-0 pt-lg-1 mb-3 mb-md-4 mb-lg-4">About 👨‍💼 Me</h2>
-          <p class="Text_M Text_dark mb-2 mb-md-2 mb-lg-2">
+          <p class="Text_M Text_paragraph mb-2 mb-md-2 mb-lg-2">
             I started as a frontend developer in college, and later I co-founded
             Aroliant with a friend. As a director and a developer, I learned a
             lot about managing a company, team, and projects.
           </p>
-          <p class="Text_M Text_dark mb-2 mb-md-2 mb-lg-2">
+          <p class="Text_M Text_paragraph mb-2 mb-md-2 mb-lg-2">
             And in two years, I found my passion for design. In 2020 for
             personal reasons, I became a freelancer. Now, I’m selling digital
             goods on the web and working on freelance projects. I love helping
             small businesses to create their online presence and help setting up
             their own online store (e-commerce) to boost their business.
           </p>
-          <p class="Text_M Text_dark mb-3 mb-md-3 mb-lg-3">
+          <p class="Text_M Text_paragraph mb-3 mb-md-3 mb-lg-3">
             My design work ensures that it is developer-friendly as it passes
             through the lens of my experience as a frontend developer. When I
             design, I make sure it is 100% implementable by a frontend developer
@@ -318,10 +318,10 @@
           <div class="d-flex flex-row align-items-start">
             <img
               src="~/assets/icons/heart.svg"
-              class="mr-1 mr-md-2 mr-lg-2"
+              class="me-1 me-md-2 me-lg-2"
               alt=""
             />
-            <p class="Text_M Text_dark">
+            <p class="Text_M Text_paragraph">
               I love
               <a
                 class="Link_underline_paragraph"
@@ -334,7 +334,7 @@
         <div class="d-none d-md-block col-md-5 col-lg-5 align-self-center">
           <img
             src="~/assets/images/narendra_ram.png"
-            class="img-fluid"
+            class="img-fluid Portrait"
             alt="narendra_ram_potrait"
           />
         </div>
@@ -347,7 +347,7 @@
           align-items-center
           py-2 py-md-2 py-lg-2
           mt-3 mt-md-3 mt-lg-3
-          rounded-lg
+          rounded-3
         "
       >
         <div class="col-lg-3 align-self-center text-center">
@@ -396,7 +396,7 @@
           <h2 class="mb-2 mb-md-2 mb-lg-2">📅 Schedule a consult.</h2>
           <p
             class="
-              Text_M Text_dark
+              Text_M Text_paragraph
               mb-3 mb-md-3 mb-lg-3
               w-100
               d-block d-md-none d-lg-none d-xl-none
@@ -407,7 +407,7 @@
           </p>
           <p
             class="
-              Text_M Text_dark
+              Text_M Text_paragraph
               mb-3 mb-md-3 mb-lg-3
               w-75
               d-none d-md-block d-lg-block d-xl-block
@@ -418,7 +418,7 @@
           </p>
 
           <p class="Text_S mb-1 mb-md-1 mb-lg-1">📧 Email me at</p>
-          <p class="Text_M mb-3 mb-md-3 mb-lg-3 Text_dark MyEmail">
+          <p class="Text_M mb-3 mb-md-3 mb-lg-3 Text_paragraph MyEmail">
             hi@narendra.design
           </p>
           <div class="d-none d-md-none d-lg-block">
@@ -427,21 +427,21 @@
               <a href="https://twitter.com/narenkram" target="_blank">
                 <img
                   src="~/assets/icons/twitter.svg"
-                  class="mr-1 img-fluid SocialIcon"
+                  class="me-1 img-fluid SocialIcon"
                   alt="narenkram_twitter_icon"
                 />
               </a>
               <a href="https://www.linkedin.com/in/narenkram/" target="_blank">
                 <img
                   src="~/assets/icons/linkedin.svg"
-                  class="mr-1 img-fluid SocialIcon"
+                  class="me-1 img-fluid SocialIcon"
                   alt="narenkram_linkedin_icon"
                 />
               </a>
               <a href="https://www.facebook.com/narenkram/" target="_blank">
                 <img
                   src="~/assets/icons/facebook.svg"
-                  class="mr-1 img-fluid SocialIcon"
+                  class="me-1 img-fluid SocialIcon"
                   alt="narenkram_facebook_icon"
                 />
               </a>
@@ -488,7 +488,7 @@
               ></textarea>
             </div>
             <button
-              class="btn btn-primary float-right"
+              class="btn btn-primary float-end"
               type="submit"
               value="send"
             >
@@ -502,21 +502,21 @@
             <a href="https://twitter.com/narenkram" target="_blank">
               <img
                 src="~/assets/icons/twitter.svg"
-                class="mr-1 img-fluid SocialIcon"
+                class="me-1 img-fluid SocialIcon"
                 alt="narenkram_twitter_icon"
               />
             </a>
             <a href="https://www.linkedin.com/in/narenkram/" target="_blank">
               <img
                 src="~/assets/icons/linkedin.svg"
-                class="mr-1 img-fluid SocialIcon"
+                class="me-1 img-fluid SocialIcon"
                 alt="narenkram_linkedin_icon"
               />
             </a>
             <a href="https://www.facebook.com/narenkram/" target="_blank">
               <img
                 src="~/assets/icons/facebook.svg"
-                class="mr-1 img-fluid SocialIcon"
+                class="me-1 img-fluid SocialIcon"
                 alt="narenkram_facebook_icon"
               />
             </a>
