@@ -293,19 +293,19 @@
       <div class="row">
         <div class="col-12 col-sm-12 col-md-7 col-lg-7">
           <h2 class="pt-0 pt-md-0 pt-lg-1 mb-3 mb-md-4 mb-lg-4">About 👨‍💼 Me</h2>
-          <p class="Text_M Text_dark mb-2 mb-md-2 mb-lg-2">
+          <p class="Text_M Text_paragraph mb-2 mb-md-2 mb-lg-2">
             I started as a frontend developer in college, and later I co-founded
             Aroliant with a friend. As a director and a developer, I learned a
             lot about managing a company, team, and projects.
           </p>
-          <p class="Text_M Text_dark mb-2 mb-md-2 mb-lg-2">
+          <p class="Text_M Text_paragraph mb-2 mb-md-2 mb-lg-2">
             And in two years, I found my passion for design. In 2020 for
             personal reasons, I became a freelancer. Now, I’m selling digital
             goods on the web and working on freelance projects. I love helping
             small businesses to create their online presence and help setting up
             their own online store (e-commerce) to boost their business.
           </p>
-          <p class="Text_M Text_dark mb-3 mb-md-3 mb-lg-3">
+          <p class="Text_M Text_paragraph mb-3 mb-md-3 mb-lg-3">
             My design work ensures that it is developer-friendly as it passes
             through the lens of my experience as a frontend developer. When I
             design, I make sure it is 100% implementable by a frontend developer
@@ -321,7 +321,7 @@
               class="me-1 me-md-2 me-lg-2"
               alt=""
             />
-            <p class="Text_M Text_dark">
+            <p class="Text_M Text_paragraph">
               I love
               <a
                 class="Link_underline_paragraph"
@@ -396,7 +396,7 @@
           <h2 class="mb-2 mb-md-2 mb-lg-2">📅 Schedule a consult.</h2>
           <p
             class="
-              Text_M Text_dark
+              Text_M Text_paragraph
               mb-3 mb-md-3 mb-lg-3
               w-100
               d-block d-md-none d-lg-none d-xl-none
@@ -407,7 +407,7 @@
           </p>
           <p
             class="
-              Text_M Text_dark
+              Text_M Text_paragraph
               mb-3 mb-md-3 mb-lg-3
               w-75
               d-none d-md-block d-lg-block d-xl-block
@@ -418,7 +418,7 @@
           </p>
 
           <p class="Text_S mb-1 mb-md-1 mb-lg-1">📧 Email me at</p>
-          <p class="Text_M mb-3 mb-md-3 mb-lg-3 Text_dark MyEmail">
+          <p class="Text_M mb-3 mb-md-3 mb-lg-3 Text_paragraph MyEmail">
             hi@narendra.design
           </p>
           <div class="d-none d-md-none d-lg-block">

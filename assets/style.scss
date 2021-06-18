@@ -101,14 +101,63 @@ $spacers: (
   .Footer_paragraph {
     color: map-get($theme-colors, "gray2");
   }
+  .Link_underline_footer {
+    color: map-get($theme-colors, "gray2");
+  }
+  .Link_underline_paragraph {
+    color: map-get($theme-colors, "primary");
+  }
+  .Link_underline_paragraph:hover {
+    color: map-get($theme-colors, "secondary");
+  }
   a {
     color: map-get($theme-colors, "gray1");
+  }
+  a:hover {
+    color: map-get($theme-colors, "primary");
   }
   .nav-link {
     color: map-get($theme-colors, "gray2");
   }
   .form-control {
     background-color: map-get($theme-colors, "gray5");
+    color: map-get($theme-colors, "gray1");
+  }
+  .form-control:focus {
+    background-color: #ffffff;
+    color: map-get($theme-colors, "gray1");
+    border: 1px solid map-get($theme-colors, "secondary");
+  }
+  p {
+    color: map-get($theme-colors, "gray2");
+  }
+  input,
+  .form-control {
+    border: 1px solid map-get($theme-colors, "gray4");
+  }
+  .Portfolio_Link {
+    background-color: none;
+  }
+  .Portfolio_Link:hover {
+    background-color: map-get($theme-colors, "gray5");
+  }
+  h1 {
+    color: map-get($theme-colors, "gray1");
+  }
+  h2 {
+    color: map-get($theme-colors, "gray1");
+  }
+  h3 {
+    color: map-get($theme-colors, "gray1");
+  }
+  h4 {
+    color: map-get($theme-colors, "gray1");
+  }
+  .Text_S {
+    color: map-get($theme-colors, "gray2");
+  }
+  .Text_paragraph {
+    color: map-get($theme-colors, "gray1");
   }
 }
 
@@ -124,14 +173,63 @@ $spacers: (
   .Footer_paragraph {
     color: map-get($theme-colors, "gray3");
   }
+  .Link_underline_footer {
+    color: map-get($theme-colors, "secondary");
+  }
+  .Link_underline_paragraph {
+    color: map-get($theme-colors, "secondary");
+  }
+  .Link_underline_paragraph:hover {
+    color: map-get($theme-colors, "primary");
+  }
   a {
-    color: map-get($theme-colors, "gray3");
+    color: map-get($theme-colors, "secondary");
+  }
+  a:hover {
+    color: map-get($theme-colors, "primary");
   }
   .nav-link {
     color: map-get($theme-colors, "gray3");
   }
   .form-control {
     background-color: map-get($theme-colors, "gray1");
+    color: map-get($theme-colors, "gray5");
+  }
+  .form-control:focus {
+    background-color: map-get($theme-colors, "gray1");
+    color: map-get($theme-colors, "gray5");
+    border: 1px solid map-get($theme-colors, "gray2");
+  }
+  p {
+    color: map-get($theme-colors, "gray3");
+  }
+  input,
+  .form-control {
+    border: 1px solid map-get($theme-colors, "gray1");
+  }
+  .Portfolio_Link {
+    background-color: none;
+  }
+  .Portfolio_Link:hover {
+    background-color: map-get($theme-colors, "gray1");
+  }
+  h1 {
+    color: map-get($theme-colors, "gray5");
+  }
+  h2 {
+    color: map-get($theme-colors, "gray5");
+  }
+  h3 {
+    color: map-get($theme-colors, "gray5");
+  }
+  h4 {
+    color: map-get($theme-colors, "gray5");
+  }
+  .Text_S {
+    color: map-get($theme-colors, "gray2");
+  }
+  .Text_paragraph {
+    color: map-get($theme-colors, "gray4");
   }
 }
 
@@ -143,9 +241,6 @@ body {
 a {
   font-family: Spartan-SemiBold;
   text-decoration: none;
-}
-
-a:hover {
 }
 
 .btn {
@@ -166,21 +261,15 @@ a:hover {
   font-family: Hind-Regular;
   line-height: unset;
   text-decoration: underline;
-  color: map-get($theme-colors, "gray2");
 }
 
 .Link_underline_paragraph {
   font-family: Hind-Regular;
   text-decoration: underline;
-  color: map-get($theme-colors, "primary");
 }
 
 .img-fluid {
   border-radius: 8px;
-}
-
-p {
-  color: map-get($theme-colors, "gray2");
 }
 
 .MyEmail {
@@ -189,7 +278,6 @@ p {
 
 input,
 .form-control {
-  border: 1px solid map-get($theme-colors, "gray4");
   box-sizing: border-box;
   border-radius: 4px;
   box-shadow: none;
@@ -207,9 +295,6 @@ input,
   height: 50px;
 }
 
-.Portfolio_Link:hover {
-  background-color: map-get($theme-colors, "gray5");
-}
 // Global Style ***********************************************
 
 // Extra Large Desktop Style ***********************************************
@@ -223,28 +308,24 @@ input,
     font-family: Spartan-SemiBold;
     font-size: 30px;
     line-height: 54px;
-    color: map-get($theme-colors, "gray1");
   }
 
   h2 {
     font-family: Spartan-Bold;
     font-size: 28px;
     line-height: unset;
-    color: map-get($theme-colors, "gray1");
   }
 
   h3 {
     font-family: Spartan-SemiBold;
     font-size: 26px;
     line-height: 36px;
-    color: map-get($theme-colors, "gray1");
   }
 
   h4 {
     font-family: Spartan-SemiBold;
     font-size: 24px;
     line-height: unset;
-    color: map-get($theme-colors, "gray1");
   }
 
   .Text_L {
@@ -263,11 +344,6 @@ input,
     font-family: Hind-Medium;
     font-size: 18px;
     line-height: unset;
-    color: map-get($theme-colors, "gray2");
-  }
-
-  .Text_dark {
-    color: map-get($theme-colors, "gray1");
   }
 
   .nav-link {
@@ -306,7 +382,6 @@ input,
 
   .form-control:focus {
     box-shadow: none;
-    border: 1px solid map-get($theme-colors, "secondary");
   }
 
   .textarea {
@@ -335,28 +410,24 @@ input,
     font-family: Spartan-SemiBold;
     font-size: 30px;
     line-height: 54px;
-    color: map-get($theme-colors, "gray1");
   }
 
   h2 {
     font-family: Spartan-Bold;
     font-size: 28px;
     line-height: unset;
-    color: map-get($theme-colors, "gray1");
   }
 
   h3 {
     font-family: Spartan-SemiBold;
     font-size: 26px;
     line-height: 36px;
-    color: map-get($theme-colors, "gray1");
   }
 
   h4 {
     font-family: Spartan-SemiBold;
     font-size: 24px;
     line-height: unset;
-    color: map-get($theme-colors, "gray1");
   }
 
   .Text_L {
@@ -375,11 +446,6 @@ input,
     font-family: Hind-Medium;
     font-size: 18px;
     line-height: unset;
-    color: map-get($theme-colors, "gray2");
-  }
-
-  .Text_dark {
-    color: map-get($theme-colors, "gray1");
   }
 
   .nav-link {
@@ -418,7 +484,6 @@ input,
 
   .form-control:focus {
     box-shadow: none;
-    border: 1px solid map-get($theme-colors, "secondary");
   }
 
   .textarea {
@@ -447,28 +512,24 @@ input,
     font-family: Spartan-SemiBold;
     font-size: 28px;
     line-height: 36px;
-    color: map-get($theme-colors, "gray1");
   }
 
   h2 {
     font-family: Spartan-Bold;
     font-size: 26px;
     line-height: unset;
-    color: map-get($theme-colors, "gray1");
   }
 
   h3 {
     font-family: Spartan-SemiBold;
     font-size: 24px;
     line-height: 26px;
-    color: map-get($theme-colors, "gray1");
   }
 
   h4 {
     font-family: Spartan-SemiBold;
     font-size: 22px;
     line-height: unset;
-    color: map-get($theme-colors, "gray1");
   }
 
   .Text_L {
@@ -487,11 +548,6 @@ input,
     font-family: Hind-Medium;
     font-size: 16px;
     line-height: unset;
-    color: map-get($theme-colors, "gray2");
-  }
-
-  .Text_dark {
-    color: map-get($theme-colors, "gray1");
   }
 
   .nav-link {
@@ -530,7 +586,6 @@ input,
 
   .form-control:focus {
     box-shadow: none;
-    border: 1px solid map-get($theme-colors, "secondary");
   }
 
   .textarea {
@@ -560,28 +615,24 @@ input,
     font-family: Spartan-SemiBold;
     font-size: 26px;
     line-height: 36px;
-    color: map-get($theme-colors, "gray1");
   }
 
   h2 {
     font-family: Spartan-Bold;
     font-size: 24px;
     line-height: unset;
-    color: map-get($theme-colors, "gray1");
   }
 
   h3 {
     font-family: Spartan-SemiBold;
     font-size: 22px;
     line-height: 26px;
-    color: map-get($theme-colors, "gray1");
   }
 
   h4 {
     font-family: Spartan-SemiBold;
     font-size: 20px;
     line-height: unset;
-    color: map-get($theme-colors, "gray1");
   }
 
   .Text_L {
@@ -600,11 +651,6 @@ input,
     font-family: Hind-Medium;
     font-size: 14px;
     line-height: unset;
-    color: map-get($theme-colors, "gray2");
-  }
-
-  .Text_dark {
-    color: map-get($theme-colors, "gray1");
   }
 
   .nav-link {
@@ -643,7 +689,6 @@ input,
 
   .form-control:focus {
     box-shadow: none;
-    border: 1px solid map-get($theme-colors, "secondary");
   }
 
   .textarea {

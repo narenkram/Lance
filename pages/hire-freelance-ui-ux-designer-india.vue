@@ -5,7 +5,7 @@
         <div class="col-12 order-2 text-center mt-4">
           <h3>Outside India (Global)</h3>
           <h4>Available via Upwork.com</h4>
-          <p class="Text_M Text_dark">
+          <p class="Text_M Text_paragraph">
             Please don't impose to work outside Upwork, unless you have a lot to
             offer. <br />
             Click here to visit my
@@ -19,7 +19,7 @@
         <div class="col-12 order-1 text-center">
           <h3>Within India</h3>
           <h4>Available to work-from-home</h4>
-          <p class="Text_M Text_dark">
+          <p class="Text_M Text_paragraph">
             I'm available to work-from-home and collaborate with your team.<br />
             (Available to work in-person, if you live in my
             <a
