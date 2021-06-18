@@ -1,14 +1,14 @@
 <template>
   <div class="container">
     <nav class="navbar navbar-expand-md mt-1 p-0">
-      <nuxt-link class="navbar-brand p-0 col-auto" to="/"
+      <nuxt-link class="navbar-brand p-0" to="/"
         ><img
           src="~/assets/images/logo.svg"
           class="Logo"
           alt="narendraram designer"
       /></nuxt-link>
 
-      <ul class="col-auto navbar-nav flex-row flex-wrap ms-md-auto">
+      <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
         <li class="nav-item">
           <a class="p-1 p-md-0 p-lg-0 nav-link ms-0" href="#about">About</a>
         </li>
