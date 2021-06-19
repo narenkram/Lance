@@ -168,6 +168,9 @@ $spacers: (
   .SocialIcon:hover {
     filter: brightness(10%);
   }
+  .Narendra_photo {
+    background-image: url(~/assets/images/narendra-designer.png);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -249,7 +252,27 @@ $spacers: (
   .SocialIcon:hover {
     filter: brightness(80%);
   }
+  .Narendra_photo {
+    background-image: url(~/assets/images/darkframe_narendra-designer.png);
+  }
 }
+
+.Narendra_photo {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  min-height: 254px;
+  background-position: center;
+}
+
+// .navbar {
+//   position: fixed;
+//   top: 0;
+//   overflow: hidden;
+//   width: 100%;
+// }
 
 html,
 body {
