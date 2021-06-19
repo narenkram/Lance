@@ -165,6 +165,9 @@ $spacers: (
   .Portrait {
     filter: brightness(100%);
   }
+  .SocialIcon:hover {
+    filter: brightness(10%);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -243,6 +246,9 @@ $spacers: (
   .Portrait {
     filter: brightness(70%);
   }
+  .SocialIcon:hover {
+    filter: brightness(80%);
+  }
 }
 
 html,
@@ -293,10 +299,6 @@ input,
   box-sizing: border-box;
   border-radius: 4px;
   box-shadow: none;
-}
-
-.SocialIcon:hover {
-  filter: brightness(10%);
 }
 
 .Portfolio_Link {
