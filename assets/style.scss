@@ -171,6 +171,9 @@ $spacers: (
   .Narendra_photo {
     background-image: url(~/assets/images/narendra-designer.png);
   }
+  .Navbar {
+    background-color: #ffffff;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -255,6 +258,9 @@ $spacers: (
   .Narendra_photo {
     background-image: url(~/assets/images/darkframe_narendra-designer.png);
   }
+  .Navbar {
+    background-color: #000000;
+  }
 }
 
 .Narendra_photo {
@@ -267,12 +273,21 @@ $spacers: (
   background-position: center;
 }
 
-// .navbar {
-//   position: fixed;
-//   top: 0;
-//   overflow: hidden;
-//   width: 100%;
-// }
+.Navbar {
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 10;
+}
+.Navbar_child {
+  display: flex;
+}
 
 html,
 body {
@@ -398,7 +413,7 @@ input,
   }
 
   .Logo {
-    height: 60px;
+    height: 50px;
   }
 
   .Footer_paragraph {
@@ -431,6 +446,9 @@ input,
 
   .Certificate {
     height: 40px;
+  }
+  .Navbar_child {
+    overflow-x: hidden;
   }
 }
 
@@ -500,7 +518,7 @@ input,
   }
 
   .Logo {
-    height: 60px;
+    height: 50px;
   }
 
   .Footer_paragraph {
@@ -533,6 +551,9 @@ input,
 
   .Certificate {
     height: 40px;
+  }
+  .Navbar_child {
+    overflow-x: hidden;
   }
 }
 
@@ -636,6 +657,9 @@ input,
   .Certificate {
     height: 35px;
   }
+  .Navbar_child {
+    overflow-x: hidden;
+  }
 }
 
 // Tablet Style ***********************************************
@@ -738,6 +762,9 @@ input,
 
   .Certificate {
     height: 25px;
+  }
+  .Navbar_child {
+    overflow-x: scroll;
   }
 }
 

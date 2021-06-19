@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <section class="pt-3 pt-md-5 pt-lg-5">
+    <section
+      class="pt-3 pt-md-5 pt-lg-6 pt-xl-6 mt-0 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4"
+    >
       <div class="row justify-content-center">
         <div
           class="
@@ -34,7 +36,7 @@
       </div>
     </section>
 
-    <section id="services" class="pt-4 pt-md-5 pt-lg-6">
+    <section id="services" class="pt-4 pt-md-5 pt-lg-6 pt-xl-6">
       <h2 class="mb-3 mb-md-3 mb-lg-4">What I do</h2>
 
       <div class="row">
@@ -81,7 +83,7 @@
       </div>
     </section>
 
-    <section id="mywork" class="pt-4 pt-md-5 pt-lg-5">
+    <section id="mywork" class="pt-4 pt-md-5 pt-lg-5 pt-xl-6">
       <h2 class="mb-3 mb-md-4 mb-lg-4">👉 Latest Projects</h2>
       <div class="row">
         <div class="order-2 order-md-1 col-12 col-md-6 col-lg-6">
@@ -136,7 +138,7 @@
       </div> -->
     </section>
 
-    <section class="pt-4 pt-md-5 pt-lg-5">
+    <section class="pt-4 pt-md-5 pt-lg-5 pt-xl-6">
       <h2 class="mb-3 mb-md-4 mb-lg-4">Where to find 🔍 my work?</h2>
       <div class="row mb-3 mb-md-4 mb-lg-4 justify-content-around">
         <a
@@ -292,7 +294,7 @@
       </div>
     </section>
 
-    <section id="about" class="pt-4 pt-md-5 pt-lg-5">
+    <section id="about" class="pt-4 pt-md-5 pt-lg-5 pt-xl-6">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-7 col-lg-7">
           <h2 class="pt-0 pt-md-0 pt-lg-1 mb-3 mb-md-4 mb-lg-4">About 👨‍💼 Me</h2>
@@ -351,6 +353,7 @@
           py-2 py-md-2 py-lg-2
           mt-3 mt-md-3 mt-lg-3
           rounded-3
+          mx-0
         "
       >
         <div class="col-lg-3 align-self-center text-center">
@@ -393,7 +396,7 @@
       </div>
     </section>
 
-    <section id="contact" class="pt-4 pt-md-5 pt-lg-5">
+    <section id="contact" class="pt-4 pt-md-5 pt-lg-5 pt-xl-6">
       <div class="row">
         <div class="col-12 col-md-12 col-lg-6">
           <h2 class="mb-2 mb-md-2 mb-lg-2">📅 Schedule a consult.</h2>
