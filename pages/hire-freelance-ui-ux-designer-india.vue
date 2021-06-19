@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <section class="py-6">
+    <section class="py-6 mt-0 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4">
       <div class="row">
         <div class="col-12 order-2 text-center mt-4">
           <h3>Outside India (Global)</h3>
