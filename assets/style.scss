@@ -117,7 +117,10 @@ $spacers: (
     color: map-get($theme-colors, "primary");
   }
   .nav-link {
-    color: map-get($theme-colors, "gray2");
+    color: map-get($theme-colors, "secondary");
+  }
+  .nav-link_number {
+    color: map-get($theme-colors, "primary");
   }
   .nav-link:hover {
     color: map-get($theme-colors, "primary");
@@ -204,10 +207,13 @@ $spacers: (
     color: map-get($theme-colors, "primary");
   }
   .nav-link {
-    color: map-get($theme-colors, "gray3");
+    color: map-get($theme-colors, "primary");
+  }
+  .nav-link_number {
+    color: map-get($theme-colors, "secondary");
   }
   .nav-link:hover {
-    color: map-get($theme-colors, "primary");
+    color: map-get($theme-colors, "secondary");
   }
   .form-control {
     background-color: map-get($theme-colors, "gray1");
@@ -345,6 +351,11 @@ input,
 
 .Portfolio_Link img {
   height: 50px;
+}
+
+.nav-link{
+  display: flex;
+  flex-direction: row;
 }
 
 // Global Style ***********************************************
