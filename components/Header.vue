@@ -8,24 +8,15 @@
     /></nuxt-link>
 
     <div class="Navbar_child">
-      <a class="p-1 p-md-0 p-lg-0 nav-link ms-0" href="#about">About</a>
-      <a
-        class="p-1 p-md-0 p-lg-0 nav-link ms-0 ms-md-2 ms-lg-2"
-        href="#services"
-        >Services</a
+      <a class="p-1 p-md-0 p-lg-0 nav-link ms-0" href="#services">
+        <span class="nav-link_number">1. </span>Services</a
       >
-      <nuxt-link
-        to="/hire-freelance-ui-ux-designer-india"
-        class="p-1 p-md-0 p-lg-0 nav-link ms-0 ms-md-2 ms-lg-2"
-        >HireMe</nuxt-link
+      <a class="p-1 p-md-0 p-lg-0 nav-link ms-0 ms-md-2 ms-lg-2" href="#about"
+        ><span class="nav-link_number">2. </span>About</a
       >
+
       <a class="p-1 p-md-0 p-lg-0 nav-link ms-0 ms-md-2 ms-lg-2" href="#contact"
-        >Contact</a
-      >
-      <nuxt-link
-        class="p-1 p-md-0 p-lg-0 nav-link ms-0 ms-md-2 ms-lg-2"
-        to="/blog"
-        >Blog</nuxt-link
+        ><span class="nav-link_number">3. </span>Contact</a
       >
     </div>
   </nav>
