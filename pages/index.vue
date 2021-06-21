@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <section
+      id="intro"
       class="pt-3 pt-md-5 pt-lg-6 pt-xl-6 mt-0 mt-sm-2 mt-md-3 mt-lg-4 mt-xl-4"
     >
       <div class="row justify-content-center">
@@ -83,7 +84,7 @@
       </div>
     </section>
 
-    <section id="mywork" class="pt-4 pt-md-5 pt-lg-5 pt-xl-6">
+    <section id="work" class="pt-4 pt-md-5 pt-lg-5 pt-xl-6">
       <h2 class="mb-3 mb-md-4 mb-lg-4">👉 Latest Projects</h2>
       <div class="row">
         <div class="order-2 order-md-1 col-12 col-md-6 col-lg-6">
@@ -332,17 +333,14 @@
                 class="Link_underline_paragraph"
                 href="https://narendra.design/how-to-achieve-good-design-principles-by-narendra-ram/"
                 >good design</a
-              >, gaming, art, netflix, and gadgets.
+              >
+              , open-source projects, and art.
             </p>
           </div>
         </div>
-        <div class="d-none d-md-block col-md-5 col-lg-5 align-self-center">
-          <img
-            src="~/assets/images/narendra_ram.png"
-            class="img-fluid Portrait"
-            alt="narendra_ram_potrait"
-          />
-        </div>
+        <div
+          class="d-none d-md-block col-md-5 col-lg-5 align-self-center"
+        ></div>
       </div>
       <div
         class="
