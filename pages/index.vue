@@ -338,57 +338,42 @@
             </p>
           </div>
         </div>
-        <div
-          class="d-none d-md-block col-md-5 col-lg-5 align-self-center"
-        ></div>
-      </div>
-      <div
-        class="
-          row
-          bg-secondary
-          justify-content-around
-          align-items-center
-          py-2 py-md-2 py-lg-2
-          mt-3 mt-md-3 mt-lg-3
-          rounded-3
-          mx-0
-        "
-      >
-        <div class="col-lg-3 align-self-center text-center">
-          <h3 class="m-0 text-gray5">🎓 Certified by</h3>
-        </div>
-        <div class="col-lg-9 mt-1 mt-md-1 mt-lg-0">
-          <div class="d-flex flex-row flex-wrap justify-content-around">
-            <a
-              class="col-auto p-1 p-md-1 p-lg-1"
-              href="https://confirm.udacity.com/JQPS6SC6"
-              target="_blank"
-            >
-              <img
-                src="~/assets/images/udacity.svg"
-                class="Certificate img-fluid"
-              />
-            </a>
-            <a
-              class="col-auto p-1 p-md-1 p-lg-1"
-              href="https://www.upwork.com/freelancers/~01d7fc59aedbaa665c"
-              target="_blank"
-            >
-              <img
-                src="~/assets/images/upwork.svg"
-                class="Certificate img-fluid"
-              />
-            </a>
-            <a
-              class="col-auto p-1 p-md-1 p-lg-1"
-              href="https://www.sololearn.com/profile/318291"
-              target="_blank"
-            >
-              <img
-                src="~/assets/images/sololearn.svg"
-                class="Certificate img-fluid"
-              />
-            </a>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 align-self-center">
+          <div class="card-body p-2">
+            <img
+              src="~/assets/images/udacity.svg"
+              alt="udacity_logo_img"
+              class="img-fluid mb-1"
+            />
+            <div class="Text_L">User Experience Nanodegree</div>
+            <p class="Text_S">The right way to design anything.</p>
+            <p class="Text_S">
+              <small class="text-muted"
+                ><a
+                  href="https://confirm.udacity.com/JQPS6SC6"
+                  class="text-primary"
+                  >View Certificate</a
+                >
+              </small>
+            </p>
+          </div>
+          <div class="card-body p-2">
+            <img
+              src="~/assets/images/upwork.svg"
+              alt="upwork_logo_svg"
+              class="img-fluid mb-1"
+            />
+            <div class="Text_L">Available on Upwork</div>
+            <p class="Text_S">Top rated freelancer on upwork</p>
+            <p class="Text_S">
+              <small class="text-muted"
+                ><a
+                  href="https://www.upwork.com/freelancers/~01d7fc59aedbaa665c"
+                  class="text-primary"
+                  >Hire Me</a
+                >
+              </small>
+            </p>
           </div>
         </div>
       </div>
