@@ -29,7 +29,7 @@
               “good design makes the world a better place.”
             </p>
           </blockquote>
-          <a href="#mywork" class="btn btn-secondary">My Work</a>
+          <a href="#work" class="btn btn-secondary">My Work</a>
           <a href="#contact" class="btn btn-primary ms-1 ms-md-2 ms-lg-2"
             >Let's Talk</a
           >
