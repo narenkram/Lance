@@ -1,28 +1,9 @@
-# Narendra Ram
-Hi, I'm Narendra. I’m a Freelance Full Stack Designer.
+<a href="https://github.com/narenkram">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=narenkram&show_icons=true&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=narenkram&layout=compact&exclude_lang=java+makefile"/>
+</a>
 
-## Figma Design
-* Design File:
 
-## Frontend Development
+<img src="https://komarev.com/ghpvc/?username=narenkram">
 
-* Bootstrap with SCSS
-
-## Build Setup
-
-``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn run dev
-
-# build for production and launch server
-$ yarn run build
-$ yarn start
-
-# generate static project
-$ yarn run generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+![](https://hit.yhype.me/github/profile?user_id=16354010)
