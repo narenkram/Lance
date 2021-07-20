@@ -420,13 +420,6 @@
                   alt="narenkram_twitter_icon"
                 />
               </a>
-              <a href="https://www.reddit.com/user/narenkram" target="_blank">
-                <img
-                  src="~/assets/icons/reddit.svg"
-                  class="me-1 img-fluid SocialIcon"
-                  alt="narenkram_reddit_icon"
-                />
-              </a>
               <a href="https://www.linkedin.com/in/narenkram/" target="_blank">
                 <img
                   src="~/assets/icons/linkedin.svg"
@@ -493,13 +486,6 @@
                 src="~/assets/icons/twitter.svg"
                 class="me-1 img-fluid SocialIcon"
                 alt="narenkram_twitter_icon"
-              />
-            </a>
-            <a href="https://www.reddit.com/user/narenkram" target="_blank">
-              <img
-                src="~/assets/icons/reddit.svg"
-                class="me-1 img-fluid SocialIcon"
-                alt="narenkram_reddit_icon"
               />
             </a>
             <a href="https://www.linkedin.com/in/narenkram/" target="_blank">
