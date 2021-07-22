@@ -7,11 +7,12 @@
         alt="narendraram designer"
     /></a>
 
-    <label class="LangSwitch">
+    <!-- <label class="LangSwitch">
       <input type="checkbox" class="MyFirstLang_toggle" checked />
-      <!-- <span class="LangSwitch_toggle">English</span> -->
+      <span class="LangSwitch_toggle">English</span>
       <span class="LangSwitch_toggle">English தமிழ்</span>
-    </label>
+    </label> -->
+    <button onclick="myFunction()">Try it</button>
 
     <div class="Navbar_child">
       <a class="p-1 p-md-0 p-lg-0 nav-link ms-0" href="#services">

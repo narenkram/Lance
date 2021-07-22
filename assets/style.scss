@@ -32,13 +32,12 @@
   src: url("./fonts/Hind/Hind-Medium.ttf");
 }
 
-// Language Typography
-div:lang(tamil) {
+// Language Options
+#english {
 }
-
-div:lang(en) {
+#tamil {
+  display: none;
 }
-
 $theme-colors: (
   "primary": #ff6666,
   "secondary": #336699,
@@ -184,66 +183,6 @@ $spacers: (
   }
   .Navbar {
     background-color: #ffffff;
-  }
-  .LangSwitch {
-    display: inline-flex;
-    border-radius: 1rem;
-    overflow: hidden;
-    position: relative;
-    width: 100px;
-    height: 50px;
-  }
-
-  .LangSwitch_toggle {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    display: block;
-    padding: 4px 10px;
-    background-color: map-get($theme-colors, "gray4");
-  }
-
-  .LangSwitch_toggle:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-  }
-
-  .MyFirstLang_toggle:checked + .LangSwitch_toggle {
-    background-color: #2196f3;
-  }
-
-  .MyFirstLang_toggle:focus + .LangSwitch_toggle {
-    box-shadow: 0 0 1px #2196f3;
-  }
-
-  .MyFirstLang_toggle:checked + .LangSwitch_toggle:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-
-  .LangSwitch_toggle:hover {
-    background-color: map-get($theme-colors, "gray5");
-  }
-  .LangSwitch_toggle:active {
-    background-color: map-get($theme-colors, "gray5");
-  }
-  .MyFirstLang_toggle {
-    opacity: 0;
-    width: 0;
-    height: 0;
-    display: none;
   }
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="EnglishLang" lang="en">
+    <div id="english" lang="en">
       <section
         id="intro"
         class="
@@ -512,7 +512,7 @@
         </div>
       </section>
     </div>
-    <div class="TamilLang" lang="tamil">
+    <div id="tamil" lang="tamil">
       <section
         id="intro-tamil"
         class="
@@ -539,7 +539,9 @@
             "
           >
             <h3 class="mb-1 mb-md-2 mb-lg-2">வணக்கம் 🙏, நான் நரேந்திரா</h3>
-            <h1 class="mb-1 mb-md-1 mb-lg-0">சுயதொழில் பயனர் இடைமுகம் வடிவமைப்பாளர்</h1>
+            <h1 class="mb-1 mb-md-1 mb-lg-0">
+              சுயதொழில் பயனர் இடைமுகம் வடிவமைப்பாளர்
+            </h1>
             <blockquote class="blockquote mb-2 mb-md-3 mb-lg-3">
               <p class="Text_M mb-0">
                 “நல்ல வடிவமைப்பு உலகத்தை சிறந்த இடமாக மாற்றுகிறது.”
