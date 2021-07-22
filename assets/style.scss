@@ -32,12 +32,6 @@
   src: url("./fonts/Hind/Hind-Medium.ttf");
 }
 
-// Language Options
-#english {
-}
-#tamil {
-  display: none;
-}
 $theme-colors: (
   "primary": #ff6666,
   "secondary": #336699,
@@ -94,6 +88,21 @@ $spacers: (
 
 // Imports and Variables ***********************************************
 
+// Language Options
+#english {
+}
+#tamil {
+  display: none;
+}
+.LangSwitch_icon {
+  cursor: pointer;
+  max-height: 30px;
+  border-radius: 0!important;
+  min-width: 30px;
+}
+.LangSwitch_icon:hover {
+  filter: brightness(110%);
+}
 // Global Style ***********************************************
 
 @media (prefers-color-scheme: light) {
@@ -300,6 +309,7 @@ $spacers: (
 }
 .Navbar_child {
   display: flex;
+  align-items: center;
 }
 
 html,

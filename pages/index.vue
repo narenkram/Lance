@@ -567,7 +567,7 @@
               src="~/assets/images/mobile_web.svg"
             />
             <h4 class="mb-2 mb-md-2 mb-lg-2">
-              மொபைல் மென்பொருள் மற்றும் வலைத்தள வடிவமைப்பு
+              கைபேசி மென்பொருள் மற்றும் வலைத்தள வடிவமைப்பு
             </h4>
             <p class="mb-2 mb-md-2 mb-lg-2 Text_M">
               Need a website or mobile app? I can create beautiful websites or
@@ -581,7 +581,7 @@
               class="ServiceIcon mb-2 mb-md-2 mb-lg-2"
               src="~/assets/images/graphic_crown.svg"
             />
-            <h4 class="mb-2 mb-md-2 mb-lg-2">Graphic Design</h4>
+            <h4 class="mb-2 mb-md-2 mb-lg-2">வரைகலை வடிவமைப்பு</h4>
             <p class="mb-2 mb-md-2 mb-lg-2 Text_M">
               Need art for your project? I can create beautiful art, designs
               based on your project requirements such as business cards, digital
@@ -595,7 +595,7 @@
               class="ServiceIcon mb-2 mb-md-2 mb-lg-2"
               src="~/assets/images/frontend.svg"
             />
-            <h4 class="mb-2 mb-md-2 mb-lg-2">Frontend Development</h4>
+            <h4 class="mb-2 mb-md-2 mb-lg-2">முன்னிலை வடிவமைப்பு</h4>
             <p class="mb-2 mb-md-2 mb-lg-2 Text_M">
               Already have the design? I can create static websites such as
               landing pages, company sites, and custom websites with minimal

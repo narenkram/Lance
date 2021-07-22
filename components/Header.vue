@@ -7,13 +7,6 @@
         alt="narendraram designer"
     /></a>
 
-    <!-- <label class="LangSwitch">
-      <input type="checkbox" class="MyFirstLang_toggle" checked />
-      <span class="LangSwitch_toggle">English</span>
-      <span class="LangSwitch_toggle">English தமிழ்</span>
-    </label> -->
-    <button onclick="myFunction()">Try it</button>
-
     <div class="Navbar_child">
       <a class="p-1 p-md-0 p-lg-0 nav-link ms-0" href="#services">
         <span class="nav-link_number">1. </span>Services</a
@@ -27,6 +20,19 @@
       <a class="p-1 p-md-0 p-lg-0 nav-link ms-0 ms-md-2 ms-lg-2" href="#contact"
         ><span class="nav-link_number">4. </span>Contact</a
       >
+      <a
+        class="p-1 p-md-0 p-lg-0 nav-link ms-0 ms-md-2 ms-lg-2"
+        data-toggle="tooltip"
+        data-placement="right"
+        title="Change language"
+      >
+        <img
+          class="img-fluid LangSwitch_icon"
+          src="~/assets/icons/lang.png"
+          onclick="myFunction()"
+          alt="langswitch_icon"
+        />
+      </a>
     </div>
   </nav>
 </template>
