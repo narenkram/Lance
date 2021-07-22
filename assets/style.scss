@@ -89,9 +89,10 @@ $spacers: (
 // Imports and Variables ***********************************************
 
 // Language Options
-#english {
+.english {
+  display: block;
 }
-#tamil {
+.tamil {
   display: none;
 }
 .LangSwitch_icon {

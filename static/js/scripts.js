@@ -7,15 +7,24 @@ window.dataLayer = window.dataLayer || [];
 
 
 function myFunction() {
-  var x = document.getElementById("english");
-  var y = document.getElementById("tamil");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    y.style.display = "none";
-  } else {
-    x.style.display = "none";
-    y.style.display = "block";
-  }
+    var eng_elements = document.getElementsByClassName("english")
+    var tamil_elements = document.getElementsByClassName("tamil")
+
+    for (var i = 0; i < eng_elements.length && i < tamil_elements.length; i++){
+        console.log("for loop starts");
+
+        if(tamil_elements[i].style.display === "none"){
+            eng_elements[i].style.display = "none";
+            tamil_elements[i].style.display = "block";
+            console.log("english is hidden");
+        }
+        else{
+            eng_elements[i].style.display = "block";
+            tamil_elements[i].style.display = "none";
+            console.log("tamil is hidden");
+        }
+        console.log("the end");
+    }
 }
 
 
