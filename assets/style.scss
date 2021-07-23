@@ -1,6 +1,7 @@
 // This website is configured with Bootstrap SCSS
 // Imports and Variables ***********************************************
 
+// Fonts Imported here
 @font-face {
   font-family: Spartan-Light;
   src: url("./fonts/Spartan/Spartan-Light.ttf");
@@ -87,6 +88,22 @@ $spacers: (
 
 // Imports and Variables ***********************************************
 
+// Language Options
+.english {
+  display: block;
+}
+.tamil {
+  display: none;
+}
+.LangSwitch_icon {
+  cursor: pointer;
+  max-height: 30px;
+  border-radius: 0!important;
+  min-width: 30px;
+}
+.LangSwitch_icon:hover {
+  filter: brightness(110%);
+}
 // Global Style ***********************************************
 
 @media (prefers-color-scheme: light) {
@@ -293,6 +310,7 @@ $spacers: (
 }
 .Navbar_child {
   display: flex;
+  align-items: center;
 }
 
 html,
