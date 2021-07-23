@@ -7,6 +7,7 @@ window.dataLayer = window.dataLayer || [];
 
 
 function myFunction() {
+    console.log("function call success")
     var eng_elements = document.getElementsByClassName("english")
     var tamil_elements = document.getElementsByClassName("tamil")
 
