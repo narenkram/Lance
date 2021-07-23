@@ -18,7 +18,7 @@
           </div>
           <div
             class="
-              col-12 col-sm-12 col-md-6 col-lg-7 col-xl-8
+              col-12 col-sm-12 col-md-6 col-lg-7  col-xl-auto
               text-start
               align-self-center
             "
@@ -52,7 +52,7 @@
           </div>
           <div
             class="
-              col-12 col-sm-12 col-md-6 col-lg-7 col-xl-8
+              col-12 col-sm-12 col-md-6 col-lg-7  col-xl-auto
               text-start
               align-self-center
             "
