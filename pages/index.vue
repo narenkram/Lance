@@ -18,7 +18,7 @@
           </div>
           <div
             class="
-              col-12 col-sm-12 col-md-6 col-lg-7  col-xl-auto
+              col-12 col-sm-12 col-md-6 col-lg-7 col-xl-auto
               text-start
               align-self-center
             "
@@ -52,7 +52,7 @@
           </div>
           <div
             class="
-              col-12 col-sm-12 col-md-6 col-lg-7  col-xl-auto
+              col-12 col-sm-12 col-md-6 col-lg-7 col-xl-auto
               text-start
               align-self-center
             "
@@ -825,6 +825,13 @@
                     alt="narenkram_linkedin_icon"
                   />
                 </a>
+                <a href="https://narendra.design/" target="_blank">
+                  <img
+                    src="~/assets/icons/blog.svg"
+                    class="me-1 img-fluid SocialIcon"
+                    alt="narenkram_blog_icon"
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -896,6 +903,13 @@
                   alt="narenkram_linkedin_icon"
                 />
               </a>
+              <a href="https://narendra.design/" target="_blank">
+                <img
+                  src="~/assets/icons/blog.svg"
+                  class="me-1 img-fluid SocialIcon"
+                  alt="narenkram_blog_icon"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -953,6 +967,13 @@
                     src="~/assets/icons/linkedin.svg"
                     class="me-1 img-fluid SocialIcon"
                     alt="narenkram_linkedin_icon"
+                  />
+                </a>
+                <a href="https://narendra.design/" target="_blank">
+                  <img
+                    src="~/assets/icons/blog.svg"
+                    class="me-1 img-fluid SocialIcon"
+                    alt="narenkram_blog_icon"
                   />
                 </a>
               </div>
@@ -1024,6 +1045,13 @@
                   src="~/assets/icons/linkedin.svg"
                   class="me-1 img-fluid SocialIcon"
                   alt="narenkram_linkedin_icon"
+                />
+              </a>
+              <a href="https://narendra.design/" target="_blank">
+                <img
+                  src="~/assets/icons/blog.svg"
+                  class="me-1 img-fluid SocialIcon"
+                  alt="narenkram_blog_icon"
                 />
               </a>
             </div>
