@@ -606,8 +606,9 @@
             </h2>
             <p class="Text_M Text_paragraph mb-2 mb-md-2 mb-lg-2">
               I started as a frontend developer in college, and later I
-              co-founded Aroliant with a friend. As a director and a developer,
-              I learned a lot about managing a company, team, and projects.
+              co-founded Aroliant Internet Private Limited with a friend. As a
+              director and a developer, I learned a lot about managing a
+              company, team, and projects.
             </p>
             <p class="Text_M Text_paragraph mb-2 mb-md-2 mb-lg-2">
               And in two years, I found my passion for design. In 2020 for
@@ -688,9 +689,10 @@
             </h2>
             <p class="Text_M Text_paragraph mb-2 mb-md-2 mb-lg-2">
               நான் கல்லூரியில் ஒரு ஃபிரான்டென்ட் டெவலப்பராகத் தொடங்கினேன்,
-              பின்னர் நான் ஒரு நண்பருடன் அரோலியண்டை இணைத்தேன். ஒரு இயக்குனர்
-              மற்றும் டெவலப்பர் என்ற முறையில், ஒரு நிறுவனம், குழு மற்றும்
-              திட்டங்களை நிர்வகிப்பது பற்றி நான் நிறைய கற்றுக்கொண்டேன்.
+              பின்னர் நான் ஒரு நண்பருடன் அரோலியண்டை இன்டர்நெட் பிரைவேட் லிமிடெட்
+              இணைத்தேன். ஒரு இயக்குனர் மற்றும் டெவலப்பர் என்ற முறையில், ஒரு
+              நிறுவனம், குழு மற்றும் திட்டங்களை நிர்வகிப்பது பற்றி நான் நிறைய
+              கற்றுக்கொண்டேன்.
             </p>
             <p class="Text_M Text_paragraph mb-2 mb-md-2 mb-lg-2">
               இரண்டு ஆண்டுகளில், வடிவமைப்பு மீதான என் ஆர்வத்தை நான் கண்டேன்.
