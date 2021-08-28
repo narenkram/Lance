@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12 col-md-7 col-lg-7">
           <div class="row text-center text-md-start text-lg-start">
-            <div class="col-12 col-md-auto">
+            <div class="col-12 col-md-auto align-self-center">
               <img
                 src="~/assets/images/logo.svg"
                 class="Logo mb-1 mb-md-0 mb-lg-0"
