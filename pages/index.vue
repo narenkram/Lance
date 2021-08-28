@@ -85,56 +85,6 @@
     </section>
 
     <section id="work" class="pt-4 pt-md-5 pt-lg-5 pt-xl-6">
-      <h2 class="mb-3 mb-md-4 mb-lg-4">👉 Latest Projects</h2>
-      <div class="row">
-        <div class="order-2 order-md-1 col-12 col-md-6 col-lg-6">
-          <h3 class="pt-0 pb-1 py-md-1 py-lg-1 m-0">
-            Website design for machine learning of synthetic dataset
-          </h3>
-          <p class="Text_S mb-2 mb-md-2 mb-lg-2">Web App Design</p>
-          <p class="Text_M mb-2 mb-md-2 mb-lg-3">
-            It’s a website to create, compare, analyze synthetic data with the
-            use of machine learning. I worked on creating a traditional web
-            design and redefining the workflow of the site. It went through two
-            design iterations before the final prototype.
-          </p>
-        </div>
-        <div
-          class="
-            order-1 order-md-2
-            col-12 col-md-6 col-lg-6
-            mb-2 mb-md-0 mb-lg-0
-          "
-        >
-          <img src="~/assets/images/01.png" class="img-fluid shadow" />
-        </div>
-      </div>
-      <div class="row mt-3 mt-md-4 mt-lg-4">
-        <div class="order-2 order-md-1 col-12 col-md-6 col-lg-6">
-          <h3 class="pt-0 pb-1 py-md-1 py-lg-1 m-0">
-            X-Cards App, A dark mode design of flashcard learning
-          </h3>
-          <p class="Text_S mb-2 mb-md-2 mb-lg-2">Mobile App Design</p>
-          <p class="Text_M mb-2 mb-md-2 mb-lg-3">
-            A learning card app designed from scratch, similar to the agile
-            coaching cards app. The emphasis was to deliver a professional’s
-            knowledge and experience through categorized flashcards. Helping
-            users to advance their expertise in the job.
-          </p>
-        </div>
-        <div
-          class="
-            order-1 order-md-2
-            col-12 col-md-6 col-lg-6
-            mb-2 mb-md-0 mb-lg-0
-          "
-        >
-          <img src="~/assets/images/02.png" class="img-fluid shadow" />
-        </div>
-      </div>
-    </section>
-
-    <section class="pt-4 pt-md-5 pt-lg-5 pt-xl-6">
       <h2 class="mb-3 mb-md-4 mb-lg-4">Where to find 🔍 my work?</h2>
       <div class="row mb-3 mb-md-4 mb-lg-4 justify-content-around">
         <a
