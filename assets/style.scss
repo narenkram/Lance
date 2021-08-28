@@ -202,7 +202,7 @@ $spacers: (
     color: map-get($theme-colors, "primary");
   }
   a {
-    color: map-get($theme-colors, "gray3");
+    color: map-get($theme-colors, "gray4");
   }
   a:hover {
     color: map-get($theme-colors, "primary");
@@ -365,10 +365,6 @@ input,
 // Extra Large Desktop Style ***********************************************
 
 @include media-breakpoint-up(xl) {
-  .container {
-    padding: 0 !important;
-  }
-
   h1 {
     font-family: Spartan-SemiBold;
     font-size: 30px;
@@ -470,10 +466,6 @@ input,
 // Desktop Style ***********************************************
 
 @include media-breakpoint-down(xl) {
-  .container {
-    padding: 0 !important;
-  }
-
   h1 {
     font-family: Spartan-SemiBold;
     font-size: 30px;
@@ -575,10 +567,6 @@ input,
 // Tablet Style ***********************************************
 
 @include media-breakpoint-down(md) {
-  .container {
-    padding: 0 !important;
-  }
-
   h1 {
     font-family: Spartan-SemiBold;
     font-size: 28px;

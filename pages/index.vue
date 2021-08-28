@@ -424,7 +424,7 @@
               type="submit"
               value="send"
             >
-              Get in Touch
+              Get In Touch
             </button>
           </form>
         </div>
