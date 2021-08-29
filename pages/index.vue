@@ -103,66 +103,6 @@
           />
         </a>
         <a
-          href="https://www.deviantart.com/narenkram"
-          class="
-            col-6 col-sm-6 col-md-4 col-lg-auto
-            p-1 p-md-2 p-lg-2
-            Portfolio_Link
-          "
-          target="_blank"
-        >
-          <img
-            src="~/assets/images/deviantart.png"
-            class="img-fluid"
-            alt="narenkram_deviantart_link"
-          />
-        </a>
-        <a
-          href="https://www.artstation.com/narenkram"
-          class="
-            col-6 col-sm-6 col-md-4 col-lg-auto
-            p-1 p-md-2 p-lg-2
-            Portfolio_Link
-          "
-          target="_blank"
-        >
-          <img
-            src="~/assets/images/artstation.png"
-            class="img-fluid"
-            alt="narenkram_artstation_link"
-          />
-        </a>
-        <a
-          href="https://sketchfab.com/narenkram"
-          class="
-            col-6 col-sm-6 col-md-4 col-lg-auto
-            p-1 p-md-2 p-lg-2
-            Portfolio_Link
-          "
-          target="_blank"
-        >
-          <img
-            src="~/assets/images/sketchfab.png"
-            class="img-fluid"
-            alt="narenkram_sketchfab_link"
-          />
-        </a>
-        <a
-          href="https://narenkram.cgsociety.org/"
-          class="
-            col-6 col-sm-6 col-md-4 col-lg-auto
-            p-1 p-md-2 p-lg-2
-            Portfolio_Link
-          "
-          target="_blank"
-        >
-          <img
-            src="~/assets/images/cgsociety.png"
-            class="img-fluid"
-            alt="narenkram_cgsociety_link"
-          />
-        </a>
-        <a
           href="https://www.behance.net/narenkram_"
           class="
             col-6 col-sm-6 col-md-4 col-lg-auto
@@ -175,21 +115,6 @@
             src="~/assets/images/behance.png"
             class="img-fluid"
             alt="narenkram_behance_link"
-          />
-        </a>
-        <a
-          href="https://www.artmajeur.com/narenkram"
-          class="
-            col-6 col-sm-6 col-md-4 col-lg-auto
-            p-1 p-md-2 p-lg-2
-            Portfolio_Link
-          "
-          target="_blank"
-        >
-          <img
-            src="~/assets/images/artmajeur.png"
-            class="img-fluid"
-            alt="narenkram_artmajeur_link"
           />
         </a>
         <a
@@ -235,6 +160,21 @@
             src="~/assets/images/freepik.png"
             class="img-fluid"
             alt="narenkram_freepik_link"
+          />
+        </a>
+         <a
+          href="https://nft.wazirx.org/narenkram"
+          class="
+            col-6 col-sm-6 col-md-4 col-lg-auto
+            p-1 p-md-2 p-lg-2
+            Portfolio_Link
+          "
+          target="_blank"
+        >
+          <img
+            src="~/assets/images/wazirx.png"
+            class="img-fluid"
+            alt="narenkram_wazirx_nft_link"
           />
         </a>
       </div>
