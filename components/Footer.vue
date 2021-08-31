@@ -27,7 +27,14 @@
           "
         >
           <p class="m-0 Footer_paragraph">
-            Designed using Figma <br />Hosted on
+            Designed using
+            <a
+              href="https://www.figma.com/community/file/1013537793691755947"
+              target="_blank"
+              class="Link_underline_footer"
+              >Figma</a
+            >
+            <br />Hosted on
             <a
               href="https://github.com/narenkram/narenkram"
               target="_blank"
