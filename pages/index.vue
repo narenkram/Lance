@@ -86,9 +86,9 @@
 
     <section id="work" class="pt-4 pt-md-5 pt-lg-5 pt-xl-6">
       <h2 class="mb-3 mb-md-4 mb-lg-4">Where to find 🔍 my work?</h2>
-      <div class="row mb-3 mb-md-4 mb-lg-4 justify-content-around">
+      <div class="row mb-3 mb-md-4 mb-lg-4 justify-content-start">
         <a
-          href="http://dribbble.com/narenkram"
+          href="https://www.narenkram.com/"
           class="
             col-6 col-sm-6 col-md-4 col-lg-auto
             p-1 p-md-2 p-lg-2
@@ -97,86 +97,12 @@
           target="_blank"
         >
           <img
-            src="~/assets/images/dribbble.png"
+            src="~/assets/images/gumroad.png"
             class="img-fluid"
-            alt="narenkram_dribbble_link"
+            alt="narenkram_gumroad_link"
           />
         </a>
-        <a
-          href="https://www.behance.net/narenkram_"
-          class="
-            col-6 col-sm-6 col-md-4 col-lg-auto
-            p-1 p-md-2 p-lg-2
-            Portfolio_Link
-          "
-          target="_blank"
-        >
-          <img
-            src="~/assets/images/behance.png"
-            class="img-fluid"
-            alt="narenkram_behance_link"
-          />
-        </a>
-        <a
-          href="https://www.spreadshirt.com/shop/user/narenkram/"
-          class="
-            col-6 col-sm-6 col-md-4 col-lg-auto
-            p-1 p-md-2 p-lg-2
-            Portfolio_Link
-          "
-          target="_blank"
-        >
-          <img
-            src="~/assets/images/spreadshop.png"
-            class="img-fluid"
-            alt="narenkram_spreadshirt_link"
-          />
-        </a>
-        <a
-          href="https://stock.adobe.com/in/contributor/210012185/narenkram"
-          class="
-            col-6 col-sm-6 col-md-4 col-lg-auto
-            p-1 p-md-2 p-lg-2
-            Portfolio_Link
-          "
-          target="_blank"
-        >
-          <img
-            src="~/assets/images/adobestock.png"
-            class="img-fluid"
-            alt="narenkram_adobestock_link"
-          />
-        </a>
-        <a
-          href="https://www.freepik.com/narenkram"
-          class="
-            col-6 col-sm-6 col-md-4 col-lg-auto
-            p-1 p-md-2 p-lg-2
-            Portfolio_Link
-          "
-          target="_blank"
-        >
-          <img
-            src="~/assets/images/freepik.png"
-            class="img-fluid"
-            alt="narenkram_freepik_link"
-          />
-        </a>
-         <a
-          href="https://nft.wazirx.org/narenkram"
-          class="
-            col-6 col-sm-6 col-md-4 col-lg-auto
-            p-1 p-md-2 p-lg-2
-            Portfolio_Link
-          "
-          target="_blank"
-        >
-          <img
-            src="~/assets/images/wazirx.png"
-            class="img-fluid"
-            alt="narenkram_wazirx_nft_link"
-          />
-        </a>
+        <!-- Just repeat it, if you need more items -->
       </div>
     </section>
 
