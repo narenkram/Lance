@@ -236,7 +236,7 @@
                   alt="narenkram_linkedin_icon"
                 />
               </a>
-              <a href="https://narendra.design/" target="_blank">
+              <a href="https://blog.narendra.design/" target="_blank">
                 <img
                   src="~/assets/icons/blog.svg"
                   class="me-1 img-fluid SocialIcon"
