@@ -139,7 +139,7 @@
               I love
               <a
                 class="Link_underline_paragraph"
-                href="https://narendra.design/how-to-achieve-good-design-principles-by-narendra-ram/"
+                href="https://blog.narendra.design/issues/how-to-achieve-good-design-812901"
               >
                 good design</a
               >
@@ -222,21 +222,21 @@
           <div class="d-none d-md-none d-lg-block">
             <p class="Text_S mb-1 mb-md-1 mb-lg-1">👀 Follow</p>
             <div class="d-flex flex-row flex-wrap">
-              <a href="https://twitter.com/narenkram" target="_blank">
+              <a href="https://twitter.com/narenkram">
                 <img
                   src="~/assets/icons/twitter.svg"
                   class="me-1 img-fluid SocialIcon"
                   alt="narenkram_twitter_icon"
                 />
               </a>
-              <a href="https://www.linkedin.com/in/narenkram/" target="_blank">
+              <a href="https://www.linkedin.com/in/narenkram/">
                 <img
                   src="~/assets/icons/linkedin.svg"
                   class="me-1 img-fluid SocialIcon"
                   alt="narenkram_linkedin_icon"
                 />
               </a>
-              <a href="https://blog.narendra.design/" target="_blank">
+              <a href="https://blog.narendra.design/">
                 <img
                   src="~/assets/icons/blog.svg"
                   class="me-1 img-fluid SocialIcon"
@@ -297,21 +297,21 @@
         <div class="d-block d-md-block d-lg-none col-12 mt-3 mt-md-4">
           <p class="Text_S mb-1 mb-md-1 mb-lg-1">👀 Follow</p>
           <div class="d-flex flex-row flex-wrap">
-            <a href="https://twitter.com/narenkram" target="_blank">
+            <a href="https://twitter.com/narenkram">
               <img
                 src="~/assets/icons/twitter.svg"
                 class="me-1 img-fluid SocialIcon"
                 alt="narenkram_twitter_icon"
               />
             </a>
-            <a href="https://www.linkedin.com/in/narenkram/" target="_blank">
+            <a href="https://www.linkedin.com/in/narenkram/">
               <img
                 src="~/assets/icons/linkedin.svg"
                 class="me-1 img-fluid SocialIcon"
                 alt="narenkram_linkedin_icon"
               />
             </a>
-            <a href="https://narendra.design/" target="_blank">
+            <a href="https://blog.narendra.design/">
               <img
                 src="~/assets/icons/blog.svg"
                 class="me-1 img-fluid SocialIcon"
