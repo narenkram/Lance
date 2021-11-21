@@ -236,7 +236,7 @@
                   alt="narenkram_linkedin_icon"
                 />
               </a>
-              <a href="https://blog.narendra.design/">
+              <a href="https://narenkram.medium.com/">
                 <img
                   src="~/assets/icons/blog.svg"
                   class="me-1 img-fluid SocialIcon"
@@ -311,7 +311,7 @@
                 alt="narenkram_linkedin_icon"
               />
             </a>
-            <a href="https://blog.narendra.design/">
+            <a href="https://narenkram.medium.com/">
               <img
                 src="~/assets/icons/blog.svg"
                 class="me-1 img-fluid SocialIcon"
