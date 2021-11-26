@@ -139,7 +139,7 @@
               I love
               <a
                 class="Link_underline_paragraph"
-                href="https://blog.narendra.design/issues/how-to-achieve-good-design-812901"
+                href="https://narenkram.medium.com/how-to-achieve-good-design-d423099770e"
               >
                 good design</a
               >
