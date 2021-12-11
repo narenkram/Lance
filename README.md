@@ -1,20 +1,5 @@
-## Welcome to my profile!
-
-### GitHub Stats
-
-<a href="https://github.com/narenkram">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=narenkram&show_icons=true&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=narenkram&layout=compact&exclude_lang=java+makefile"/>
-</a>
-
-
-<img src="https://komarev.com/ghpvc/?username=narenkram">
-
-![](https://hit.yhype.me/github/profile?user_id=16354010)
-
-
 # Repository Information
-Freelancer Website Design | Personal Website Design - with frontend source code
+Personal Website Design - with figma design file
 
 Designed specifically for freelancers. Check out the live implementation at https://ram.narendra.design/
 
