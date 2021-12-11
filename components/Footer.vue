@@ -36,7 +36,7 @@
             >
             <br />Hosted on
             <a
-              href="https://github.com/narenkram/narenkram"
+              href="https://github.com/narenkram/PersonalWebsiteTemplate"
               target="_blank"
               class="Link_underline_footer"
               >GitHub Pages</a
