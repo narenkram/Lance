@@ -6,7 +6,7 @@
 
 
 ### Intro Section
-You can find the photo frame [here]() Use the frame with your photo
+You can find the photo frame [here](./assets/../../assets/images/) Use the frame with your photo
 
 ### Services Section
 Write your own.
