@@ -1,4 +1,4 @@
-# Repository Information
+# Information
 Personal Website Design - with figma design file
 
 Designed specifically for freelancers. Check out the live implementation at https://ram.narendra.design/
@@ -6,8 +6,6 @@ Designed specifically for freelancers. Check out the live implementation at http
 👉 Single Page Website
 
 👉 Automatic Dark & Light Theme
-
-👉 It’s 100% Free
 
 ## Design
 
@@ -20,3 +18,5 @@ Designed specifically for freelancers. Check out the live implementation at http
 Please show your support 
 
 https://www.buymeacoffee.com/narenkram
+
+### 🤔 Thinking of using this template? 🚀[Read the quickguide](./pages/README.md)
