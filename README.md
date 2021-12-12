@@ -1,7 +1,6 @@
-# Information
-Personal Website Design - with figma design file
-
-Designed specifically for freelancers. Check out the live implementation at https://ram.narendra.design/
+[![Build Status](https://app.travis-ci.com/narenkram/PersonalWebsiteTemplate.svg?branch=master)](https://app.travis-ci.com/narenkram/PersonalWebsiteTemplate)
+# Personal Website Template - with figma design file
+Designed specifically for freelancers (developers, designers, etc). Check out the live implementation at https://ram.narendra.design/
 
 👉 Single Page Website
 
