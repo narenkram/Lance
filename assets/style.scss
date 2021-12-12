@@ -352,7 +352,8 @@ input,
 }
 
 .Portfolio_Link img {
-  height: 50px;
+  height: auto;
+  min-height: 20px;
 }
 
 .nav-link {
