@@ -489,7 +489,7 @@ export default {
         hid: "keywords",
         name: "keywords",
         content:
-          "narendra ram, narendra, ram, full stack designer, designer narendra, naren, naren ram, narenkram, freelance designer, narendra's portfolio, aroliant cofounder, narendra tirunelveli, frontend developer narendra, narendra krishna ram, hire ui ux designer, hire ui designer, hire ux designer, ",
+          "personal website template, personal website for freelancer, freelancer personal website, figma personal website template, website template, open source, free personal website design with source code, nuxt websites, vue websites, branding personal website,",
       },
     ],
   },
