@@ -27,19 +27,20 @@
           "
         >
           <p class="m-0 Footer_paragraph">
-            Designed using
+            Designed by
+            <a href="https://narenkram.com" class="Link_underline_footer">
+              Narendra Ram
+            </a>
+          </p>
+          <p class="m-0 Footer_paragraph">
             <a
-              href="https://www.figma.com/community/file/1013537793691755947"
-              target="_blank"
+              type="button"
               class="Link_underline_footer"
-              >Figma</a
+              data-bs-toggle="modal"
+              data-bs-target="#DownloadPrompt"
+              data-bs-whatever="@mdo"
             >
-            <br />Hosted on
-            <a
-              href="https://github.com/narenkram/PersonalWebsiteTemplate"
-              target="_blank"
-              class="Link_underline_footer"
-              >GitHub Pages</a
+              Download this template</a
             >
           </p>
         </div>

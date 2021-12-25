@@ -472,6 +472,61 @@
         </div>
       </div>
     </section>
+
+    <div
+      class="modal fade"
+      id="DownloadPrompt"
+      tabindex="-1"
+      aria-labelledby="DownloadPromptLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header p-2">
+            <h4 class="modal-title" id="DownloadPromptLabel">
+              Download this template
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-2">
+            <ul class="list-group">
+              <li class="list-group-item p-0">
+                <a
+                  class="p-2 d-block w-100"
+                  href="https://www.figma.com/community/file/1013537793691755947"
+                  target="_blank"
+                  >🎨 Figma Design File
+                </a>
+              </li>
+              <li class="list-group-item p-0">
+                <a
+                  class="p-2 d-block w-100"
+                  href="https://github.com/narenkram/Lance"
+                  target="_blank"
+                  >⌨️ Source Code
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer p-2">
+            <a
+              class="mx-auto"
+              href="https://www.buymeacoffee.com/narenkram"
+              target="_blank"
+              ><img
+                src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+                alt="Buy Me A Coffee"
+                style="height: 60px !important; width: 217px !important"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
