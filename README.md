@@ -1,4 +1,4 @@
-[![Build Status](https://app.travis-ci.com/narenkram/PersonalWebsiteTemplate.svg?branch=master)](https://app.travis-ci.com/narenkram/PersonalWebsiteTemplate)
+[![Build Status](https://app.travis-ci.com/narenkram/Lance.svg?branch=master)](https://app.travis-ci.com/narenkram/PersonalWebsiteTemplate)
 # Lance is a Personal Website Template - with figma design file
 Designed specifically for freelancers (developers, designers, etc). Check out the live implementation at https://ram.narendra.design/
 
