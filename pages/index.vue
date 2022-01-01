@@ -400,7 +400,7 @@
           <p class="Text_S mb-1 mb-md-1 mb-lg-1 d-block d-md-block d-lg-none">
             Or use the form below
           </p>
-          <form method="POST" action="https://formspree.io/hi@narendra.design">
+          <form method="POST" action="https://formspree.io/f/hi@narendra.design">
             <div class="form-group mb-2 mb-md-2 mb-lg-2">
               <input
                 type="text"
