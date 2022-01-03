@@ -178,6 +178,20 @@ $spacers: (
   .Navbar {
     background-color: #ffffff;
   }
+  .modal-content {
+    background-color: map-get($theme-colors, "gray5");
+  }
+  .btn-close {
+    background-color: map-get($theme-colors, "gray5");
+  }
+  .modal .list-group-item {
+    background-color: map-get($theme-colors, "gray5");
+  }
+  .modal-header,
+  .modal-footer,
+  .list-group-item {
+    border-color: map-get($theme-colors, "gray4");
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -267,6 +281,20 @@ $spacers: (
   }
   .Navbar {
     background-color: #000000;
+  }
+  .modal-content {
+    background-color: map-get($theme-colors, "gray1");
+  }
+  .btn-close {
+    background-color: map-get($theme-colors, "gray1");
+  }
+  .modal .list-group-item {
+    background-color: map-get($theme-colors, "gray0");
+  }
+  .modal-header,
+  .modal-footer,
+  .list-group-item {
+    border-color: map-get($theme-colors, "gray2");
   }
 }
 
