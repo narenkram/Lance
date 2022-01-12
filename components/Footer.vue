@@ -29,7 +29,7 @@
           <p class="m-0 Footer_paragraph">
             Designed by
             <a href="https://narenkram.com" class="Link_underline_footer">
-              Narendra Ram
+              narenkram
             </a>
           </p>
           <p class="m-0 Footer_paragraph">
