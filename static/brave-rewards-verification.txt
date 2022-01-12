@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: narendra.design
+Token: ee58a584c29a914c4155bb3e05ffd43d8d8ee226b4216e3ecaf5eab3f52ddd54
