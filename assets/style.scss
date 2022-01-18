@@ -192,6 +192,9 @@ $spacers: (
   .list-group-item {
     border-color: map-get($theme-colors, "gray4");
   }
+  .Portfolio_Link img {
+    filter: invert(0);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -295,6 +298,9 @@ $spacers: (
   .modal-footer,
   .list-group-item {
     border-color: map-get($theme-colors, "gray2");
+  }
+  .Portfolio_Link img {
+    filter: invert(1);
   }
 }
 
