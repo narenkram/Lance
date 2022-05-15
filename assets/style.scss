@@ -195,6 +195,9 @@ $spacers: (
   .Portfolio_Link img {
     filter: invert(0);
   }
+  .About_Highlight  img {
+    filter: invert(0);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -302,6 +305,9 @@ $spacers: (
   .Portfolio_Link img {
     filter: invert(1);
   }
+  .About_Highlight  img {
+    filter: invert(1);
+  }
 }
 
 .Narendra_photo {
@@ -386,6 +392,11 @@ input,
 }
 
 .Portfolio_Link img {
+  height: auto;
+  min-height: 20px;
+}
+
+.About_Highlight  img{
   height: auto;
   min-height: 20px;
 }
