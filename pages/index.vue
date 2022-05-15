@@ -298,7 +298,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 align-self-center">
-          <div class="card-body p-2">
+          <div class="card-body p-2 About_Highlight">
             <img
               src="~/assets/images/udacity.svg"
               alt="udacity_logo_img"
@@ -316,7 +316,7 @@
               </small>
             </p>
           </div>
-          <div class="card-body p-2">
+          <div class="card-body p-2 About_Highlight">
             <img
               src="~/assets/images/upwork.svg"
               alt="upwork_logo_svg"
