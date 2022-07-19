@@ -40,8 +40,13 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    ['nuxt-cloudflare-analytics', {
+      token: 'be37b5e813594ac59f7ba1144d4f7705',
+    }],
+  ],
   /*
+  
    ** Build configuration
    */
   build: {
