@@ -3,11 +3,11 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || 'Narendra Ram | Freelance Full Stack Designer',
+    title: process.env.npm_package_name || 'Personal Website Template for freelancers, individuals, developers, etc. | Lance',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Official website of Narendra Ram | Full Stack Designer | UX UI Designer | Frontend Developer | Freelancer' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Free Template for designers, UX and UI designers, Frontend developers, and Freelancers. Available with source code and figma design file.' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/logo.png' }
