@@ -14,7 +14,7 @@ Designed specifically for freelancers (developers, designers, etc). Check out th
 
 🙏 Thank you for downloading!
 
-Please show your support 
+Please show your support  
 
 https://www.buymeacoffee.com/narenkram
 
