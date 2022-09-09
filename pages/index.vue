@@ -533,12 +533,12 @@
 <script>
 export default {
   head: {
-    title: "Narendra Ram | Full Stack Designer",
+    title: "Personal Website Template for freelancers, individuals, developers, etc. | Lance",
     meta: [
       {
         hid: "description",
         itemprop: "description",
-        content: "I’m Narendra Ram, a freelance Full Stack Designer.",
+        content: "Free Template for designers, UX and UI designers, Frontend developers, and Freelancers. Available with source code and figma design file.",
       },
       {
         hid: "keywords",
