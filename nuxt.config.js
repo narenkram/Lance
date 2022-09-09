@@ -16,6 +16,7 @@ export default {
       { src: "https://www.googletagmanager.com/gtag/js?id=G-848NRXZRM8", async: true },
     ],
   },
+  target: 'static',
   router: {
     base: '/'
   },
