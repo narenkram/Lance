@@ -289,7 +289,7 @@
               I love
               <a
                 class="Link_underline_paragraph"
-                href="https://narenkram.medium.com/how-to-achieve-good-design-d423099770e"
+                href="https://narendra.design/blog/what-is-good-design"
               >
                 good design</a
               >
@@ -386,7 +386,7 @@
                   alt="narenkram_linkedin_icon"
                 />
               </a>
-              <a href="https://narenkram.medium.com/">
+              <a href="https://narendra.design/">
                 <img
                   src="~/assets/icons/blog.svg"
                   class="me-1 img-fluid SocialIcon"
@@ -461,7 +461,7 @@
                 alt="narenkram_linkedin_icon"
               />
             </a>
-            <a href="https://narenkram.medium.com/">
+            <a href="https://narendra.design/">
               <img
                 src="~/assets/icons/blog.svg"
                 class="me-1 img-fluid SocialIcon"

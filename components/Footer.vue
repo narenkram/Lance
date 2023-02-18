@@ -28,7 +28,7 @@
         >
           <p class="m-0 Footer_paragraph">
             Designed by
-            <a href="https://narenkram.com" class="Link_underline_footer">
+            <a href="https://narendra.design" class="Link_underline_footer">
               narenkram
             </a>
           </p>
